@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1'
+const API_BASE = import.meta.env.VITE_API_URL || '/api/v1'
 
 const api = axios.create({
   baseURL: API_BASE,
@@ -132,6 +132,122 @@ export interface SectionExplanation {
   example_cases: string[]
 }
 
+export interface VictimProfile {
+  name: string | null
+  age: string | null
+  gender: string | null
+  contact: string | null
+  address: string | null
+}
+
+export interface IncidentFacts {
+  type: string | null
+  date: string | null
+  time: string | null
+  location: string | null
+  description: string
+  sequence_of_events: string[]
+  accused: string[]
+  witnesses: string[]
+  evidence: string[]
+  injuries: string[]
+  property_loss: string[]
+  threats: string[]
+  digital_elements: string[]
+  missing_information: string[]
+}
+
+export interface IntakeSession {
+  session_id: string
+  language: string
+  status: string
+  consent_given: boolean
+  emergency_flag: boolean
+  current_question: string | null
+  created_at: string
+  updated_at: string
+}
+
+export interface ConversationMessage {
+  message_id: string
+  session_id: string
+  role: 'victim' | 'agent' | 'officer'
+  content: string
+  source: string
+  timestamp: string
+}
+
+export interface CaseFile {
+  case_id: string
+  session_id: string
+  status: string
+  victim: VictimProfile
+  facts: IncidentFacts
+  summary: string
+  statement_draft: string
+  legal_recommendations: PredictedSection[]
+  legal_recommendation_notes: LegalRecommendationNote[]
+  officer_notes: string[]
+  audit_log: Array<Record<string, unknown>>
+  created_at: string
+  updated_at: string
+}
+
+export interface LegalRecommendationNote {
+  law: string
+  section: string
+  title: string
+  confidence: number
+  supporting_facts: string[]
+  missing_facts: string[]
+  explanation: string
+  officer_decision: string
+}
+
+export interface IntakeSessionResponse {
+  session: IntakeSession
+  messages: ConversationMessage[]
+  case_file: CaseFile
+}
+
+export interface AddIntakeMessageResponse {
+  session: IntakeSession
+  message: ConversationMessage
+  agent_message: ConversationMessage | null
+  case_file: CaseFile
+  next_question: string | null
+  is_complete_enough: boolean
+}
+
+export interface CompleteIntakeResponse {
+  session: IntakeSession
+  case_file: CaseFile
+}
+
+export interface HitlDecision {
+  decision_id: string
+  case_id: string
+  officer_id: string
+  decision_type: string
+  target: string
+  original_value: string | null
+  updated_value: string | null
+  reason: string | null
+  timestamp: string
+}
+
+export interface HitlDecisionResponse {
+  decision: HitlDecision
+  case_file: CaseFile
+}
+
+export interface TranscriptResponse {
+  transcript: string
+  language: string
+  confidence: number
+  audio_path: string | null
+}
+
 // ─── API Functions ──────────────────────────────────────────
 
 export const uploadDocument = async (file: File): Promise<DocumentInfo> => {
@@ -218,6 +334,109 @@ export const explainLaws = async (documentId: string): Promise<{ explanation: st
 
 export const explainPunishment = async (documentId: string): Promise<{ explanation: string }> => {
   const response = await api.post(`/chat/explain-punishment?document_id=${documentId}`)
+  return response.data
+}
+
+export const createIntakeSession = async (
+  language: string = 'en-IN',
+  consentGiven: boolean = true
+): Promise<IntakeSessionResponse> => {
+  const response = await api.post('/intake/sessions', {
+    language,
+    consent_given: consentGiven,
+  })
+  return response.data
+}
+
+export const getIntakeSession = async (sessionId: string): Promise<IntakeSessionResponse> => {
+  const response = await api.get(`/intake/sessions/${sessionId}`)
+  return response.data
+}
+
+export const sendIntakeMessage = async (
+  sessionId: string,
+  content: string,
+  source: 'text' | 'voice' = 'text'
+): Promise<AddIntakeMessageResponse> => {
+  const response = await api.post(`/intake/sessions/${sessionId}/message`, {
+    content,
+    role: 'victim',
+    source,
+  })
+  return response.data
+}
+
+export const uploadIntakeAudio = async (
+  sessionId: string,
+  file: File,
+  language: string = 'en-IN'
+): Promise<AddIntakeMessageResponse> => {
+  const formData = new FormData()
+  formData.append('file', file)
+  const response = await api.post(`/intake/${sessionId}/audio`, formData, {
+    params: { language },
+    headers: { 'Content-Type': 'multipart/form-data' },
+  })
+  return response.data
+}
+
+export const transcribeAudio = async (
+  file: File,
+  language: string = 'en-IN'
+): Promise<TranscriptResponse> => {
+  const formData = new FormData()
+  formData.append('file', file)
+  const response = await api.post('/voice/transcribe-audio', formData, {
+    params: { language },
+    headers: { 'Content-Type': 'multipart/form-data' },
+  })
+  return response.data
+}
+
+export const speakPrompt = async (
+  transcript: string,
+  language: string = 'en-IN'
+): Promise<{ text: string; language: string; audio_url: string | null; provider: string }> => {
+  const response = await api.post('/voice/speak', { transcript, language })
+  return response.data
+}
+
+export const completeIntakeSession = async (sessionId: string): Promise<CompleteIntakeResponse> => {
+  const response = await api.post(`/intake/sessions/${sessionId}/complete`)
+  return response.data
+}
+
+export const listIntakeCases = async (): Promise<CaseFile[]> => {
+  const response = await api.get('/intake/cases')
+  return response.data
+}
+
+export const getIntakeCase = async (caseId: string): Promise<CaseFile> => {
+  const response = await api.get(`/intake/cases/${caseId}`)
+  return response.data
+}
+
+export const recordHitlDecision = async (
+  caseId: string,
+  decisionType: 'approve' | 'edit' | 'reject' | 'request_more_info' | 'escalate',
+  target: 'statement' | 'extracted_fact' | 'legal_section' | 'full_case',
+  reason?: string,
+  updatedValue?: string,
+  originalValue?: string
+): Promise<HitlDecisionResponse> => {
+  const response = await api.post(`/hitl/${caseId}/decision`, {
+    officer_id: 'officer-demo',
+    decision_type: decisionType,
+    target,
+    reason: reason || null,
+    updated_value: updatedValue || null,
+    original_value: originalValue || null,
+  })
+  return response.data
+}
+
+export const getHitlAudit = async (caseId: string): Promise<HitlDecision[]> => {
+  const response = await api.get(`/hitl/${caseId}/audit`)
   return response.data
 }
 

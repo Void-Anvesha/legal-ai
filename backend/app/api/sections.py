@@ -1,6 +1,7 @@
 """Sections API endpoint for LegalAI."""
 from fastapi import APIRouter, HTTPException
 from typing import Optional
+from pydantic import BaseModel
 
 from ..models.section import (
     SectionPredictionResponse,
@@ -9,8 +10,15 @@ from ..models.section import (
 )
 from ..services.section_predictor import section_predictor
 from ..api.upload import document_store
+from ..agents.orchestrator import intake_orchestrator
+from ..agents.legal_section_agent import legal_section_agent
 
 router = APIRouter(prefix="/sections", tags=["Sections"])
+
+
+class CaseRecommendationRequest(BaseModel):
+    """Request to recommend sections for an intake case."""
+    case_id: str
 
 
 @router.post("/predict", response_model=SectionPredictionResponse)
@@ -58,3 +66,15 @@ async def explain_section(act: str, section_number: str):
         )
 
     return SectionExplanationResponse(**explanation)
+
+
+@router.post("/recommend")
+async def recommend_sections_for_case(request: CaseRecommendationRequest):
+    """Recommend legal sections for a generated intake case file."""
+    try:
+        case_file = intake_orchestrator.get_case(request.case_id)
+        updated = legal_section_agent.recommend(case_file)
+        intake_orchestrator.cases[updated.case_id] = updated
+        return updated
+    except KeyError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc

@@ -8,12 +8,10 @@ export default function Upload() {
   const navigate = useNavigate()
   const [uploadedDoc, setUploadedDoc] = useState<DocumentInfo | null>(null)
   const [error, setError] = useState<string | null>(null)
-  const [polling, setPolling] = useState(false)
 
   const handleUploadSuccess = async (doc: DocumentInfo) => {
     setUploadedDoc(doc)
     setError(null)
-    setPolling(true)
 
     // Poll for processing completion
     let attempts = 0
@@ -25,22 +23,17 @@ export default function Upload() {
         setUploadedDoc(updatedDoc)
 
         if (updatedDoc.status === 'completed' || updatedDoc.status === 'failed') {
-          setPolling(false)
           return
         }
 
         attempts++
         if (attempts < maxAttempts) {
           setTimeout(poll, 2000)
-        } else {
-          setPolling(false)
         }
       } catch (err) {
         attempts++
         if (attempts < maxAttempts) {
           setTimeout(poll, 2000)
-        } else {
-          setPolling(false)
         }
       }
     }

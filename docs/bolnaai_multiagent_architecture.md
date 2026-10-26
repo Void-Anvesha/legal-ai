@@ -10,7 +10,64 @@ BolnaAI replaces the first layer of manual intake with a voice-based AI system. 
 
 The final output is not an automatic FIR. It is an officer-assistive draft containing the victim statement, extracted facts, missing information, confidence scores, and suggested sections for police review.
 
-## 2. Core Goals
+## 2. Current Implementation Status
+
+The current project codebase is an early foundation for BolnaAI. It is not yet the complete voice-based multi-agent police intake system.
+
+At this stage, the implemented system is mainly responsible for legal section classification and legal section explanation from provided text or uploaded documents.
+
+Current working capabilities:
+
+- Upload or provide complaint/document text.
+- Extract text from uploaded files.
+- Predict applicable legal sections from the extracted text.
+- Match against configured Indian legal datasets such as BNS, IPC, IT Act, BNSS, and BSA.
+- Use direct section-reference extraction when the text already mentions a section.
+- Use keyword-based matching when the section is not directly mentioned.
+- Return predicted sections with confidence, reason, punishment details, and relevant text snippets.
+- Explain a selected legal section in simpler language.
+
+Current backend modules:
+
+```text
+backend/app/api/
+  upload.py       -> accepts documents and stores extracted text
+  sections.py     -> predicts and explains legal sections
+  summary.py      -> summarizes document text
+  chat.py         -> supports document-related chat
+  cases.py        -> retrieves similar case information
+
+backend/app/services/
+  section_predictor.py   -> core section classification logic
+  pdf_reader.py          -> document text extraction
+  legal_parser.py        -> legal text/entity parsing support
+  summarizer.py          -> document summarization
+  rag_engine.py          -> retrieval-augmented responses
+  similarity_search.py   -> similar case search
+```
+
+Current section prediction flow:
+
+```text
+Document or complaint text
+  |
+  v
+Text extraction / input text
+  |
+  v
+SectionPredictor
+  |
+  +--> Direct legal section reference detection
+  |
+  +--> Keyword-based legal section matching
+  |
+  v
+Predicted sections with confidence and explanation
+```
+
+The voice intake agent, follow-up questioning agent, HITL review flow, and full police complaint drafting workflow are target architecture components that will be built on top of this current section-classification foundation.
+
+## 3. Target Core Goals
 
 - Capture the victim's complaint through natural voice conversation.
 - Ask sensitive and relevant follow-up questions without overwhelming the victim.
@@ -20,7 +77,7 @@ The final output is not an automatic FIR. It is an officer-assistive draft conta
 - Provide explainable section recommendations with supporting facts.
 - Keep a human officer in the loop for verification, correction, and final submission.
 
-## 3. High-Level Workflow
+## 4. Target High-Level Workflow
 
 ```text
 Victim
@@ -58,10 +115,19 @@ Structured Case File
 Police Review Dashboard
   |
   v
+HITL Review Gate
+  |
+  +--> Officer approves complaint draft
+  |
+  +--> Officer edits incorrect or incomplete facts
+  |
+  +--> Officer accepts, rejects, or changes legal sections
+  |
+  v
 Officer verifies, edits, approves, or rejects suggestions
 ```
 
-## 4. Proposed System Architecture
+## 5. Proposed Target System Architecture
 
 ```text
 +---------------------------------------------------------------+
@@ -105,6 +171,18 @@ Officer verifies, edits, approves, or rejects suggestions
                                 |
                                 v
 +---------------------------------------------------------------+
+|                    HITL Review and Control Layer               |
+|                                                               |
+|  Human officer remains the final decision maker.                |
+|  - Reviews AI-generated complaint draft                         |
+|  - Confirms extracted facts against transcript/audio             |
+|  - Accepts, rejects, or edits legal section suggestions          |
+|  - Requests more information from victim if needed               |
+|  - Approves final case packet for official use                   |
++-------------------------------+-------------------------------+
+                                |
+                                v
++---------------------------------------------------------------+
 |                         AI / NLP Layer                         |
 |                                                               |
 |  Speech-to-Text        LLM Reasoning        Embeddings          |
@@ -124,9 +202,9 @@ Officer verifies, edits, approves, or rejects suggestions
 +---------------------------------------------------------------+
 ```
 
-## 5. Agent Responsibilities
+## 6. Target Agent Responsibilities
 
-### 5.1 Voice Intake Agent
+### 6.1 Voice Intake Agent
 
 This agent handles the first conversation with the victim.
 
@@ -145,7 +223,7 @@ Example opening:
 Please tell me what happened in your own words. I will listen first, then I may ask a few questions to make sure important details are not missed.
 ```
 
-### 5.2 Follow-Up Question Agent
+### 6.2 Follow-Up Question Agent
 
 This agent identifies missing details and asks targeted questions.
 
@@ -167,7 +245,7 @@ Example missing details:
 - Were there threats, weapons, witnesses, or digital evidence?
 - Is the victim in immediate danger?
 
-### 5.3 Safety and Escalation Agent
+### 6.3 Safety and Escalation Agent
 
 This agent monitors the conversation for urgent risk.
 
@@ -182,7 +260,7 @@ Important principle:
 
 The system should never delay emergency support in order to complete data collection.
 
-### 5.4 Fact Extraction Agent
+### 6.4 Fact Extraction Agent
 
 This agent converts the raw conversation into structured facts.
 
@@ -216,7 +294,7 @@ Output fields:
 }
 ```
 
-### 5.5 Case Classification Agent
+### 6.5 Case Classification Agent
 
 This agent identifies the broad category of the complaint.
 
@@ -236,7 +314,7 @@ Possible categories:
 
 The classification helps the follow-up agent ask better questions and helps the legal section agent narrow the search space.
 
-### 5.6 Statement Drafting Agent
+### 6.6 Statement Drafting Agent
 
 This agent generates a clean complaint draft from the structured facts.
 
@@ -256,7 +334,7 @@ Output:
 - Missing details checklist
 - Officer review notes
 
-### 5.7 Legal Section Recommendation Agent
+### 6.7 Legal Section Recommendation Agent
 
 This agent recommends applicable legal sections.
 
@@ -293,7 +371,7 @@ Output example:
 }
 ```
 
-### 5.8 Explanation and Confidence Agent
+### 6.8 Explanation and Confidence Agent
 
 This agent makes the recommendation understandable for police review.
 
@@ -305,7 +383,33 @@ Responsibilities:
 - Warn when evidence is insufficient.
 - Ensure the final screen clearly says that an officer must verify the sections.
 
-## 6. Backend Implementation Plan
+### 6.9 HITL Review Agent
+
+HITL stands for Human-in-the-Loop. In BolnaAI, the human in the loop is the police officer or authorized reviewer who validates the AI output before it is used officially.
+
+This agent does not replace the officer. It prepares the AI output for review and enforces checkpoints that require human approval.
+
+Responsibilities:
+
+- Package the complaint draft, transcript, extracted facts, and section recommendations into one reviewable case file.
+- Highlight low-confidence facts and legal recommendations.
+- Show exactly which victim statements support each extracted fact.
+- Require officer approval before finalizing the complaint draft.
+- Require officer approval before accepting suggested legal sections.
+- Track officer edits, approvals, rejections, and comments.
+- Send the case back to the follow-up agent if the officer requests more information.
+
+HITL decision options:
+
+- Approve the AI-generated complaint draft.
+- Edit the complaint draft.
+- Reject incorrect extracted facts.
+- Accept suggested legal sections.
+- Replace or remove suggested legal sections.
+- Request more information from the victim.
+- Escalate the case to a senior officer or specialist unit.
+
+## 7. Backend Implementation Plan
 
 The existing FastAPI backend can be extended with new modules.
 
@@ -330,6 +434,7 @@ backend/app/
     statement_drafting_agent.py
     legal_section_agent.py
     explanation_agent.py
+    hitl_review_agent.py
 
   models/
     intake_session.py
@@ -337,6 +442,7 @@ backend/app/
     extracted_fact.py
     legal_recommendation.py
     officer_review.py
+    hitl_decision.py
 
   services/
     speech_to_text.py
@@ -345,6 +451,7 @@ backend/app/
     legal_retrieval.py
     section_matcher.py
     audit_logger.py
+    officer_decision_service.py
 
   database/
     case_repository.py
@@ -352,7 +459,7 @@ backend/app/
     recommendation_repository.py
 ```
 
-### 6.1 Intake Session Flow
+### 7.1 Intake Session Flow
 
 1. Frontend creates a new intake session.
 2. Victim gives consent and starts speaking.
@@ -365,9 +472,12 @@ backend/app/
 9. System asks the next follow-up question or ends intake.
 10. When intake is complete, statement drafting agent creates the complaint draft.
 11. Legal section agent recommends applicable sections.
-12. Officer dashboard shows the final case packet for review.
+12. HITL review agent prepares the case packet for officer review.
+13. Officer dashboard shows the complaint draft, evidence, transcript, and section recommendations.
+14. Officer approves, edits, rejects, or requests more information.
+15. Only officer-approved output moves to final case status.
 
-### 6.2 API Endpoints
+### 7.2 API Endpoints
 
 ```text
 POST /api/intake/sessions
@@ -393,13 +503,19 @@ Generate legal section recommendations.
 
 PATCH /api/officer-review/{case_id}
 Allow police officer to edit, approve, or reject draft output.
+
+POST /api/hitl/{case_id}/decision
+Record an officer HITL decision such as approve, edit, reject, escalate, or request more information.
+
+GET /api/hitl/{case_id}/audit
+Fetch the HITL audit trail for the case.
 ```
 
-## 7. Frontend Implementation Plan
+## 8. Frontend Implementation Plan
 
 The frontend should have two main experiences.
 
-### 7.1 Victim Intake Screen
+### 8.1 Victim Intake Screen
 
 Features:
 
@@ -412,7 +528,7 @@ Features:
 - Emergency escalation message when needed.
 - Final confirmation screen before sending to officer review.
 
-### 7.2 Police Review Dashboard
+### 8.2 Police Review Dashboard
 
 Features:
 
@@ -426,9 +542,9 @@ Features:
 - Officer edit controls.
 - Approve, reject, or request more information actions.
 
-## 8. Data Model
+## 9. Data Model
 
-### 8.1 Intake Session
+### 9.1 Intake Session
 
 ```json
 {
@@ -442,7 +558,7 @@ Features:
 }
 ```
 
-### 8.2 Conversation Message
+### 9.2 Conversation Message
 
 ```json
 {
@@ -455,7 +571,7 @@ Features:
 }
 ```
 
-### 8.3 Case File
+### 9.3 Case File
 
 ```json
 {
@@ -471,7 +587,7 @@ Features:
 }
 ```
 
-### 8.4 Legal Recommendation
+### 9.4 Legal Recommendation
 
 ```json
 {
@@ -487,11 +603,27 @@ Features:
 }
 ```
 
-## 9. Legal Section Recommendation Approach
+### 9.5 HITL Decision
+
+```json
+{
+  "decision_id": "uuid",
+  "case_id": "uuid",
+  "officer_id": "uuid",
+  "decision_type": "approve | edit | reject | request_more_info | escalate",
+  "target": "statement | extracted_fact | legal_section | full_case",
+  "original_value": "",
+  "updated_value": "",
+  "reason": "",
+  "timestamp": "timestamp"
+}
+```
+
+## 10. Legal Section Recommendation Approach
 
 The recommendation system should use a hybrid approach.
 
-### 9.1 Rule-Based Filtering
+### 10.1 Rule-Based Filtering
 
 Use extracted facts to narrow the legal search space.
 
@@ -502,7 +634,7 @@ Examples:
 - If the complaint involves stolen property, search theft, robbery, or criminal breach sections.
 - If the complaint involves threats, search intimidation-related sections.
 
-### 9.2 Retrieval-Augmented Generation
+### 10.2 Retrieval-Augmented Generation
 
 Use embeddings and vector search over the legal dataset.
 
@@ -514,7 +646,7 @@ Steps:
 4. Ask the LLM to rank sections only from retrieved sources.
 5. Return section number, law name, explanation, and confidence.
 
-### 9.3 Confidence Scoring
+### 10.3 Confidence Scoring
 
 Confidence should be based on:
 
@@ -524,7 +656,7 @@ Confidence should be based on:
 - Contradictions or missing facts.
 - Whether the recommendation comes from multiple matching signals.
 
-## 10. Human-in-the-Loop Safeguards
+## 11. Human-in-the-Loop Safeguards
 
 BolnaAI should assist police officers, not replace them.
 
@@ -538,7 +670,15 @@ Required safeguards:
 - Sensitive cases should be escalated quickly to a human officer.
 - The UI should clearly mark AI output as a draft.
 
-## 11. Privacy and Security
+HITL approval rules:
+
+- No complaint draft can be marked final until an officer approves it.
+- No legal section can be marked accepted until an officer accepts it.
+- Any recommendation below the confidence threshold must be shown as "needs review".
+- Any emergency flag must bypass normal automation and notify an officer immediately.
+- Every officer change must be stored in the audit log with timestamp and reason.
+
+## 12. Privacy and Security
 
 Required measures:
 
@@ -551,16 +691,24 @@ Required measures:
 - Add retention policies for audio and transcript data.
 - Keep legal recommendation prompts free from unnecessary personal data.
 
-## 12. Implementation Phases
+## 13. Implementation Phases
 
-### Phase 1: Text-Based Prototype
+### Phase 0: Current Section Classification Foundation
+
+- Current backend accepts uploaded or provided text.
+- Current section predictor classifies legal sections from text.
+- Current output includes section number, law, confidence, reason, relevant snippet, and punishment details.
+- Current implementation supports direct section extraction and keyword-based matching.
+- This phase is the base on which the voice and multi-agent layers will be built.
+
+### Phase 1: Text-Based Police Intake Prototype
 
 - Build conversation orchestrator.
 - Implement intake through text chat.
 - Extract structured facts from complaint text.
 - Ask follow-up questions.
 - Generate case summary and statement draft.
-- Recommend sections using existing legal dataset.
+- Reuse the existing section predictor to recommend sections from the structured complaint.
 
 ### Phase 2: Voice Intake
 
@@ -583,6 +731,7 @@ Required measures:
 - Build case review screen.
 - Add officer edits.
 - Add approve/reject workflow.
+- Add explicit HITL decision recording.
 - Add audit trail.
 - Export reviewed complaint as PDF or printable format.
 
@@ -594,7 +743,7 @@ Required measures:
 - Add evaluation dataset for section recommendation accuracy.
 - Add legal expert review loop.
 
-## 13. Evaluation Plan
+## 14. Evaluation Plan
 
 The system should be tested on both conversation quality and legal recommendation quality.
 
@@ -610,7 +759,7 @@ Metrics:
 - Number of officer corrections.
 - Average time saved per complaint.
 
-## 14. Key Risks
+## 15. Key Risks
 
 | Risk | Mitigation |
 |------|------------|
@@ -621,9 +770,9 @@ Metrics:
 | Language or accent transcription errors | Show transcript confirmation and allow correction |
 | Privacy leakage | Encrypt data, limit logs, and apply role-based access |
 
-## 15. Immediate Next Step
+## 16. Immediate Next Step
 
-The first practical implementation step is to build a text-based intake flow before voice. Once the multi-agent logic works reliably with text, speech-to-text can be added as an input layer.
+Since the current project already classifies legal sections from text, the next practical step is to build a text-based police intake layer around the existing section predictor. Voice should come after the text flow is working reliably.
 
 Recommended first milestone:
 
@@ -632,8 +781,9 @@ Victim complaint text
   -> follow-up questions
   -> structured case file
   -> complaint draft
-  -> legal section recommendations
+  -> existing section predictor
+  -> legal section recommendations with confidence
   -> officer review screen
 ```
 
-This gives a working end-to-end system quickly, and voice can then be added without redesigning the core architecture.
+This gives a working end-to-end system quickly while reusing what is already built. After that, speech-to-text can be added as an input layer without redesigning the section classification logic.

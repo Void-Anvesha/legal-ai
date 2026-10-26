@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { FileText, Loader2, AlertCircle } from 'lucide-react'
+import { FileText, AlertCircle } from 'lucide-react'
 import ChatBox from '../components/ChatBox'
 import { getDocument, predictSections, type DocumentInfo, type SectionPredictionResponse } from '../services/api'
 import SectionCard from '../components/SectionCard'
@@ -9,9 +9,7 @@ export default function Chat() {
   const { documentId } = useParams<{ documentId?: string }>()
   const [document, setDocument] = useState<DocumentInfo | null>(null)
   const [sections, setSections] = useState<SectionPredictionResponse | null>(null)
-  const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
-  const [activePanel, setActivePanel] = useState<'chat' | 'sections' | 'text'>('chat')
 
   useEffect(() => {
     if (documentId) {
@@ -22,14 +20,11 @@ export default function Chat() {
 
   const loadDocument = async () => {
     if (!documentId) return
-    setLoading(true)
     try {
       const doc = await getDocument(documentId)
       setDocument(doc)
     } catch (err) {
       setError('Failed to load document')
-    } finally {
-      setLoading(false)
     }
   }
 

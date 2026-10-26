@@ -1,4 +1,4 @@
-import { FileText, Gavel, BookOpen, Lightbulb, ChevronDown, ChevronUp } from 'lucide-react'
+import { FileText, Gavel, BookOpen, Lightbulb } from 'lucide-react'
 import { useState } from 'react'
 import type { SummaryResponse } from '../services/api'
 

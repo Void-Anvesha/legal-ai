@@ -1,4 +1,4 @@
-"""LegalAI - FastAPI Application Entry Point."""
+"""BolnaAI - FastAPI Application Entry Point."""
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -6,7 +6,7 @@ from fastapi.staticfiles import StaticFiles
 from loguru import logger
 
 from .core.config import settings
-from .api import upload, summary, sections, chat, cases
+from .api import upload, summary, sections, chat, cases, intake, hitl, voice, conversation
 
 
 @asynccontextmanager
@@ -24,7 +24,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title=settings.APP_NAME,
     version=settings.APP_VERSION,
-    description="AI-powered Indian Legal Document Analysis System",
+    description="Multi-agent police complaint intake and legal section review system",
     lifespan=lifespan,
     docs_url=f"{settings.API_PREFIX}/docs",
     redoc_url=f"{settings.API_PREFIX}/redoc",
@@ -45,6 +45,11 @@ app.include_router(summary.router, prefix=settings.API_PREFIX)
 app.include_router(sections.router, prefix=settings.API_PREFIX)
 app.include_router(chat.router, prefix=settings.API_PREFIX)
 app.include_router(cases.router, prefix=settings.API_PREFIX)
+app.include_router(intake.router, prefix=settings.API_PREFIX)
+app.include_router(conversation.router, prefix=settings.API_PREFIX)
+app.include_router(hitl.router, prefix=settings.API_PREFIX)
+app.include_router(hitl.officer_router, prefix=settings.API_PREFIX)
+app.include_router(voice.router, prefix=settings.API_PREFIX)
 
 
 @app.get("/")

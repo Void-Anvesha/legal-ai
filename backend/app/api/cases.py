@@ -2,8 +2,10 @@
 from fastapi import APIRouter, HTTPException
 
 from ..models.case import SimilarCaseRequest, SimilarCaseResponse
+from ..models.intake import CaseFile
 from ..services.similarity_search import similarity_search
 from ..api.upload import document_store
+from ..agents.orchestrator import intake_orchestrator
 
 router = APIRouter(prefix="/cases", tags=["Cases"])
 
@@ -49,3 +51,12 @@ async def find_similar_cases_for_document(document_id: str, top_k: int = 5):
         top_k=top_k,
     )
     return result
+
+
+@router.get("/{case_id}", response_model=CaseFile)
+async def get_police_intake_case(case_id: str):
+    """Fetch a structured police intake case by ID."""
+    try:
+        return intake_orchestrator.get_case(case_id)
+    except KeyError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc

@@ -1,8 +1,10 @@
 import { Link, useLocation } from 'react-router-dom'
-import { Scale, Upload, MessageSquare, FileText, Search, LayoutDashboard } from 'lucide-react'
+import { Scale, Upload, MessageSquare, Search, LayoutDashboard, Mic, UserCheck } from 'lucide-react'
 
 const navItems = [
   { path: '/', label: 'Dashboard', icon: LayoutDashboard },
+  { path: '/intake', label: 'Intake', icon: Mic },
+  { path: '/review', label: 'Review', icon: UserCheck },
   { path: '/upload', label: 'Upload', icon: Upload },
   { path: '/chat', label: 'Chat', icon: MessageSquare },
   { path: '/cases', label: 'Cases', icon: Search },
@@ -13,7 +15,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white border-b border-gray-200 shadow-sm sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
@@ -22,11 +24,8 @@ export default function Navbar() {
             </div>
             <div>
               <h1 className="text-lg font-bold text-gray-900 font-serif leading-tight">
-                LegalAI
+                BolnaAI
               </h1>
-              <p className="text-[10px] text-gray-500 leading-tight tracking-wide uppercase">
-                Indian Legal Analysis
-              </p>
             </div>
           </Link>
 
