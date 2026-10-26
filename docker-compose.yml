@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_NAME=LegalAI
+      - DEBUG=False
+      - DATABASE_URL=sqlite:///./legalai.db
+      - CHROMA_PERSIST_DIR=/app/vector_db
+      - UPLOAD_DIR=/app/uploads
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_MODEL=gpt-4o-mini
+      - EMBEDDING_MODEL=all-MiniLM-L6-v2
+      - CORS_ORIGINS=http://localhost:3000
+    volumes:
+      - uploads:/app/uploads
+      - vector_db:/app/vector_db
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  uploads:
+  vector_db:

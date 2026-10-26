@@ -1,0 +1,2866 @@
+[
+  {
+    "section": 1,
+    "title": "Short title, commencement and application.",
+    "chapter": 1,
+    "chapter_name": "Preliminary",
+    "ipc_equivalent": "1",
+    "notes": ""
+  },
+  {
+    "section": 2,
+    "title": "Definitions.",
+    "chapter": 1,
+    "chapter_name": "Preliminary",
+    "ipc_equivalent": "2",
+    "notes": ""
+  },
+  {
+    "section": 3,
+    "title": "General explanations.",
+    "chapter": 1,
+    "chapter_name": "Preliminary",
+    "ipc_equivalent": "3, 33-47",
+    "notes": ""
+  },
+  {
+    "section": 4,
+    "title": "Punishments.",
+    "chapter": 2,
+    "chapter_name": "Of Punishments",
+    "ipc_equivalent": "53",
+    "notes": ""
+  },
+  {
+    "section": 5,
+    "title": "Commutation of sentence.",
+    "chapter": 2,
+    "chapter_name": "Of Punishments",
+    "ipc_equivalent": "54, 55",
+    "notes": ""
+  },
+  {
+    "section": 6,
+    "title": "Fractions of terms of punishment.",
+    "chapter": 2,
+    "chapter_name": "Of Punishments",
+    "ipc_equivalent": "57",
+    "notes": ""
+  },
+  {
+    "section": 7,
+    "title": "Sentence may be (in certain cases of imprisonment) wholly or partly rigorous or simple.",
+    "chapter": 2,
+    "chapter_name": "Of Punishments",
+    "ipc_equivalent": "60",
+    "notes": ""
+  },
+  {
+    "section": 8,
+    "title": "Amount of fine, liability in default of payment of fine, etc.",
+    "chapter": 2,
+    "chapter_name": "Of Punishments",
+    "ipc_equivalent": "63-70",
+    "notes": ""
+  },
+  {
+    "section": 9,
+    "title": "Limit of punishment of offence made up of several offences.",
+    "chapter": 2,
+    "chapter_name": "Of Punishments",
+    "ipc_equivalent": "71",
+    "notes": ""
+  },
+  {
+    "section": 10,
+    "title": "Punishment of person guilty of one of several offences, judgment stating that it is doubtful of which.",
+    "chapter": 2,
+    "chapter_name": "Of Punishments",
+    "ipc_equivalent": "72",
+    "notes": ""
+  },
+  {
+    "section": 11,
+    "title": "Solitary confinement.",
+    "chapter": 2,
+    "chapter_name": "Of Punishments",
+    "ipc_equivalent": "73",
+    "notes": ""
+  },
+  {
+    "section": 12,
+    "title": "Limit of solitary confinement.",
+    "chapter": 2,
+    "chapter_name": "Of Punishments",
+    "ipc_equivalent": "74",
+    "notes": ""
+  },
+  {
+    "section": 13,
+    "title": "Enhanced punishment for certain offences after previous conviction.",
+    "chapter": 2,
+    "chapter_name": "Of Punishments",
+    "ipc_equivalent": "75",
+    "notes": ""
+  },
+  {
+    "section": 14,
+    "title": "Act done by a person bound, or by mistake of fact believing himself bound, by law.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "76",
+    "notes": ""
+  },
+  {
+    "section": 15,
+    "title": "Act of Judge when acting judicially.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "77",
+    "notes": ""
+  },
+  {
+    "section": 16,
+    "title": "Act done pursuant to the judgment or order of Court.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "78",
+    "notes": ""
+  },
+  {
+    "section": 17,
+    "title": "Act done by a person justified, or by mistake of fact believing himself justified, by law.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "79",
+    "notes": ""
+  },
+  {
+    "section": 18,
+    "title": "Accident in doing a lawful act.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "80",
+    "notes": ""
+  },
+  {
+    "section": 19,
+    "title": "Act likely to cause harm, but done without criminal intent, and to prevent other harm.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "81",
+    "notes": ""
+  },
+  {
+    "section": 20,
+    "title": "Act of a child under seven years of age.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "82",
+    "notes": ""
+  },
+  {
+    "section": 21,
+    "title": "Act of a child above seven and under twelve years of age of immature understanding.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "83",
+    "notes": ""
+  },
+  {
+    "section": 22,
+    "title": "Act of a person of unsound mind.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "84",
+    "notes": ""
+  },
+  {
+    "section": 23,
+    "title": "Act of a person incapable of judgment by reason of intoxication caused against his will.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "85",
+    "notes": ""
+  },
+  {
+    "section": 24,
+    "title": "Offence requiring a particular intent or knowledge committed by one who is intoxicated.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "86",
+    "notes": ""
+  },
+  {
+    "section": 25,
+    "title": "Act not intended and not known to be likely to cause death or grievous hurt, done by consent.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "87",
+    "notes": ""
+  },
+  {
+    "section": 26,
+    "title": "Act not intended to cause death, done by consent in good faith for person’s benefit.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "88",
+    "notes": ""
+  },
+  {
+    "section": 27,
+    "title": "Act done in good faith for benefit of child or person with unsound mind, by or by consent of guardian.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "89",
+    "notes": ""
+  },
+  {
+    "section": 28,
+    "title": "Consent known to be given under fear or misconception.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "90",
+    "notes": ""
+  },
+  {
+    "section": 29,
+    "title": "Exclusion of acts which are offences independently of harm caused.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "91",
+    "notes": ""
+  },
+  {
+    "section": 30,
+    "title": "Act done in good faith for benefit of a person without consent.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "92",
+    "notes": ""
+  },
+  {
+    "section": 31,
+    "title": "Communication made in good faith.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "93",
+    "notes": ""
+  },
+  {
+    "section": 32,
+    "title": "Act to which a person is compelled by threats.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "94",
+    "notes": ""
+  },
+  {
+    "section": 33,
+    "title": "Act causing slight harm.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "95",
+    "notes": ""
+  },
+  {
+    "section": 34,
+    "title": "Things done in private defence.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "96",
+    "notes": ""
+  },
+  {
+    "section": 35,
+    "title": "Right of private defence of the body and of property.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "97",
+    "notes": ""
+  },
+  {
+    "section": 36,
+    "title": "Right of private defence against the act of a person with unsound mind, etc.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "98",
+    "notes": ""
+  },
+  {
+    "section": 37,
+    "title": "Acts against which there is no right of private defence.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "99",
+    "notes": ""
+  },
+  {
+    "section": 38,
+    "title": "When the right of private defence of the body extends to causing death.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "100",
+    "notes": ""
+  },
+  {
+    "section": 39,
+    "title": "When such right extends to causing any harm other than death.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "101",
+    "notes": ""
+  },
+  {
+    "section": 40,
+    "title": "Commencement and continuance of the right of private defence of the body.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "102",
+    "notes": ""
+  },
+  {
+    "section": 41,
+    "title": "When the right of private defence of property extends to causing death.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "103",
+    "notes": ""
+  },
+  {
+    "section": 42,
+    "title": "When such right extends to causing any harm other than death.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "104",
+    "notes": ""
+  },
+  {
+    "section": 43,
+    "title": "Commencement and continuance of the right of private defence of property.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "105",
+    "notes": ""
+  },
+  {
+    "section": 44,
+    "title": "Right of private defence against deadly assault when there is risk of harm to innocent person.",
+    "chapter": 3,
+    "chapter_name": "General Exceptions (including Right of Private Defence)",
+    "ipc_equivalent": "106",
+    "notes": ""
+  },
+  {
+    "section": 45,
+    "title": "Abetment of a thing.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "107",
+    "notes": ""
+  },
+  {
+    "section": 46,
+    "title": "Abettor.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "108",
+    "notes": ""
+  },
+  {
+    "section": 47,
+    "title": "Abetment in India of offences outside India.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "108A",
+    "notes": ""
+  },
+  {
+    "section": 48,
+    "title": "Abetment outside India for offence in India.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 49,
+    "title": "Punishment of abetment if the act abetted is committed in consequence and where no express provision is made for its punishment.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "109",
+    "notes": ""
+  },
+  {
+    "section": 50,
+    "title": "Punishment of abetment if person abetted does act with different intention from that of abettor.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "110",
+    "notes": ""
+  },
+  {
+    "section": 51,
+    "title": "Liability of abettor when one act abetted and different act done.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "111",
+    "notes": ""
+  },
+  {
+    "section": 52,
+    "title": "Abettor when liable to cumulative punishment for act abetted and for act done.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "112",
+    "notes": ""
+  },
+  {
+    "section": 53,
+    "title": "Liability of abettor for an effect caused by the act abetted different from that intended by abettor.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "113",
+    "notes": ""
+  },
+  {
+    "section": 54,
+    "title": "Abettor present when offence is committed.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "114",
+    "notes": ""
+  },
+  {
+    "section": 55,
+    "title": "Abetment of offence punishable with death or imprisonment for life.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "115",
+    "notes": ""
+  },
+  {
+    "section": 56,
+    "title": "Abetment of offence punishable with imprisonment.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "116",
+    "notes": ""
+  },
+  {
+    "section": 57,
+    "title": "Abetting commission of offence by the public or by more than ten persons.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "117",
+    "notes": ""
+  },
+  {
+    "section": 58,
+    "title": "Concealing design to commit offence punishable with death or imprisonment for life.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "118",
+    "notes": ""
+  },
+  {
+    "section": 59,
+    "title": "Public servant concealing design to commit offence which it is his duty to prevent.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "119",
+    "notes": ""
+  },
+  {
+    "section": 60,
+    "title": "Concealing design to commit offence punishable with imprisonment.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "120",
+    "notes": ""
+  },
+  {
+    "section": 61,
+    "title": "Criminal conspiracy.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "120A, 120B",
+    "notes": ""
+  },
+  {
+    "section": 62,
+    "title": "Punishment for attempting to commit offences punishable with imprisonment for life or other imprisonment.",
+    "chapter": 4,
+    "chapter_name": "Of Abetment, Criminal Conspiracy and Attempt",
+    "ipc_equivalent": "511",
+    "notes": ""
+  },
+  {
+    "section": 63,
+    "title": "Rape.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "375",
+    "notes": ""
+  },
+  {
+    "section": 64,
+    "title": "Punishment for rape.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "376",
+    "notes": ""
+  },
+  {
+    "section": 65,
+    "title": "Punishment for rape in certain cases.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "376(2)",
+    "notes": ""
+  },
+  {
+    "section": 66,
+    "title": "Punishment for causing death or resulting in persistent vegetative state of victim.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "376A",
+    "notes": ""
+  },
+  {
+    "section": 67,
+    "title": "Sexual intercourse by husband upon his wife during separation.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "376B",
+    "notes": ""
+  },
+  {
+    "section": 68,
+    "title": "Sexual intercourse by a person in authority.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "376C",
+    "notes": ""
+  },
+  {
+    "section": 69,
+    "title": "Sexual intercourse by employing deceitful means, etc.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "376D",
+    "notes": ""
+  },
+  {
+    "section": 70,
+    "title": "Gang rape.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "376D",
+    "notes": ""
+  },
+  {
+    "section": 71,
+    "title": "Punishment for repeat offenders.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "376E",
+    "notes": ""
+  },
+  {
+    "section": 72,
+    "title": "Disclosure of identity of victim of certain offences, etc.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "228A",
+    "notes": ""
+  },
+  {
+    "section": 73,
+    "title": "Printing or publishing any matter relating to Court proceedings without permission.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 74,
+    "title": "Assault or use of criminal force to woman with intent to outrage her modesty.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "354",
+    "notes": ""
+  },
+  {
+    "section": 75,
+    "title": "Sexual harassment.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "354A",
+    "notes": ""
+  },
+  {
+    "section": 76,
+    "title": "Assault or use of criminal force to woman with intent to disrobe.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "354B",
+    "notes": ""
+  },
+  {
+    "section": 77,
+    "title": "Voyeurism.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "354C",
+    "notes": ""
+  },
+  {
+    "section": 78,
+    "title": "Stalking.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "354D",
+    "notes": ""
+  },
+  {
+    "section": 79,
+    "title": "Word, gesture or act intended to insult modesty of a woman.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "509",
+    "notes": ""
+  },
+  {
+    "section": 80,
+    "title": "Dowry death.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "304B",
+    "notes": ""
+  },
+  {
+    "section": 81,
+    "title": "Cohabitation caused by a man deceitfully inducing belief of lawful marriage.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "493",
+    "notes": ""
+  },
+  {
+    "section": 82,
+    "title": "Marrying again during lifetime of husband or wife.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "494",
+    "notes": ""
+  },
+  {
+    "section": 83,
+    "title": "Marriage ceremony fraudulently gone through without lawful marriage.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "496",
+    "notes": ""
+  },
+  {
+    "section": 84,
+    "title": "Enticing or taking away or detaining with criminal intent a married woman.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "498",
+    "notes": ""
+  },
+  {
+    "section": 85,
+    "title": "Husband or relative of husband of a woman subjecting her to cruelty.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "498A",
+    "notes": ""
+  },
+  {
+    "section": 86,
+    "title": "Cruelty defined.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "498A explanation",
+    "notes": ""
+  },
+  {
+    "section": 87,
+    "title": "Kidnapping, abducting or inducing woman to compel her marriage, etc.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "366",
+    "notes": ""
+  },
+  {
+    "section": 88,
+    "title": "Causing miscarriage.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "312",
+    "notes": ""
+  },
+  {
+    "section": 89,
+    "title": "Causing miscarriage without woman’s consent.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "313",
+    "notes": ""
+  },
+  {
+    "section": 90,
+    "title": "Death caused by act done with intent to cause miscarriage.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "314",
+    "notes": ""
+  },
+  {
+    "section": 91,
+    "title": "Act done with intent to prevent child being born alive or to cause to die after birth.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "315",
+    "notes": ""
+  },
+  {
+    "section": 92,
+    "title": "Causing death of quick unborn child by act amounting to culpable homicide.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "316",
+    "notes": ""
+  },
+  {
+    "section": 93,
+    "title": "Exposure and abandonment of child under twelve years, by parent or person having care of it.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "317",
+    "notes": ""
+  },
+  {
+    "section": 94,
+    "title": "Concealment of birth by secret disposal of dead body.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "318",
+    "notes": ""
+  },
+  {
+    "section": 95,
+    "title": "Hiring, employing or engaging a child to commit an offence.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 96,
+    "title": "Procuration of child.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "366A",
+    "notes": ""
+  },
+  {
+    "section": 97,
+    "title": "Kidnapping or abducting child under ten years with intent to steal from its person.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "363A",
+    "notes": ""
+  },
+  {
+    "section": 98,
+    "title": "Selling child for purposes of prostitution, etc.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "372",
+    "notes": ""
+  },
+  {
+    "section": 99,
+    "title": "Buying child for purposes of prostitution, etc.",
+    "chapter": 5,
+    "chapter_name": "Of Offences Against Woman and Child",
+    "ipc_equivalent": "373",
+    "notes": ""
+  },
+  {
+    "section": 100,
+    "title": "Culpable homicide.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "299",
+    "notes": ""
+  },
+  {
+    "section": 101,
+    "title": "Murder.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "300",
+    "notes": ""
+  },
+  {
+    "section": 102,
+    "title": "Culpable homicide by causing death of person other than person whose death was intended.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "301",
+    "notes": ""
+  },
+  {
+    "section": 103,
+    "title": "Punishment for murder.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "302",
+    "notes": ""
+  },
+  {
+    "section": 104,
+    "title": "Punishment for murder by life-convict.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "303",
+    "notes": ""
+  },
+  {
+    "section": 105,
+    "title": "Punishment for culpable homicide not amounting to murder.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "304",
+    "notes": ""
+  },
+  {
+    "section": 106,
+    "title": "Causing death by negligence.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "304A",
+    "notes": ""
+  },
+  {
+    "section": 107,
+    "title": "Abetment of suicide of child or person of unsound mind.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "305",
+    "notes": ""
+  },
+  {
+    "section": 108,
+    "title": "Abetment of suicide.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "306",
+    "notes": ""
+  },
+  {
+    "section": 109,
+    "title": "Attempt to murder.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "307",
+    "notes": ""
+  },
+  {
+    "section": 110,
+    "title": "Attempt to commit culpable homicide.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "308",
+    "notes": ""
+  },
+  {
+    "section": 111,
+    "title": "Organised crime.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "— (new)",
+    "notes": "New offence"
+  },
+  {
+    "section": 112,
+    "title": "Petty organised crime.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "— (new)",
+    "notes": "New offence"
+  },
+  {
+    "section": 113,
+    "title": "Terrorist act.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "— (new)",
+    "notes": "New offence"
+  },
+  {
+    "section": 114,
+    "title": "Hurt.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "319",
+    "notes": ""
+  },
+  {
+    "section": 115,
+    "title": "Voluntarily causing hurt.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "321",
+    "notes": ""
+  },
+  {
+    "section": 116,
+    "title": "Grievous hurt.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "320",
+    "notes": ""
+  },
+  {
+    "section": 117,
+    "title": "Voluntarily causing grievous hurt.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "322",
+    "notes": ""
+  },
+  {
+    "section": 118,
+    "title": "Voluntarily causing hurt or grievous hurt by dangerous weapons or means.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "324",
+    "notes": ""
+  },
+  {
+    "section": 119,
+    "title": "Voluntarily causing hurt or grievous hurt to extort property, or to constrain to an illegal act.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "327",
+    "notes": ""
+  },
+  {
+    "section": 120,
+    "title": "Voluntarily causing hurt or grievous hurt to extort confession, or to compel restoration of property.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "330",
+    "notes": ""
+  },
+  {
+    "section": 121,
+    "title": "Voluntarily causing hurt or grievous hurt to deter public servant from his duty.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "332",
+    "notes": ""
+  },
+  {
+    "section": 122,
+    "title": "Voluntarily causing hurt or grievous hurt on provocation.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "334",
+    "notes": ""
+  },
+  {
+    "section": 123,
+    "title": "Causing hurt by means of poison, etc., with intent to commit an offence.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "328",
+    "notes": ""
+  },
+  {
+    "section": 124,
+    "title": "Voluntarily causing grievous hurt by use of acid, etc.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "326A",
+    "notes": ""
+  },
+  {
+    "section": 125,
+    "title": "Act endangering life or personal safety of others.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "336",
+    "notes": ""
+  },
+  {
+    "section": 126,
+    "title": "Wrongful restraint.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "339",
+    "notes": ""
+  },
+  {
+    "section": 127,
+    "title": "Wrongful confinement.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "340",
+    "notes": ""
+  },
+  {
+    "section": 128,
+    "title": "Force.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "349",
+    "notes": ""
+  },
+  {
+    "section": 129,
+    "title": "Criminal force.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "350",
+    "notes": ""
+  },
+  {
+    "section": 130,
+    "title": "Assault.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "351",
+    "notes": ""
+  },
+  {
+    "section": 131,
+    "title": "Punishment for assault or criminal force otherwise than on grave provocation.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "352",
+    "notes": ""
+  },
+  {
+    "section": 132,
+    "title": "Assault or criminal force to deter public servant from discharge of his duty.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "353",
+    "notes": ""
+  },
+  {
+    "section": 133,
+    "title": "Assault or criminal force with intent to dishonour person, otherwise than on grave provocation.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "355",
+    "notes": ""
+  },
+  {
+    "section": 134,
+    "title": "Assault or criminal force in attempt to commit theft of property carried by a person.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "356",
+    "notes": ""
+  },
+  {
+    "section": 135,
+    "title": "Assault or criminal force in attempt to wrongfully confine a person.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "357",
+    "notes": ""
+  },
+  {
+    "section": 136,
+    "title": "Assault or criminal force on grave provocation.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "358",
+    "notes": ""
+  },
+  {
+    "section": 137,
+    "title": "Kidnapping.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "359",
+    "notes": ""
+  },
+  {
+    "section": 138,
+    "title": "Abduction.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "362",
+    "notes": ""
+  },
+  {
+    "section": 139,
+    "title": "Kidnapping or maiming a child for purposes of begging.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "363A",
+    "notes": ""
+  },
+  {
+    "section": 140,
+    "title": "Kidnapping or abducting in order to murder or for ransom etc.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "364, 364A",
+    "notes": ""
+  },
+  {
+    "section": 141,
+    "title": "Importation of girl or boy from foreign country.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "366B",
+    "notes": ""
+  },
+  {
+    "section": 142,
+    "title": "Wrongfully concealing or keeping in confinement, kidnapped or abducted person.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "368",
+    "notes": ""
+  },
+  {
+    "section": 143,
+    "title": "Trafficking of person.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "370",
+    "notes": ""
+  },
+  {
+    "section": 144,
+    "title": "Exploitation of a trafficked person.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "370A",
+    "notes": ""
+  },
+  {
+    "section": 145,
+    "title": "Habitual dealing in slaves.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "371",
+    "notes": ""
+  },
+  {
+    "section": 146,
+    "title": "Unlawful compulsory labour.",
+    "chapter": 6,
+    "chapter_name": "Of Offences Affecting the Human Body",
+    "ipc_equivalent": "374",
+    "notes": ""
+  },
+  {
+    "section": 147,
+    "title": "Waging, or attempting to wage war, or abetting waging of war, against Government of India.",
+    "chapter": 7,
+    "chapter_name": "Of Offences Against the State",
+    "ipc_equivalent": "121",
+    "notes": ""
+  },
+  {
+    "section": 148,
+    "title": "Conspiracy to commit offences punishable by section 147.",
+    "chapter": 7,
+    "chapter_name": "Of Offences Against the State",
+    "ipc_equivalent": "121A",
+    "notes": ""
+  },
+  {
+    "section": 149,
+    "title": "Collecting arms, etc., with intention of waging war against Government of India.",
+    "chapter": 7,
+    "chapter_name": "Of Offences Against the State",
+    "ipc_equivalent": "122",
+    "notes": ""
+  },
+  {
+    "section": 150,
+    "title": "Concealing with intent to facilitate design to wage war.",
+    "chapter": 7,
+    "chapter_name": "Of Offences Against the State",
+    "ipc_equivalent": "123",
+    "notes": ""
+  },
+  {
+    "section": 151,
+    "title": "Assaulting President, Governor, etc., with intent to compel or restrain exercise of any lawful power.",
+    "chapter": 7,
+    "chapter_name": "Of Offences Against the State",
+    "ipc_equivalent": "124",
+    "notes": ""
+  },
+  {
+    "section": 152,
+    "title": "Act endangering sovereignty, unity and integrity of India.",
+    "chapter": 7,
+    "chapter_name": "Of Offences Against the State",
+    "ipc_equivalent": "124A (replaced)",
+    "notes": "Replaces sedition"
+  },
+  {
+    "section": 153,
+    "title": "Waging war against Government of any foreign State at peace with Government of India.",
+    "chapter": 7,
+    "chapter_name": "Of Offences Against the State",
+    "ipc_equivalent": "125",
+    "notes": ""
+  },
+  {
+    "section": 154,
+    "title": "Committing depredation on territories of foreign State at peace with Government of India.",
+    "chapter": 7,
+    "chapter_name": "Of Offences Against the State",
+    "ipc_equivalent": "126",
+    "notes": ""
+  },
+  {
+    "section": 155,
+    "title": "Receiving property taken by war or depredation mentioned in sections 153 and 154.",
+    "chapter": 7,
+    "chapter_name": "Of Offences Against the State",
+    "ipc_equivalent": "127",
+    "notes": ""
+  },
+  {
+    "section": 156,
+    "title": "Public servant voluntarily allowing prisoner of State or war to escape.",
+    "chapter": 7,
+    "chapter_name": "Of Offences Against the State",
+    "ipc_equivalent": "128",
+    "notes": ""
+  },
+  {
+    "section": 157,
+    "title": "Public servant negligently suffering such prisoner to escape.",
+    "chapter": 7,
+    "chapter_name": "Of Offences Against the State",
+    "ipc_equivalent": "129",
+    "notes": ""
+  },
+  {
+    "section": 158,
+    "title": "Abetment of assault by soldier, sailor or airman on his superior officer, when in execution of his office.",
+    "chapter": 7,
+    "chapter_name": "Of Offences Against the State",
+    "ipc_equivalent": "131",
+    "notes": ""
+  },
+  {
+    "section": 159,
+    "title": "Abetting mutiny, or attempting to seduce a soldier, sailor or airman from his duty.",
+    "chapter": 8,
+    "chapter_name": "Of Offences Relating to the Army, Navy and Air Force",
+    "ipc_equivalent": "131",
+    "notes": ""
+  },
+  {
+    "section": 160,
+    "title": "Abetment of mutiny, if mutiny is committed in consequence thereof.",
+    "chapter": 8,
+    "chapter_name": "Of Offences Relating to the Army, Navy and Air Force",
+    "ipc_equivalent": "132",
+    "notes": ""
+  },
+  {
+    "section": 161,
+    "title": "Abetment of assault by soldier, sailor or airman on his superior officer, when in execution of his office.",
+    "chapter": 8,
+    "chapter_name": "Of Offences Relating to the Army, Navy and Air Force",
+    "ipc_equivalent": "133",
+    "notes": ""
+  },
+  {
+    "section": 162,
+    "title": "Abetment of such assault, if the assault committed.",
+    "chapter": 8,
+    "chapter_name": "Of Offences Relating to the Army, Navy and Air Force",
+    "ipc_equivalent": "134",
+    "notes": ""
+  },
+  {
+    "section": 163,
+    "title": "Abetment of desertion of soldier, sailor or airman.",
+    "chapter": 8,
+    "chapter_name": "Of Offences Relating to the Army, Navy and Air Force",
+    "ipc_equivalent": "135",
+    "notes": ""
+  },
+  {
+    "section": 164,
+    "title": "Harbouring deserter.",
+    "chapter": 8,
+    "chapter_name": "Of Offences Relating to the Army, Navy and Air Force",
+    "ipc_equivalent": "136",
+    "notes": ""
+  },
+  {
+    "section": 165,
+    "title": "Deserter concealed on board merchant vessel through negligence of master.",
+    "chapter": 8,
+    "chapter_name": "Of Offences Relating to the Army, Navy and Air Force",
+    "ipc_equivalent": "137",
+    "notes": ""
+  },
+  {
+    "section": 166,
+    "title": "Abetment of act of insubordination by soldier, sailor or airman.",
+    "chapter": 8,
+    "chapter_name": "Of Offences Relating to the Army, Navy and Air Force",
+    "ipc_equivalent": "138",
+    "notes": ""
+  },
+  {
+    "section": 167,
+    "title": "Persons subject to certain Acts.",
+    "chapter": 8,
+    "chapter_name": "Of Offences Relating to the Army, Navy and Air Force",
+    "ipc_equivalent": "139",
+    "notes": ""
+  },
+  {
+    "section": 168,
+    "title": "Wearing garb or carrying token used by soldier, sailor or airman.",
+    "chapter": 8,
+    "chapter_name": "Of Offences Relating to the Army, Navy and Air Force",
+    "ipc_equivalent": "140",
+    "notes": ""
+  },
+  {
+    "section": 169,
+    "title": "Candidate, electoral right defined.",
+    "chapter": 9,
+    "chapter_name": "Of Offences Relating to Elections",
+    "ipc_equivalent": "171A",
+    "notes": ""
+  },
+  {
+    "section": 170,
+    "title": "Bribery.",
+    "chapter": 9,
+    "chapter_name": "Of Offences Relating to Elections",
+    "ipc_equivalent": "171B",
+    "notes": ""
+  },
+  {
+    "section": 171,
+    "title": "Undue influence at elections.",
+    "chapter": 9,
+    "chapter_name": "Of Offences Relating to Elections",
+    "ipc_equivalent": "171C",
+    "notes": ""
+  },
+  {
+    "section": 172,
+    "title": "Personation at elections.",
+    "chapter": 9,
+    "chapter_name": "Of Offences Relating to Elections",
+    "ipc_equivalent": "171D",
+    "notes": ""
+  },
+  {
+    "section": 173,
+    "title": "Punishment for bribery.",
+    "chapter": 9,
+    "chapter_name": "Of Offences Relating to Elections",
+    "ipc_equivalent": "171E",
+    "notes": ""
+  },
+  {
+    "section": 174,
+    "title": "Punishment for undue influence or personation at an election.",
+    "chapter": 9,
+    "chapter_name": "Of Offences Relating to Elections",
+    "ipc_equivalent": "171F",
+    "notes": ""
+  },
+  {
+    "section": 175,
+    "title": "False statement in connection with an election.",
+    "chapter": 9,
+    "chapter_name": "Of Offences Relating to Elections",
+    "ipc_equivalent": "171G",
+    "notes": ""
+  },
+  {
+    "section": 176,
+    "title": "Illegal payments in connection with an election.",
+    "chapter": 9,
+    "chapter_name": "Of Offences Relating to Elections",
+    "ipc_equivalent": "171H",
+    "notes": ""
+  },
+  {
+    "section": 177,
+    "title": "Failure to keep election accounts.",
+    "chapter": 9,
+    "chapter_name": "Of Offences Relating to Elections",
+    "ipc_equivalent": "171I",
+    "notes": ""
+  },
+  {
+    "section": 178,
+    "title": "Counterfeiting coin, Government stamps, currency-notes or bank-notes.",
+    "chapter": 10,
+    "chapter_name": "Of Offences Relating to Coin, Currency-Notes, Bank-Notes and Government Stamps",
+    "ipc_equivalent": "230",
+    "notes": ""
+  },
+  {
+    "section": 179,
+    "title": "Using as genuine, forged or counterfeit coin, Government stamp, currency-notes or bank notes.",
+    "chapter": 10,
+    "chapter_name": "Of Offences Relating to Coin, Currency-Notes, Bank-Notes and Government Stamps",
+    "ipc_equivalent": "231-239",
+    "notes": ""
+  },
+  {
+    "section": 180,
+    "title": "Possession of forged or counterfeit coin, Government stamp, currency-notes or bank-notes.",
+    "chapter": 10,
+    "chapter_name": "Of Offences Relating to Coin, Currency-Notes, Bank-Notes and Government Stamps",
+    "ipc_equivalent": "240-243",
+    "notes": ""
+  },
+  {
+    "section": 181,
+    "title": "Making or possessing instruments or materials for forging or counterfeiting coin, Government stamp, currency notes or bank-notes.",
+    "chapter": 10,
+    "chapter_name": "Of Offences Relating to Coin, Currency-Notes, Bank-Notes and Government Stamps",
+    "ipc_equivalent": "233",
+    "notes": ""
+  },
+  {
+    "section": 182,
+    "title": "Making or using documents resembling currency-notes or bank-notes.",
+    "chapter": 10,
+    "chapter_name": "Of Offences Relating to Coin, Currency-Notes, Bank-Notes and Government Stamps",
+    "ipc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 183,
+    "title": "Effacing writing from substance bearing Government stamp, or removing from document a stamp used for it, with intent to cause loss to Government.",
+    "chapter": 10,
+    "chapter_name": "Of Offences Relating to Coin, Currency-Notes, Bank-Notes and Government Stamps",
+    "ipc_equivalent": "261",
+    "notes": ""
+  },
+  {
+    "section": 184,
+    "title": "Using Government stamp known to have been before used.",
+    "chapter": 10,
+    "chapter_name": "Of Offences Relating to Coin, Currency-Notes, Bank-Notes and Government Stamps",
+    "ipc_equivalent": "262",
+    "notes": ""
+  },
+  {
+    "section": 185,
+    "title": "Erasure of mark denoting that stamp has been used.",
+    "chapter": 10,
+    "chapter_name": "Of Offences Relating to Coin, Currency-Notes, Bank-Notes and Government Stamps",
+    "ipc_equivalent": "263",
+    "notes": ""
+  },
+  {
+    "section": 186,
+    "title": "Prohibition of fictitious stamps.",
+    "chapter": 10,
+    "chapter_name": "Of Offences Relating to Coin, Currency-Notes, Bank-Notes and Government Stamps",
+    "ipc_equivalent": "263A",
+    "notes": ""
+  },
+  {
+    "section": 187,
+    "title": "Person employed in mint causing coin to be of different weight or composition from that fixed by law.",
+    "chapter": 10,
+    "chapter_name": "Of Offences Relating to Coin, Currency-Notes, Bank-Notes and Government Stamps",
+    "ipc_equivalent": "232",
+    "notes": ""
+  },
+  {
+    "section": 188,
+    "title": "Unlawfully taking coining instrument from mint.",
+    "chapter": 10,
+    "chapter_name": "Of Offences Relating to Coin, Currency-Notes, Bank-Notes and Government Stamps",
+    "ipc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 189,
+    "title": "Unlawful assembly.",
+    "chapter": 11,
+    "chapter_name": "Of Offences Against the Public Tranquillity",
+    "ipc_equivalent": "141",
+    "notes": ""
+  },
+  {
+    "section": 190,
+    "title": "Every member of unlawful assembly guilty of offence committed in prosecution of common object.",
+    "chapter": 11,
+    "chapter_name": "Of Offences Against the Public Tranquillity",
+    "ipc_equivalent": "142, 149",
+    "notes": ""
+  },
+  {
+    "section": 191,
+    "title": "Rioting.",
+    "chapter": 11,
+    "chapter_name": "Of Offences Against the Public Tranquillity",
+    "ipc_equivalent": "146",
+    "notes": ""
+  },
+  {
+    "section": 192,
+    "title": "Wantonly giving provocation with intent to cause riot- if rioting be committed; if not committed.",
+    "chapter": 11,
+    "chapter_name": "Of Offences Against the Public Tranquillity",
+    "ipc_equivalent": "153",
+    "notes": ""
+  },
+  {
+    "section": 193,
+    "title": "Liability of owner, occupier etc., of land on which an unlawful assembly or riot takes place.",
+    "chapter": 11,
+    "chapter_name": "Of Offences Against the Public Tranquillity",
+    "ipc_equivalent": "154",
+    "notes": ""
+  },
+  {
+    "section": 194,
+    "title": "Affray.",
+    "chapter": 11,
+    "chapter_name": "Of Offences Against the Public Tranquillity",
+    "ipc_equivalent": "159",
+    "notes": ""
+  },
+  {
+    "section": 195,
+    "title": "Assaulting or obstructing public servant when suppressing riot, etc.",
+    "chapter": 11,
+    "chapter_name": "Of Offences Against the Public Tranquillity",
+    "ipc_equivalent": "152",
+    "notes": ""
+  },
+  {
+    "section": 196,
+    "title": "Promoting enmity between different groups on ground of religion, race, place of birth, residence, language, etc., and doing acts prejudicial to maintenance of harmony.",
+    "chapter": 11,
+    "chapter_name": "Of Offences Against the Public Tranquillity",
+    "ipc_equivalent": "153A",
+    "notes": ""
+  },
+  {
+    "section": 197,
+    "title": "Imputations, assertions prejudicial to national integration.",
+    "chapter": 11,
+    "chapter_name": "Of Offences Against the Public Tranquillity",
+    "ipc_equivalent": "153B",
+    "notes": ""
+  },
+  {
+    "section": 198,
+    "title": "Public servant disobeying law, with intent to cause injury to any person.",
+    "chapter": 12,
+    "chapter_name": "Of Offences by or Relating to Public Servants",
+    "ipc_equivalent": "166",
+    "notes": ""
+  },
+  {
+    "section": 199,
+    "title": "Public servant disobeying direction under law.",
+    "chapter": 12,
+    "chapter_name": "Of Offences by or Relating to Public Servants",
+    "ipc_equivalent": "166A",
+    "notes": ""
+  },
+  {
+    "section": 200,
+    "title": "Punishment for non-treatment of victim.",
+    "chapter": 12,
+    "chapter_name": "Of Offences by or Relating to Public Servants",
+    "ipc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 201,
+    "title": "Public servant framing an incorrect document with intent to cause injury.",
+    "chapter": 12,
+    "chapter_name": "Of Offences by or Relating to Public Servants",
+    "ipc_equivalent": "167",
+    "notes": ""
+  },
+  {
+    "section": 202,
+    "title": "Public servant unlawfully engaging in trade.",
+    "chapter": 12,
+    "chapter_name": "Of Offences by or Relating to Public Servants",
+    "ipc_equivalent": "168",
+    "notes": ""
+  },
+  {
+    "section": 203,
+    "title": "Public servant unlawfully buying or bidding for property.",
+    "chapter": 12,
+    "chapter_name": "Of Offences by or Relating to Public Servants",
+    "ipc_equivalent": "169",
+    "notes": ""
+  },
+  {
+    "section": 204,
+    "title": "Personating a public servant.",
+    "chapter": 12,
+    "chapter_name": "Of Offences by or Relating to Public Servants",
+    "ipc_equivalent": "170",
+    "notes": ""
+  },
+  {
+    "section": 205,
+    "title": "Wearing garb or carrying token used by public servant with fraudulent intent.",
+    "chapter": 12,
+    "chapter_name": "Of Offences by or Relating to Public Servants",
+    "ipc_equivalent": "171",
+    "notes": ""
+  },
+  {
+    "section": 206,
+    "title": "Absconding to avoid service of summons or other proceeding.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "172",
+    "notes": ""
+  },
+  {
+    "section": 207,
+    "title": "Preventing service of summons or other proceeding, or preventing publication thereof.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "173",
+    "notes": ""
+  },
+  {
+    "section": 208,
+    "title": "Non-attendance in obedience to an order from public servant.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "174",
+    "notes": ""
+  },
+  {
+    "section": 209,
+    "title": "Non-appearance in response to a proclamation under section 84 of Bharatiya Nagarik Suraksha Sanhita, 2023.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "174A",
+    "notes": ""
+  },
+  {
+    "section": 210,
+    "title": "Omission to produce document or electronic record to public servant by person legally bound to produce it.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "175",
+    "notes": ""
+  },
+  {
+    "section": 211,
+    "title": "Omission to give notice or information to public servant by person legally bound to give it.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "176",
+    "notes": ""
+  },
+  {
+    "section": 212,
+    "title": "Furnishing false information.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "177",
+    "notes": ""
+  },
+  {
+    "section": 213,
+    "title": "Refusing oath or affirmation when duly required by public servant to make it.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "178",
+    "notes": ""
+  },
+  {
+    "section": 214,
+    "title": "Refusing to answer public servant authorised to question.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "179",
+    "notes": ""
+  },
+  {
+    "section": 215,
+    "title": "Refusing to sign statement.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "180",
+    "notes": ""
+  },
+  {
+    "section": 216,
+    "title": "False statement on oath or affirmation to public servant or person authorised to administer an oath or affirmation.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "181",
+    "notes": ""
+  },
+  {
+    "section": 217,
+    "title": "False information, with intent to cause public servant to use his lawful power to the injury of another person.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "182",
+    "notes": ""
+  },
+  {
+    "section": 218,
+    "title": "Resistance to the taking of property by the lawful authority of a public servant.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "183",
+    "notes": ""
+  },
+  {
+    "section": 219,
+    "title": "Obstructing sale of property offered for sale by authority of public servant.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "184",
+    "notes": ""
+  },
+  {
+    "section": 220,
+    "title": "Illegal purchase or bid for property offered for sale by authority of public servant.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "185",
+    "notes": ""
+  },
+  {
+    "section": 221,
+    "title": "Obstructing public servant in discharge of public functions.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "186",
+    "notes": ""
+  },
+  {
+    "section": 222,
+    "title": "Omission to assist public servant when bound by law to give assistance.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "187",
+    "notes": ""
+  },
+  {
+    "section": 223,
+    "title": "Disobedience to order duly promulgated by public servant.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "188",
+    "notes": ""
+  },
+  {
+    "section": 224,
+    "title": "Threat of injury to public servant.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "189",
+    "notes": ""
+  },
+  {
+    "section": 225,
+    "title": "Threat of injury to induce person to refrain from applying for protection to public servant.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "190",
+    "notes": ""
+  },
+  {
+    "section": 226,
+    "title": "Attempt to commit suicide to compel or restraint exercise of lawful power.",
+    "chapter": 13,
+    "chapter_name": "Of Contempts of the Lawful Authority of Public Servants",
+    "ipc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 227,
+    "title": "Giving false evidence.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "191",
+    "notes": ""
+  },
+  {
+    "section": 228,
+    "title": "Fabricating false evidence.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "192",
+    "notes": ""
+  },
+  {
+    "section": 229,
+    "title": "Punishment for false evidence.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "193",
+    "notes": ""
+  },
+  {
+    "section": 230,
+    "title": "Giving or fabricating false evidence with intent to procure conviction of capital offence.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "194",
+    "notes": ""
+  },
+  {
+    "section": 231,
+    "title": "Giving or fabricating false evidence with intent to procure conviction of offence punishable with imprisonment for life or imprisonment.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "195",
+    "notes": ""
+  },
+  {
+    "section": 232,
+    "title": "Threatening any person to give false evidence.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 233,
+    "title": "Using evidence known to be false.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "196",
+    "notes": ""
+  },
+  {
+    "section": 234,
+    "title": "Issuing or signing false certificate.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "197",
+    "notes": ""
+  },
+  {
+    "section": 235,
+    "title": "Using as true a certificate known to be false.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "198",
+    "notes": ""
+  },
+  {
+    "section": 236,
+    "title": "False statement made in declaration which is by law receivable as evidence.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "199",
+    "notes": ""
+  },
+  {
+    "section": 237,
+    "title": "Using as true such declaration knowing it to be false.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "200",
+    "notes": ""
+  },
+  {
+    "section": 238,
+    "title": "Causing disappearance of evidence of offence, or giving false information to screen offender.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "201",
+    "notes": ""
+  },
+  {
+    "section": 239,
+    "title": "Intentional omission to give information of offence by person bound to inform.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "202",
+    "notes": ""
+  },
+  {
+    "section": 240,
+    "title": "Giving false information respecting an offence committed.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "203",
+    "notes": ""
+  },
+  {
+    "section": 241,
+    "title": "Destruction of document or electronic record to prevent its production as evidence.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "204",
+    "notes": ""
+  },
+  {
+    "section": 242,
+    "title": "False personation for purpose of act or proceeding in suit or prosecution.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "205",
+    "notes": ""
+  },
+  {
+    "section": 243,
+    "title": "Fraudulent removal or concealment of property to prevent its seizure as forfeited or in execution.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "206",
+    "notes": ""
+  },
+  {
+    "section": 244,
+    "title": "Fraudulent claim to property to prevent its seizure as forfeited or in execution.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "207",
+    "notes": ""
+  },
+  {
+    "section": 245,
+    "title": "Fraudulently suffering decree for sum not due.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "208",
+    "notes": ""
+  },
+  {
+    "section": 246,
+    "title": "Dishonestly making false claim in Court.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "209",
+    "notes": ""
+  },
+  {
+    "section": 247,
+    "title": "Fraudulently obtaining decree for sum not due.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "210",
+    "notes": ""
+  },
+  {
+    "section": 248,
+    "title": "False charge of offence made with intent to injure.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "211",
+    "notes": ""
+  },
+  {
+    "section": 249,
+    "title": "Harbouring offender.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "212",
+    "notes": ""
+  },
+  {
+    "section": 250,
+    "title": "Taking gift, etc., to screen an offender from punishment.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "213",
+    "notes": ""
+  },
+  {
+    "section": 251,
+    "title": "Offering gift or restoration of property in consideration of screening offender.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "214",
+    "notes": ""
+  },
+  {
+    "section": 252,
+    "title": "Taking gift to help to recover stolen property, etc.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "215",
+    "notes": ""
+  },
+  {
+    "section": 253,
+    "title": "Harbouring offender who has escaped from custody or whose apprehension has been ordered.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "216",
+    "notes": ""
+  },
+  {
+    "section": 254,
+    "title": "Penalty for harbouring robbers or dacoits.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "216A",
+    "notes": ""
+  },
+  {
+    "section": 255,
+    "title": "Public servant disobeying direction of law with intent to save person from punishment or property from forfeiture.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "217",
+    "notes": ""
+  },
+  {
+    "section": 256,
+    "title": "Public servant framing incorrect record or writing with intent to save person from punishment or property from forfeiture.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "218",
+    "notes": ""
+  },
+  {
+    "section": 257,
+    "title": "Public servant in judicial proceeding corruptly making report, etc., contrary to law.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "219",
+    "notes": ""
+  },
+  {
+    "section": 258,
+    "title": "Commitment for trial or confinement by person having authority who knows that he is acting contrary to law.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "220",
+    "notes": ""
+  },
+  {
+    "section": 259,
+    "title": "Intentional omission to apprehend on the part of public servant bound to apprehend.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "221",
+    "notes": ""
+  },
+  {
+    "section": 260,
+    "title": "Intentional omission to apprehend on the part of public servant bound to apprehend person under sentence or lawfully committed.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "222",
+    "notes": ""
+  },
+  {
+    "section": 261,
+    "title": "Escape from confinement or custody negligently suffered by public servant.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "223",
+    "notes": ""
+  },
+  {
+    "section": 262,
+    "title": "Resistance or obstruction by a person to his lawful apprehension.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "224",
+    "notes": ""
+  },
+  {
+    "section": 263,
+    "title": "Resistance or obstruction to lawful apprehension of another person.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "225",
+    "notes": ""
+  },
+  {
+    "section": 264,
+    "title": "Omission to apprehend, or sufferance of escape, on part of public servant, in cases not otherwise provided for.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 265,
+    "title": "Resistance or obstruction to lawful apprehension or escape or rescue in cases not otherwise provided for.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 266,
+    "title": "Violation of condition of remission of punishment.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "227",
+    "notes": ""
+  },
+  {
+    "section": 267,
+    "title": "Intentional insult or interruption to public servant sitting in judicial proceeding.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "228",
+    "notes": ""
+  },
+  {
+    "section": 268,
+    "title": "Personation of an assessor.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "229",
+    "notes": ""
+  },
+  {
+    "section": 269,
+    "title": "Failure by person released on bail or bond to appear in court.",
+    "chapter": 14,
+    "chapter_name": "Of False Evidence and Offences Against Public Justice",
+    "ipc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 270,
+    "title": "Public nuisance.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "268",
+    "notes": ""
+  },
+  {
+    "section": 271,
+    "title": "Negligent act likely to spread infection of disease dangerous to life.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "269",
+    "notes": ""
+  },
+  {
+    "section": 272,
+    "title": "Malignant act likely to spread infection of disease dangerous to life.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "270",
+    "notes": ""
+  },
+  {
+    "section": 273,
+    "title": "Disobedience to quarantine rule.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "271",
+    "notes": ""
+  },
+  {
+    "section": 274,
+    "title": "Adulteration of food or drink intended for sale.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "272",
+    "notes": ""
+  },
+  {
+    "section": 275,
+    "title": "Sale of noxious food or drink.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "273",
+    "notes": ""
+  },
+  {
+    "section": 276,
+    "title": "Adulteration of drugs.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "274",
+    "notes": ""
+  },
+  {
+    "section": 277,
+    "title": "Sale of adulterated drugs.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "275",
+    "notes": ""
+  },
+  {
+    "section": 278,
+    "title": "Sale of drug as a different drug or preparation.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "276",
+    "notes": ""
+  },
+  {
+    "section": 279,
+    "title": "Fouling water of public spring or reservoir.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "277",
+    "notes": ""
+  },
+  {
+    "section": 280,
+    "title": "Making atmosphere noxious to health.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "278",
+    "notes": ""
+  },
+  {
+    "section": 281,
+    "title": "Rash driving or riding on a public way.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "279",
+    "notes": ""
+  },
+  {
+    "section": 282,
+    "title": "Rash navigation of vessel.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "280",
+    "notes": ""
+  },
+  {
+    "section": 283,
+    "title": "Exhibition of false light, mark or buoy.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "281",
+    "notes": ""
+  },
+  {
+    "section": 284,
+    "title": "Conveying person by water for hire in unsafe or overloaded vessel.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "282",
+    "notes": ""
+  },
+  {
+    "section": 285,
+    "title": "Danger or obstruction in public way or line of navigation.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "283",
+    "notes": ""
+  },
+  {
+    "section": 286,
+    "title": "Negligent conduct with respect to poisonous substance.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "284",
+    "notes": ""
+  },
+  {
+    "section": 287,
+    "title": "Negligent conduct with respect to fire or combustible matter.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "285",
+    "notes": ""
+  },
+  {
+    "section": 288,
+    "title": "Negligent conduct with respect to explosive substance.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "286",
+    "notes": ""
+  },
+  {
+    "section": 289,
+    "title": "Negligent conduct with respect to machinery.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "287",
+    "notes": ""
+  },
+  {
+    "section": 290,
+    "title": "Negligent conduct with respect to pulling down, repairing or constructing buildings etc.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "288",
+    "notes": ""
+  },
+  {
+    "section": 291,
+    "title": "Negligent conduct with respect to animal.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "289",
+    "notes": ""
+  },
+  {
+    "section": 292,
+    "title": "Punishment for public nuisance in cases not otherwise provided for.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "290",
+    "notes": ""
+  },
+  {
+    "section": 293,
+    "title": "Continuance of nuisance after injunction to discontinue.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "291",
+    "notes": ""
+  },
+  {
+    "section": 294,
+    "title": "Sale, etc., of obscene books, etc.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "292",
+    "notes": ""
+  },
+  {
+    "section": 295,
+    "title": "Sale, etc., of obscene objects to child.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "293",
+    "notes": ""
+  },
+  {
+    "section": 296,
+    "title": "Obscene acts and songs.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "294",
+    "notes": ""
+  },
+  {
+    "section": 297,
+    "title": "Keeping lottery office.",
+    "chapter": 15,
+    "chapter_name": "Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
+    "ipc_equivalent": "294A",
+    "notes": ""
+  },
+  {
+    "section": 298,
+    "title": "Injuring or defiling place of worship, with intent to insult the religion of any class.",
+    "chapter": 16,
+    "chapter_name": "Of Offences Relating to Religion",
+    "ipc_equivalent": "295",
+    "notes": ""
+  },
+  {
+    "section": 299,
+    "title": "Deliberate and malicious acts, intended to outrage religious feelings of any class by insulting its religion or religious beliefs.",
+    "chapter": 16,
+    "chapter_name": "Of Offences Relating to Religion",
+    "ipc_equivalent": "295A",
+    "notes": ""
+  },
+  {
+    "section": 300,
+    "title": "Disturbing religious assembly.",
+    "chapter": 16,
+    "chapter_name": "Of Offences Relating to Religion",
+    "ipc_equivalent": "296",
+    "notes": ""
+  },
+  {
+    "section": 301,
+    "title": "Trespassing on burial places, etc.",
+    "chapter": 16,
+    "chapter_name": "Of Offences Relating to Religion",
+    "ipc_equivalent": "297",
+    "notes": ""
+  },
+  {
+    "section": 302,
+    "title": "Uttering words, etc., with deliberate intent to wound religious feelings of any person.",
+    "chapter": 16,
+    "chapter_name": "Of Offences Relating to Religion",
+    "ipc_equivalent": "298",
+    "notes": ""
+  },
+  {
+    "section": 303,
+    "title": "Theft.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "378",
+    "notes": ""
+  },
+  {
+    "section": 304,
+    "title": "Snatching.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "— (new)",
+    "notes": "New offence"
+  },
+  {
+    "section": 305,
+    "title": "Theft in a dwelling house, or means of transportation or place of worship, etc.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "380",
+    "notes": ""
+  },
+  {
+    "section": 306,
+    "title": "Theft by clerk or servant of property in possession of master.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "381",
+    "notes": ""
+  },
+  {
+    "section": 307,
+    "title": "Theft after preparation made for causing death, hurt or restraint in order to the committing of theft.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "382",
+    "notes": ""
+  },
+  {
+    "section": 308,
+    "title": "Extortion.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "383",
+    "notes": ""
+  },
+  {
+    "section": 309,
+    "title": "Robbery.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "390",
+    "notes": ""
+  },
+  {
+    "section": 310,
+    "title": "Dacoity.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "391",
+    "notes": ""
+  },
+  {
+    "section": 311,
+    "title": "Attempt to commit robbery or dacoity when armed with deadly weapon.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "397",
+    "notes": ""
+  },
+  {
+    "section": 312,
+    "title": "Punishment for belonging to gang of robbers, etc.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "401",
+    "notes": ""
+  },
+  {
+    "section": 313,
+    "title": "Dacoity with murder.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "396",
+    "notes": ""
+  },
+  {
+    "section": 314,
+    "title": "Dishonest misappropriation of property.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "403",
+    "notes": ""
+  },
+  {
+    "section": 315,
+    "title": "Dishonest misappropriation of property possessed by deceased person at the time of his death.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "404",
+    "notes": ""
+  },
+  {
+    "section": 316,
+    "title": "Criminal breach of trust.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "405",
+    "notes": ""
+  },
+  {
+    "section": 317,
+    "title": "Stolen property.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "410",
+    "notes": ""
+  },
+  {
+    "section": 318,
+    "title": "Cheating.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "415",
+    "notes": ""
+  },
+  {
+    "section": 319,
+    "title": "Cheating by personation.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "416",
+    "notes": ""
+  },
+  {
+    "section": 320,
+    "title": "Dishonest or fraudulent removal or concealment of property to prevent distribution among creditors.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "421",
+    "notes": ""
+  },
+  {
+    "section": 321,
+    "title": "Dishonestly or fraudulently preventing debt being available for creditors.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "422",
+    "notes": ""
+  },
+  {
+    "section": 322,
+    "title": "Mischief.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "425",
+    "notes": ""
+  },
+  {
+    "section": 323,
+    "title": "Mischief by killing or maiming animal.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "429",
+    "notes": ""
+  },
+  {
+    "section": 324,
+    "title": "Mischief with intent to destroy or make unsafe a rail, aircraft, decked vessel or one of twenty tons burden.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "430",
+    "notes": ""
+  },
+  {
+    "section": 325,
+    "title": "Mischief by injury to works of irrigation or by wrongfully diverting water.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "430",
+    "notes": ""
+  },
+  {
+    "section": 326,
+    "title": "Mischief by injury to public road, bridge, river or channel.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "431",
+    "notes": ""
+  },
+  {
+    "section": 327,
+    "title": "Mischief by causing inundation or obstruction to public drainage attended with damage.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "432",
+    "notes": ""
+  },
+  {
+    "section": 328,
+    "title": "Punishment for intentionally running vessel aground or ashore with intent to commit theft, etc.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "433",
+    "notes": ""
+  },
+  {
+    "section": 329,
+    "title": "Criminal trespass and house-trespass.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "441",
+    "notes": ""
+  },
+  {
+    "section": 330,
+    "title": "House-trespass and house-breaking.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "445",
+    "notes": ""
+  },
+  {
+    "section": 331,
+    "title": "Punishment for house-trespass or house-breaking.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "446",
+    "notes": ""
+  },
+  {
+    "section": 332,
+    "title": "House-trespass in order to commit offence.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "452",
+    "notes": ""
+  },
+  {
+    "section": 333,
+    "title": "House-trespass after preparation for hurt, assault or wrongful restraint.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "453",
+    "notes": ""
+  },
+  {
+    "section": 334,
+    "title": "Dishonestly breaking open receptacle containing property.",
+    "chapter": 17,
+    "chapter_name": "Of Offences Against Property",
+    "ipc_equivalent": "461",
+    "notes": ""
+  },
+  {
+    "section": 335,
+    "title": "Forgery.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "463",
+    "notes": ""
+  },
+  {
+    "section": 336,
+    "title": "Making a false document.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "464",
+    "notes": ""
+  },
+  {
+    "section": 337,
+    "title": "Forgery of record of Court or of public register, etc.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "466",
+    "notes": ""
+  },
+  {
+    "section": 338,
+    "title": "Forgery of valuable security, will, etc.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "467",
+    "notes": ""
+  },
+  {
+    "section": 339,
+    "title": "Having possession of document described in section 337 or section 338, knowing it to be forged and intending to use it as genuine.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "474",
+    "notes": ""
+  },
+  {
+    "section": 340,
+    "title": "Forged document or electronic record and using it as genuine.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "470",
+    "notes": ""
+  },
+  {
+    "section": 341,
+    "title": "Making or possessing counterfeit seal, etc., with intent to commit forgery punishable under section 338.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "472",
+    "notes": ""
+  },
+  {
+    "section": 342,
+    "title": "Fraudulent cancellation, destruction, etc., of will, authority to adopt, or valuable security.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "477",
+    "notes": ""
+  },
+  {
+    "section": 343,
+    "title": "Falsification of accounts.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "477A",
+    "notes": ""
+  },
+  {
+    "section": 344,
+    "title": "Counterfeiting a property mark.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "479",
+    "notes": ""
+  },
+  {
+    "section": 345,
+    "title": "Using a false property mark.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "481",
+    "notes": ""
+  },
+  {
+    "section": 346,
+    "title": "Punishment for using a false property mark with intent to deceive or injure any person.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "482",
+    "notes": ""
+  },
+  {
+    "section": 347,
+    "title": "Counterfeiting a property mark used by another.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "483",
+    "notes": ""
+  },
+  {
+    "section": 348,
+    "title": "Making or possession of any instrument for counterfeiting a property mark.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "485",
+    "notes": ""
+  },
+  {
+    "section": 349,
+    "title": "Selling goods marked with a counterfeit property mark.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "486",
+    "notes": ""
+  },
+  {
+    "section": 350,
+    "title": "Making a false mark upon any receptacle containing goods.",
+    "chapter": 18,
+    "chapter_name": "Of Offences Relating to Documents and to Property Marks",
+    "ipc_equivalent": "487",
+    "notes": ""
+  },
+  {
+    "section": 351,
+    "title": "Criminal intimidation.",
+    "chapter": 19,
+    "chapter_name": "Of Criminal Intimidation, Insult, Annoyance, Defamation, etc.",
+    "ipc_equivalent": "503",
+    "notes": ""
+  },
+  {
+    "section": 352,
+    "title": "Intentional insult with intent to provoke breach of peace.",
+    "chapter": 19,
+    "chapter_name": "Of Criminal Intimidation, Insult, Annoyance, Defamation, etc.",
+    "ipc_equivalent": "504",
+    "notes": ""
+  },
+  {
+    "section": 353,
+    "title": "Statements conducing to public mischief.",
+    "chapter": 19,
+    "chapter_name": "Of Criminal Intimidation, Insult, Annoyance, Defamation, etc.",
+    "ipc_equivalent": "505",
+    "notes": ""
+  },
+  {
+    "section": 354,
+    "title": "Act caused by inducing person to believe that he will be rendered an object of Divine displeasure.",
+    "chapter": 19,
+    "chapter_name": "Of Criminal Intimidation, Insult, Annoyance, Defamation, etc.",
+    "ipc_equivalent": "508",
+    "notes": ""
+  },
+  {
+    "section": 355,
+    "title": "Misconduct in public by a drunken person.",
+    "chapter": 19,
+    "chapter_name": "Of Criminal Intimidation, Insult, Annoyance, Defamation, etc.",
+    "ipc_equivalent": "510",
+    "notes": ""
+  },
+  {
+    "section": 356,
+    "title": "Defamation.",
+    "chapter": 19,
+    "chapter_name": "Of Criminal Intimidation, Insult, Annoyance, Defamation, etc.",
+    "ipc_equivalent": "499, 500",
+    "notes": ""
+  },
+  {
+    "section": 357,
+    "title": "Breach of contract to attend on and supply wants of helpless person.",
+    "chapter": 19,
+    "chapter_name": "Of Criminal Intimidation, Insult, Annoyance, Defamation, etc.",
+    "ipc_equivalent": "491",
+    "notes": ""
+  },
+  {
+    "section": 358,
+    "title": "Repeal and savings.",
+    "chapter": 20,
+    "chapter_name": "Repeal and Savings",
+    "ipc_equivalent": "—",
+    "notes": ""
+  }
+]

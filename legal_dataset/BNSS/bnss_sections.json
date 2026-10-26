@@ -1,0 +1,4050 @@
+[
+  {
+    "section": 1,
+    "title": "Short title, extent and commencement.",
+    "chapter": 1,
+    "chapter_name": "Preliminary",
+    "crpc_equivalent": "1",
+    "notes": ""
+  },
+  {
+    "section": 2,
+    "title": "Definitions.",
+    "chapter": 1,
+    "chapter_name": "Preliminary",
+    "crpc_equivalent": "2",
+    "notes": "Includes many new definitions like audio-video electronic, victim, etc."
+  },
+  {
+    "section": 3,
+    "title": "Construction of references.",
+    "chapter": 1,
+    "chapter_name": "Preliminary",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 4,
+    "title": "Trial of offences under Bharatiya Nyaya Sanhita, 2023 and other laws.",
+    "chapter": 1,
+    "chapter_name": "Preliminary",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 5,
+    "title": "Saving.",
+    "chapter": 1,
+    "chapter_name": "Preliminary",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 6,
+    "title": "Classes of Criminal Courts.",
+    "chapter": 2,
+    "chapter_name": "Constitution of Criminal Courts and Offices",
+    "crpc_equivalent": "6",
+    "notes": ""
+  },
+  {
+    "section": 7,
+    "title": "Territorial divisions.",
+    "chapter": 2,
+    "chapter_name": "Constitution of Criminal Courts and Offices",
+    "crpc_equivalent": "7",
+    "notes": ""
+  },
+  {
+    "section": 8,
+    "title": "Court of Session.",
+    "chapter": 2,
+    "chapter_name": "Constitution of Criminal Courts and Offices",
+    "crpc_equivalent": "9",
+    "notes": ""
+  },
+  {
+    "section": 9,
+    "title": "Courts of Judicial Magistrates.",
+    "chapter": 2,
+    "chapter_name": "Constitution of Criminal Courts and Offices",
+    "crpc_equivalent": "10",
+    "notes": ""
+  },
+  {
+    "section": 10,
+    "title": "Chief Judicial Magistrate and Additional Chief Judicial Magistrate, etc.",
+    "chapter": 2,
+    "chapter_name": "Constitution of Criminal Courts and Offices",
+    "crpc_equivalent": "12",
+    "notes": ""
+  },
+  {
+    "section": 11,
+    "title": "Special Judicial Magistrates.",
+    "chapter": 2,
+    "chapter_name": "Constitution of Criminal Courts and Offices",
+    "crpc_equivalent": "13",
+    "notes": ""
+  },
+  {
+    "section": 12,
+    "title": "Local Jurisdiction of Judicial Magistrates.",
+    "chapter": 2,
+    "chapter_name": "Constitution of Criminal Courts and Offices",
+    "crpc_equivalent": "14",
+    "notes": ""
+  },
+  {
+    "section": 13,
+    "title": "Subordination of Judicial Magistrates.",
+    "chapter": 2,
+    "chapter_name": "Constitution of Criminal Courts and Offices",
+    "crpc_equivalent": "15",
+    "notes": ""
+  },
+  {
+    "section": 14,
+    "title": "Executive Magistrates.",
+    "chapter": 2,
+    "chapter_name": "Constitution of Criminal Courts and Offices",
+    "crpc_equivalent": "20",
+    "notes": ""
+  },
+  {
+    "section": 15,
+    "title": "Special Executive Magistrates.",
+    "chapter": 2,
+    "chapter_name": "Constitution of Criminal Courts and Offices",
+    "crpc_equivalent": "21",
+    "notes": ""
+  },
+  {
+    "section": 16,
+    "title": "Local Jurisdiction of Executive Magistrates.",
+    "chapter": 2,
+    "chapter_name": "Constitution of Criminal Courts and Offices",
+    "crpc_equivalent": "22",
+    "notes": ""
+  },
+  {
+    "section": 17,
+    "title": "Subordination of Executive Magistrates.",
+    "chapter": 2,
+    "chapter_name": "Constitution of Criminal Courts and Offices",
+    "crpc_equivalent": "23",
+    "notes": ""
+  },
+  {
+    "section": 18,
+    "title": "Public Prosecutors.",
+    "chapter": 2,
+    "chapter_name": "Constitution of Criminal Courts and Offices",
+    "crpc_equivalent": "24",
+    "notes": ""
+  },
+  {
+    "section": 19,
+    "title": "Assistant Public Prosecutors.",
+    "chapter": 2,
+    "chapter_name": "Constitution of Criminal Courts and Offices",
+    "crpc_equivalent": "25",
+    "notes": ""
+  },
+  {
+    "section": 20,
+    "title": "Directorate of Prosecution.",
+    "chapter": 2,
+    "chapter_name": "Constitution of Criminal Courts and Offices",
+    "crpc_equivalent": "25A",
+    "notes": "New emphasis on Directorate of Prosecution"
+  },
+  {
+    "section": 21,
+    "title": "Courts by which offences are triable.",
+    "chapter": 3,
+    "chapter_name": "Power of Courts",
+    "crpc_equivalent": "26",
+    "notes": ""
+  },
+  {
+    "section": 22,
+    "title": "Sentences which High Courts and Sessions Judges may pass.",
+    "chapter": 3,
+    "chapter_name": "Power of Courts",
+    "crpc_equivalent": "28",
+    "notes": ""
+  },
+  {
+    "section": 23,
+    "title": "Sentences which Magistrates may pass.",
+    "chapter": 3,
+    "chapter_name": "Power of Courts",
+    "crpc_equivalent": "29",
+    "notes": ""
+  },
+  {
+    "section": 24,
+    "title": "Sentence of imprisonment in default of fine.",
+    "chapter": 3,
+    "chapter_name": "Power of Courts",
+    "crpc_equivalent": "30",
+    "notes": ""
+  },
+  {
+    "section": 25,
+    "title": "Sentence in cases of conviction of several offences at one trial.",
+    "chapter": 3,
+    "chapter_name": "Power of Courts",
+    "crpc_equivalent": "31",
+    "notes": ""
+  },
+  {
+    "section": 26,
+    "title": "Mode of conferring powers.",
+    "chapter": 3,
+    "chapter_name": "Power of Courts",
+    "crpc_equivalent": "32",
+    "notes": ""
+  },
+  {
+    "section": 27,
+    "title": "Powers of officers appointed.",
+    "chapter": 3,
+    "chapter_name": "Power of Courts",
+    "crpc_equivalent": "33",
+    "notes": ""
+  },
+  {
+    "section": 28,
+    "title": "Withdrawal of powers.",
+    "chapter": 3,
+    "chapter_name": "Power of Courts",
+    "crpc_equivalent": "34",
+    "notes": ""
+  },
+  {
+    "section": 29,
+    "title": "Powers of Judges and Magistrates exercisable by their successors-in-office.",
+    "chapter": 3,
+    "chapter_name": "Power of Courts",
+    "crpc_equivalent": "35",
+    "notes": ""
+  },
+  {
+    "section": 30,
+    "title": "Powers of superior officers of police.",
+    "chapter": 4,
+    "chapter_name": "Powers of Superior Officers of Police and Aid to the Magistrates and the Police",
+    "crpc_equivalent": "36",
+    "notes": ""
+  },
+  {
+    "section": 31,
+    "title": "Public when to assist Magistrates and police.",
+    "chapter": 4,
+    "chapter_name": "Powers of Superior Officers of Police and Aid to the Magistrates and the Police",
+    "crpc_equivalent": "37",
+    "notes": ""
+  },
+  {
+    "section": 32,
+    "title": "Aid to person, other than police officer, executing warrant.",
+    "chapter": 4,
+    "chapter_name": "Powers of Superior Officers of Police and Aid to the Magistrates and the Police",
+    "crpc_equivalent": "38",
+    "notes": ""
+  },
+  {
+    "section": 33,
+    "title": "Public to give information of certain offences.",
+    "chapter": 4,
+    "chapter_name": "Powers of Superior Officers of Police and Aid to the Magistrates and the Police",
+    "crpc_equivalent": "39",
+    "notes": ""
+  },
+  {
+    "section": 34,
+    "title": "Duty of officers employed in connection with affairs of a village to make certain report.",
+    "chapter": 4,
+    "chapter_name": "Powers of Superior Officers of Police and Aid to the Magistrates and the Police",
+    "crpc_equivalent": "40",
+    "notes": ""
+  },
+  {
+    "section": 35,
+    "title": "When police may arrest without warrant.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "41",
+    "notes": "Zero FIR concept strengthened"
+  },
+  {
+    "section": 36,
+    "title": "Procedure of arrest and duties of officer making arrest.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "41A",
+    "notes": "Mandatory body camera / recording in many cases"
+  },
+  {
+    "section": 37,
+    "title": "Designated police officer.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "—",
+    "notes": "New"
+  },
+  {
+    "section": 38,
+    "title": "Right of arrested person to meet an advocate of his choice during interrogation.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "—",
+    "notes": "New right"
+  },
+  {
+    "section": 39,
+    "title": "Arrest on refusal to give name and residence.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "42",
+    "notes": ""
+  },
+  {
+    "section": 40,
+    "title": "Arrest by private person and procedure on such arrest.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "43",
+    "notes": ""
+  },
+  {
+    "section": 41,
+    "title": "Arrest by Magistrate.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "44",
+    "notes": ""
+  },
+  {
+    "section": 42,
+    "title": "Protection of members of Armed Forces from arrest.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "45",
+    "notes": ""
+  },
+  {
+    "section": 43,
+    "title": "Arrest how made.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "46",
+    "notes": ""
+  },
+  {
+    "section": 44,
+    "title": "Search of place entered by person sought to be arrested.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "47",
+    "notes": ""
+  },
+  {
+    "section": 45,
+    "title": "Pursuit of offenders into other jurisdictions.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "48",
+    "notes": ""
+  },
+  {
+    "section": 46,
+    "title": "No unnecessary restraint.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "49",
+    "notes": ""
+  },
+  {
+    "section": 47,
+    "title": "Person arrested to be informed of grounds of arrest and of right to bail.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "50",
+    "notes": ""
+  },
+  {
+    "section": 48,
+    "title": "Obligation of person making arrest to inform about arrest, etc., to relative or friend.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "—",
+    "notes": "New"
+  },
+  {
+    "section": 49,
+    "title": "Search of arrested person.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "51",
+    "notes": ""
+  },
+  {
+    "section": 50,
+    "title": "Power to seize offensive weapons.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "52",
+    "notes": ""
+  },
+  {
+    "section": 51,
+    "title": "Examination of accused by medical practitioner at request of police officer.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "53",
+    "notes": ""
+  },
+  {
+    "section": 52,
+    "title": "Examination of person accused of rape by medical practitioner.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 53,
+    "title": "Examination of arrested person by medical officer.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "—",
+    "notes": "New emphasis"
+  },
+  {
+    "section": 54,
+    "title": "Identification of person arrested.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 55,
+    "title": "Procedure when police officer deputes subordinate to arrest without warrant.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "55",
+    "notes": ""
+  },
+  {
+    "section": 56,
+    "title": "Health and safety of arrested person.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "—",
+    "notes": "New"
+  },
+  {
+    "section": 57,
+    "title": "Person arrested to be taken before Magistrate or officer in charge of police station.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "56",
+    "notes": ""
+  },
+  {
+    "section": 58,
+    "title": "Person arrested not to be detained more than twenty-four hours.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "57",
+    "notes": ""
+  },
+  {
+    "section": 59,
+    "title": "Police to report apprehensions.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "58",
+    "notes": ""
+  },
+  {
+    "section": 60,
+    "title": "Discharge of person apprehended.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "59",
+    "notes": ""
+  },
+  {
+    "section": 61,
+    "title": "Power, on escape, to pursue and retake.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "60",
+    "notes": ""
+  },
+  {
+    "section": 62,
+    "title": "Arrest to be made strictly according to Sanhita.",
+    "chapter": 5,
+    "chapter_name": "Arrest of Persons",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 63,
+    "title": "Form of summons.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "61",
+    "notes": ""
+  },
+  {
+    "section": 64,
+    "title": "Summons how served.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "62",
+    "notes": ""
+  },
+  {
+    "section": 65,
+    "title": "Service of summons on corporate bodies, firms, and societies.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "63",
+    "notes": ""
+  },
+  {
+    "section": 66,
+    "title": "Service when persons summoned cannot be found.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "64",
+    "notes": ""
+  },
+  {
+    "section": 67,
+    "title": "Procedure when service cannot be effected as before provided.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "65",
+    "notes": ""
+  },
+  {
+    "section": 68,
+    "title": "Service on Government servant.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "66",
+    "notes": ""
+  },
+  {
+    "section": 69,
+    "title": "Service of summons outside local limits.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "67",
+    "notes": ""
+  },
+  {
+    "section": 70,
+    "title": "Proof of service in such cases and when serving officer not present.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "68",
+    "notes": ""
+  },
+  {
+    "section": 71,
+    "title": "Service of summons on witness.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "69",
+    "notes": ""
+  },
+  {
+    "section": 72,
+    "title": "Form of warrant of arrest and duration.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "70",
+    "notes": ""
+  },
+  {
+    "section": 73,
+    "title": "Power to direct security to be taken.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "71",
+    "notes": ""
+  },
+  {
+    "section": 74,
+    "title": "Warrants to whom directed.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "72",
+    "notes": ""
+  },
+  {
+    "section": 75,
+    "title": "Warrant may be directed to any person.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "73",
+    "notes": ""
+  },
+  {
+    "section": 76,
+    "title": "Warrant directed to police officer.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "74",
+    "notes": ""
+  },
+  {
+    "section": 77,
+    "title": "Notification of substance of warrant.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "75",
+    "notes": ""
+  },
+  {
+    "section": 78,
+    "title": "Person arrested to be brought before Court without delay.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "76",
+    "notes": ""
+  },
+  {
+    "section": 79,
+    "title": "Where warrant may be executed.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "77",
+    "notes": ""
+  },
+  {
+    "section": 80,
+    "title": "Warrant forwarded for execution outside jurisdiction.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "78",
+    "notes": ""
+  },
+  {
+    "section": 81,
+    "title": "Warrant directed to police officer for execution outside jurisdiction.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "79",
+    "notes": ""
+  },
+  {
+    "section": 82,
+    "title": "Procedure on arrest of person against whom warrant issued.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "80",
+    "notes": ""
+  },
+  {
+    "section": 83,
+    "title": "Procedure by Magistrate before whom such person arrested is brought.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "81",
+    "notes": ""
+  },
+  {
+    "section": 84,
+    "title": "Proclamation for person absconding.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "82",
+    "notes": ""
+  },
+  {
+    "section": 85,
+    "title": "Attachment of property of person absconding.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "83",
+    "notes": ""
+  },
+  {
+    "section": 86,
+    "title": "Identification and attachment of property of proclaimed person.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "83A",
+    "notes": ""
+  },
+  {
+    "section": 87,
+    "title": "Claims and objections to attachment.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "84",
+    "notes": ""
+  },
+  {
+    "section": 88,
+    "title": "Release, sale and restoration of attached property.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "85",
+    "notes": ""
+  },
+  {
+    "section": 89,
+    "title": "Appeal from order rejecting application for restoration of attached property.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "86",
+    "notes": ""
+  },
+  {
+    "section": 90,
+    "title": "Issue of warrant in lieu of, or in addition to, summons.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "87",
+    "notes": ""
+  },
+  {
+    "section": 91,
+    "title": "Power to take bond or bail bond for appearance.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "88",
+    "notes": ""
+  },
+  {
+    "section": 92,
+    "title": "Arrest on breach of bond or bail bond for appearance.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "89",
+    "notes": ""
+  },
+  {
+    "section": 93,
+    "title": "Provisions of this Chapter generally applicable to summons and warrants of arrest.",
+    "chapter": 6,
+    "chapter_name": "Processes to Compel Appearance",
+    "crpc_equivalent": "90",
+    "notes": ""
+  },
+  {
+    "section": 94,
+    "title": "Summons to produce document or other thing.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "91",
+    "notes": ""
+  },
+  {
+    "section": 95,
+    "title": "Procedure as to letters.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "92",
+    "notes": ""
+  },
+  {
+    "section": 96,
+    "title": "When search warrant may be issued.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "93",
+    "notes": ""
+  },
+  {
+    "section": 97,
+    "title": "Search of place suspected to contain stolen property, forged documents, etc.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "94",
+    "notes": ""
+  },
+  {
+    "section": 98,
+    "title": "Power to declare certain publications forfeited and to issue search-warrants for same.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "95",
+    "notes": ""
+  },
+  {
+    "section": 99,
+    "title": "Application to High Court to set aside declaration of forfeiture.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "96",
+    "notes": ""
+  },
+  {
+    "section": 100,
+    "title": "Search for persons wrongfully confined.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "97",
+    "notes": ""
+  },
+  {
+    "section": 101,
+    "title": "Power to compel restoration of abducted females.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "98",
+    "notes": ""
+  },
+  {
+    "section": 102,
+    "title": "Direction, etc., of search-warrants.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "99",
+    "notes": ""
+  },
+  {
+    "section": 103,
+    "title": "Persons in charge of closed place to allow search.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "100",
+    "notes": ""
+  },
+  {
+    "section": 104,
+    "title": "Disposal of things found in search beyond jurisdiction.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "101",
+    "notes": ""
+  },
+  {
+    "section": 105,
+    "title": "Recording of search and seizure through audio video electronic means.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "—",
+    "notes": "Major new provision"
+  },
+  {
+    "section": 106,
+    "title": "Power of police officer to seize certain property.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "102",
+    "notes": ""
+  },
+  {
+    "section": 107,
+    "title": "Attachment, forfeiture or restoration of property.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 108,
+    "title": "Magistrate may direct search in his presence.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "103",
+    "notes": ""
+  },
+  {
+    "section": 109,
+    "title": "Power to impound document, etc., produced.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "104",
+    "notes": ""
+  },
+  {
+    "section": 110,
+    "title": "Reciprocal arrangements regarding processes.",
+    "chapter": 7,
+    "chapter_name": "Processes to Compel the Production of Things",
+    "crpc_equivalent": "105",
+    "notes": ""
+  },
+  {
+    "section": 111,
+    "title": "Definitions.",
+    "chapter": 8,
+    "chapter_name": "Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
+    "crpc_equivalent": "105A",
+    "notes": ""
+  },
+  {
+    "section": 112,
+    "title": "Letter of request to competent authority for investigation in a country or place outside India.",
+    "chapter": 8,
+    "chapter_name": "Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
+    "crpc_equivalent": "166A",
+    "notes": ""
+  },
+  {
+    "section": 113,
+    "title": "Letter of request from a country or place outside India to a Court or an authority for investigation in India.",
+    "chapter": 8,
+    "chapter_name": "Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
+    "crpc_equivalent": "166B",
+    "notes": ""
+  },
+  {
+    "section": 114,
+    "title": "Assistance in securing transfer of persons.",
+    "chapter": 8,
+    "chapter_name": "Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 115,
+    "title": "Assistance in relation to orders of attachment or forfeiture of property.",
+    "chapter": 8,
+    "chapter_name": "Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 116,
+    "title": "Identifying unlawfully acquired property.",
+    "chapter": 8,
+    "chapter_name": "Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 117,
+    "title": "Seizure or attachment of property.",
+    "chapter": 8,
+    "chapter_name": "Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 118,
+    "title": "Management of properties seized or forfeited under this Chapter.",
+    "chapter": 8,
+    "chapter_name": "Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 119,
+    "title": "Notice of forfeiture of property.",
+    "chapter": 8,
+    "chapter_name": "Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 120,
+    "title": "Forfeiture of property in certain cases.",
+    "chapter": 8,
+    "chapter_name": "Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 121,
+    "title": "Fine in lieu of forfeiture.",
+    "chapter": 8,
+    "chapter_name": "Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 122,
+    "title": "Certain transfers to be null and void.",
+    "chapter": 8,
+    "chapter_name": "Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 123,
+    "title": "Procedure in respect of letter of request.",
+    "chapter": 8,
+    "chapter_name": "Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 124,
+    "title": "Application of this Chapter.",
+    "chapter": 8,
+    "chapter_name": "Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 125,
+    "title": "Security for keeping peace on conviction.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "106",
+    "notes": ""
+  },
+  {
+    "section": 126,
+    "title": "Security for keeping peace in other cases.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "107",
+    "notes": ""
+  },
+  {
+    "section": 127,
+    "title": "Security for good behaviour from persons disseminating certain matters.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "108",
+    "notes": ""
+  },
+  {
+    "section": 128,
+    "title": "Security for good behaviour from suspected persons.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "109",
+    "notes": ""
+  },
+  {
+    "section": 129,
+    "title": "Security for good behaviour from habitual offenders.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "110",
+    "notes": ""
+  },
+  {
+    "section": 130,
+    "title": "Order to be made.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "111",
+    "notes": ""
+  },
+  {
+    "section": 131,
+    "title": "Procedure in respect of person present in Court.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "112",
+    "notes": ""
+  },
+  {
+    "section": 132,
+    "title": "Summons or warrant in case of person not so present.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "113",
+    "notes": ""
+  },
+  {
+    "section": 133,
+    "title": "Copy of order to accompany summons or warrant.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "114",
+    "notes": ""
+  },
+  {
+    "section": 134,
+    "title": "Power to dispense with personal attendance.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "115",
+    "notes": ""
+  },
+  {
+    "section": 135,
+    "title": "Inquiry as to truth of information.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "116",
+    "notes": ""
+  },
+  {
+    "section": 136,
+    "title": "Order to give security.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "117",
+    "notes": ""
+  },
+  {
+    "section": 137,
+    "title": "Discharge of person informed against.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "118",
+    "notes": ""
+  },
+  {
+    "section": 138,
+    "title": "Commencement of period for which security is required.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "119",
+    "notes": ""
+  },
+  {
+    "section": 139,
+    "title": "Contents of bond.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "120",
+    "notes": ""
+  },
+  {
+    "section": 140,
+    "title": "Power to reject sureties.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "121",
+    "notes": ""
+  },
+  {
+    "section": 141,
+    "title": "Imprisonment in default of security.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "122",
+    "notes": ""
+  },
+  {
+    "section": 142,
+    "title": "Power to release persons imprisoned for failing to give security.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "123",
+    "notes": ""
+  },
+  {
+    "section": 143,
+    "title": "Security for unexpired period of bond.",
+    "chapter": 9,
+    "chapter_name": "Security for Keeping the Peace and for Good Behaviour",
+    "crpc_equivalent": "124",
+    "notes": ""
+  },
+  {
+    "section": 144,
+    "title": "Order for maintenance of wives, children and parents.",
+    "chapter": 10,
+    "chapter_name": "Order for Maintenance of Wives, Children and Parents",
+    "crpc_equivalent": "125",
+    "notes": "Expanded scope"
+  },
+  {
+    "section": 145,
+    "title": "Procedure.",
+    "chapter": 10,
+    "chapter_name": "Order for Maintenance of Wives, Children and Parents",
+    "crpc_equivalent": "126",
+    "notes": ""
+  },
+  {
+    "section": 146,
+    "title": "Alteration in allowance.",
+    "chapter": 10,
+    "chapter_name": "Order for Maintenance of Wives, Children and Parents",
+    "crpc_equivalent": "127",
+    "notes": ""
+  },
+  {
+    "section": 147,
+    "title": "Enforcement of order of maintenance.",
+    "chapter": 10,
+    "chapter_name": "Order for Maintenance of Wives, Children and Parents",
+    "crpc_equivalent": "128",
+    "notes": ""
+  },
+  {
+    "section": 148,
+    "title": "Unlawful assembly.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "129",
+    "notes": ""
+  },
+  {
+    "section": 149,
+    "title": "Power to disperse unlawful assembly.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "130",
+    "notes": ""
+  },
+  {
+    "section": 150,
+    "title": "Use of civil force to disperse unlawful assembly.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "131",
+    "notes": ""
+  },
+  {
+    "section": 151,
+    "title": "Power to use armed forces to disperse unlawful assembly.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "132",
+    "notes": ""
+  },
+  {
+    "section": 152,
+    "title": "Power of certain armed force officers to disperse unlawful assembly.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 153,
+    "title": "Protection against prosecution for acts done under sections 148 to 152.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 154,
+    "title": "Conditional order for removal of nuisance.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "133",
+    "notes": ""
+  },
+  {
+    "section": 155,
+    "title": "Service or notification of order.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "134",
+    "notes": ""
+  },
+  {
+    "section": 156,
+    "title": "Person to whom order is addressed to obey or show cause.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "135",
+    "notes": ""
+  },
+  {
+    "section": 157,
+    "title": "Consequences of his failing to do so.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "136",
+    "notes": ""
+  },
+  {
+    "section": 158,
+    "title": "Procedure where existence of public right is denied.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "137",
+    "notes": ""
+  },
+  {
+    "section": 159,
+    "title": "Procedure where he appears to show cause.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "138",
+    "notes": ""
+  },
+  {
+    "section": 160,
+    "title": "Power of Magistrate to direct local investigation and examination of an expert.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "139",
+    "notes": ""
+  },
+  {
+    "section": 161,
+    "title": "Power of Magistrate to furnish written instructions, etc.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "140",
+    "notes": ""
+  },
+  {
+    "section": 162,
+    "title": "Procedure on order being made absolute and consequences of disobedience.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "141",
+    "notes": ""
+  },
+  {
+    "section": 163,
+    "title": "Injunction pending inquiry.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "142",
+    "notes": ""
+  },
+  {
+    "section": 164,
+    "title": "Magistrate may prohibit repetition or continuance of public nuisance.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "143",
+    "notes": ""
+  },
+  {
+    "section": 165,
+    "title": "Power to issue order in urgent cases of nuisance or apprehended danger.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "144",
+    "notes": ""
+  },
+  {
+    "section": 166,
+    "title": "Power to prohibit certain acts in order to prevent danger to human life, health or safety or to prevent riot or affray.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 167,
+    "title": "Power to give directions in case of public nuisance.",
+    "chapter": 11,
+    "chapter_name": "Maintenance of Public Order and Tranquillity",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 168,
+    "title": "Police to prevent cognizable offences.",
+    "chapter": 12,
+    "chapter_name": "Preventive Action of the Police",
+    "crpc_equivalent": "149",
+    "notes": ""
+  },
+  {
+    "section": 169,
+    "title": "Information of design to commit cognizable offences.",
+    "chapter": 12,
+    "chapter_name": "Preventive Action of the Police",
+    "crpc_equivalent": "150",
+    "notes": ""
+  },
+  {
+    "section": 170,
+    "title": "Arrest to prevent the commission of cognizable offences.",
+    "chapter": 12,
+    "chapter_name": "Preventive Action of the Police",
+    "crpc_equivalent": "151",
+    "notes": ""
+  },
+  {
+    "section": 171,
+    "title": "Prevention of injury to public property.",
+    "chapter": 12,
+    "chapter_name": "Preventive Action of the Police",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 172,
+    "title": "Persons bound to conform to lawful directions of police.",
+    "chapter": 12,
+    "chapter_name": "Preventive Action of the Police",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 173,
+    "title": "Information in cognizable cases.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "154",
+    "notes": "Zero FIR + e-FIR mandatory"
+  },
+  {
+    "section": 174,
+    "title": "Information as to non-cognizable cases and investigation of such cases.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "155",
+    "notes": ""
+  },
+  {
+    "section": 175,
+    "title": "Police officer's power to investigate cognizable case.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "156",
+    "notes": ""
+  },
+  {
+    "section": 176,
+    "title": "Procedure for investigation.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "—",
+    "notes": "Mandatory forensic for serious offences"
+  },
+  {
+    "section": 177,
+    "title": "Report how submitted.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "157",
+    "notes": ""
+  },
+  {
+    "section": 178,
+    "title": "Power to hold investigation or preliminary inquiry.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 179,
+    "title": "Police officer's power to require attendance of witnesses.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "160",
+    "notes": ""
+  },
+  {
+    "section": 180,
+    "title": "Examination of witnesses by police.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "161",
+    "notes": ""
+  },
+  {
+    "section": 181,
+    "title": "Statements to police and use thereof.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "162",
+    "notes": ""
+  },
+  {
+    "section": 182,
+    "title": "No inducement to be offered.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "163",
+    "notes": ""
+  },
+  {
+    "section": 183,
+    "title": "Recording of confessions and statements.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "164",
+    "notes": ""
+  },
+  {
+    "section": 184,
+    "title": "Medical examination of victim of rape.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "—",
+    "notes": "Time bound"
+  },
+  {
+    "section": 185,
+    "title": "Search by police officer.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "165",
+    "notes": ""
+  },
+  {
+    "section": 186,
+    "title": "When officer in charge of police station may require another to issue search-warrant.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "166",
+    "notes": ""
+  },
+  {
+    "section": 187,
+    "title": "Procedure when investigation cannot be completed in twenty-four hours.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "167",
+    "notes": "Strict timelines"
+  },
+  {
+    "section": 188,
+    "title": "Report of investigation by subordinate police officer.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "168",
+    "notes": ""
+  },
+  {
+    "section": 189,
+    "title": "Release of accused when evidence deficient.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "169",
+    "notes": ""
+  },
+  {
+    "section": 190,
+    "title": "Cases to be sent to Magistrate, when evidence is sufficient.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "170",
+    "notes": ""
+  },
+  {
+    "section": 191,
+    "title": "Complainant and witnesses not to be required to accompany police officer...",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "171",
+    "notes": ""
+  },
+  {
+    "section": 192,
+    "title": "Diary of proceedings in investigation.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "172",
+    "notes": ""
+  },
+  {
+    "section": 193,
+    "title": "Report of police officer on completion of investigation.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "173",
+    "notes": ""
+  },
+  {
+    "section": 194,
+    "title": "Police to enquire and report on suicide, etc.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "174",
+    "notes": ""
+  },
+  {
+    "section": 195,
+    "title": "Power to summon persons.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "175",
+    "notes": ""
+  },
+  {
+    "section": 196,
+    "title": "Inquiry by Magistrate into cause of death.",
+    "chapter": 13,
+    "chapter_name": "Information to the Police and their Powers to Investigate",
+    "crpc_equivalent": "176",
+    "notes": ""
+  },
+  {
+    "section": 197,
+    "title": "Ordinary place of inquiry and trial.",
+    "chapter": 14,
+    "chapter_name": "Jurisdiction of the Criminal Courts in Inquiries and Trials",
+    "crpc_equivalent": "177",
+    "notes": ""
+  },
+  {
+    "section": 198,
+    "title": "Place of inquiry or trial where offence committed on journey or voyage.",
+    "chapter": 14,
+    "chapter_name": "Jurisdiction of the Criminal Courts in Inquiries and Trials",
+    "crpc_equivalent": "178",
+    "notes": ""
+  },
+  {
+    "section": 199,
+    "title": "Offence triable where act is done or consequence ensues.",
+    "chapter": 14,
+    "chapter_name": "Jurisdiction of the Criminal Courts in Inquiries and Trials",
+    "crpc_equivalent": "179",
+    "notes": ""
+  },
+  {
+    "section": 200,
+    "title": "Place of trial where act is an offence by reason of relation to other offence.",
+    "chapter": 14,
+    "chapter_name": "Jurisdiction of the Criminal Courts in Inquiries and Trials",
+    "crpc_equivalent": "180",
+    "notes": ""
+  },
+  {
+    "section": 201,
+    "title": "Place of trial in case of certain offences.",
+    "chapter": 14,
+    "chapter_name": "Jurisdiction of the Criminal Courts in Inquiries and Trials",
+    "crpc_equivalent": "181",
+    "notes": ""
+  },
+  {
+    "section": 202,
+    "title": "Offences committed by means of electronic communications, letters, etc.",
+    "chapter": 14,
+    "chapter_name": "Jurisdiction of the Criminal Courts in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": "New for cyber"
+  },
+  {
+    "section": 203,
+    "title": "Offence committed on journey or voyage.",
+    "chapter": 14,
+    "chapter_name": "Jurisdiction of the Criminal Courts in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 204,
+    "title": "Place of trial for offences triable together.",
+    "chapter": 14,
+    "chapter_name": "Jurisdiction of the Criminal Courts in Inquiries and Trials",
+    "crpc_equivalent": "184",
+    "notes": ""
+  },
+  {
+    "section": 205,
+    "title": "Power to order cases to be tried in different sessions divisions.",
+    "chapter": 14,
+    "chapter_name": "Jurisdiction of the Criminal Courts in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 206,
+    "title": "High Court to decide, in case of doubt, district where inquiry or trial shall take place.",
+    "chapter": 14,
+    "chapter_name": "Jurisdiction of the Criminal Courts in Inquiries and Trials",
+    "crpc_equivalent": "186",
+    "notes": ""
+  },
+  {
+    "section": 207,
+    "title": "Power to issue summons or warrant for offence committed beyond local jurisdiction.",
+    "chapter": 14,
+    "chapter_name": "Jurisdiction of the Criminal Courts in Inquiries and Trials",
+    "crpc_equivalent": "187",
+    "notes": ""
+  },
+  {
+    "section": 208,
+    "title": "Offence committed outside India.",
+    "chapter": 14,
+    "chapter_name": "Jurisdiction of the Criminal Courts in Inquiries and Trials",
+    "crpc_equivalent": "188",
+    "notes": ""
+  },
+  {
+    "section": 209,
+    "title": "Receipt of evidence relating to offences committed outside India.",
+    "chapter": 14,
+    "chapter_name": "Jurisdiction of the Criminal Courts in Inquiries and Trials",
+    "crpc_equivalent": "189",
+    "notes": ""
+  },
+  {
+    "section": 210,
+    "title": "Cognizance of offences by Magistrate.",
+    "chapter": 15,
+    "chapter_name": "Conditions Requisite for Initiation of Proceedings",
+    "crpc_equivalent": "190",
+    "notes": ""
+  },
+  {
+    "section": 211,
+    "title": "Transfer on application of accused.",
+    "chapter": 15,
+    "chapter_name": "Conditions Requisite for Initiation of Proceedings",
+    "crpc_equivalent": "191",
+    "notes": ""
+  },
+  {
+    "section": 212,
+    "title": "Making over of cases to Magistrates.",
+    "chapter": 15,
+    "chapter_name": "Conditions Requisite for Initiation of Proceedings",
+    "crpc_equivalent": "192",
+    "notes": ""
+  },
+  {
+    "section": 213,
+    "title": "Cognizance of offences by Court of Session.",
+    "chapter": 15,
+    "chapter_name": "Conditions Requisite for Initiation of Proceedings",
+    "crpc_equivalent": "193",
+    "notes": ""
+  },
+  {
+    "section": 214,
+    "title": "Additional Sessions Judges to try cases made over to them.",
+    "chapter": 15,
+    "chapter_name": "Conditions Requisite for Initiation of Proceedings",
+    "crpc_equivalent": "194",
+    "notes": ""
+  },
+  {
+    "section": 215,
+    "title": "Prosecution for contempt of lawful authority of public servants...",
+    "chapter": 15,
+    "chapter_name": "Conditions Requisite for Initiation of Proceedings",
+    "crpc_equivalent": "195",
+    "notes": ""
+  },
+  {
+    "section": 216,
+    "title": "Procedure for witnesses in case of threatening, etc.",
+    "chapter": 15,
+    "chapter_name": "Conditions Requisite for Initiation of Proceedings",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 217,
+    "title": "Prosecution for offences against State and for criminal conspiracy...",
+    "chapter": 15,
+    "chapter_name": "Conditions Requisite for Initiation of Proceedings",
+    "crpc_equivalent": "196",
+    "notes": ""
+  },
+  {
+    "section": 218,
+    "title": "Prosecution of Judges and public servants.",
+    "chapter": 15,
+    "chapter_name": "Conditions Requisite for Initiation of Proceedings",
+    "crpc_equivalent": "197",
+    "notes": ""
+  },
+  {
+    "section": 219,
+    "title": "Prosecution for offences against marriage.",
+    "chapter": 15,
+    "chapter_name": "Conditions Requisite for Initiation of Proceedings",
+    "crpc_equivalent": "198",
+    "notes": ""
+  },
+  {
+    "section": 220,
+    "title": "Prosecution of offences under section 85 of Bharatiya Nyaya Sanhita, 2023.",
+    "chapter": 15,
+    "chapter_name": "Conditions Requisite for Initiation of Proceedings",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 221,
+    "title": "Cognizance of offence.",
+    "chapter": 15,
+    "chapter_name": "Conditions Requisite for Initiation of Proceedings",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 222,
+    "title": "Prosecution for defamation.",
+    "chapter": 15,
+    "chapter_name": "Conditions Requisite for Initiation of Proceedings",
+    "crpc_equivalent": "199",
+    "notes": ""
+  },
+  {
+    "section": 223,
+    "title": "Examination of complainant.",
+    "chapter": 16,
+    "chapter_name": "Complaints to Magistrates",
+    "crpc_equivalent": "200",
+    "notes": ""
+  },
+  {
+    "section": 224,
+    "title": "Procedure by Magistrate not competent to take cognizance of the case.",
+    "chapter": 16,
+    "chapter_name": "Complaints to Magistrates",
+    "crpc_equivalent": "201",
+    "notes": ""
+  },
+  {
+    "section": 225,
+    "title": "Postponement of issue of process.",
+    "chapter": 16,
+    "chapter_name": "Complaints to Magistrates",
+    "crpc_equivalent": "202",
+    "notes": ""
+  },
+  {
+    "section": 226,
+    "title": "Dismissal of complaint.",
+    "chapter": 16,
+    "chapter_name": "Complaints to Magistrates",
+    "crpc_equivalent": "203",
+    "notes": ""
+  },
+  {
+    "section": 227,
+    "title": "Issue of process.",
+    "chapter": 17,
+    "chapter_name": "Commencement of Proceedings before Magistrates",
+    "crpc_equivalent": "204",
+    "notes": ""
+  },
+  {
+    "section": 228,
+    "title": "Magistrate may dispense with personal attendance of accused.",
+    "chapter": 17,
+    "chapter_name": "Commencement of Proceedings before Magistrates",
+    "crpc_equivalent": "205",
+    "notes": ""
+  },
+  {
+    "section": 229,
+    "title": "Special summons in cases of petty offence.",
+    "chapter": 17,
+    "chapter_name": "Commencement of Proceedings before Magistrates",
+    "crpc_equivalent": "206",
+    "notes": ""
+  },
+  {
+    "section": 230,
+    "title": "Supply to the accused of copy of police report and other documents.",
+    "chapter": 17,
+    "chapter_name": "Commencement of Proceedings before Magistrates",
+    "crpc_equivalent": "207",
+    "notes": ""
+  },
+  {
+    "section": 231,
+    "title": "Supply of copies of statements and documents to accused in other cases triable by Court of Session.",
+    "chapter": 17,
+    "chapter_name": "Commencement of Proceedings before Magistrates",
+    "crpc_equivalent": "208",
+    "notes": ""
+  },
+  {
+    "section": 232,
+    "title": "Commitment of case to Court of Session when offence is triable exclusively by it.",
+    "chapter": 17,
+    "chapter_name": "Commencement of Proceedings before Magistrates",
+    "crpc_equivalent": "209",
+    "notes": ""
+  },
+  {
+    "section": 233,
+    "title": "Procedure to be followed when there is a complaint case and police investigation in respect of the same offence.",
+    "chapter": 17,
+    "chapter_name": "Commencement of Proceedings before Magistrates",
+    "crpc_equivalent": "210",
+    "notes": ""
+  },
+  {
+    "section": 234,
+    "title": "Contents of charge.",
+    "chapter": 18,
+    "chapter_name": "The Charge",
+    "crpc_equivalent": "211",
+    "notes": ""
+  },
+  {
+    "section": 235,
+    "title": "Particulars as to time, place and person.",
+    "chapter": 18,
+    "chapter_name": "The Charge",
+    "crpc_equivalent": "212",
+    "notes": ""
+  },
+  {
+    "section": 236,
+    "title": "When manner of committing offence must be stated.",
+    "chapter": 18,
+    "chapter_name": "The Charge",
+    "crpc_equivalent": "213",
+    "notes": ""
+  },
+  {
+    "section": 237,
+    "title": "Words in charge taken in sense of law under which offence is punishable.",
+    "chapter": 18,
+    "chapter_name": "The Charge",
+    "crpc_equivalent": "214",
+    "notes": ""
+  },
+  {
+    "section": 238,
+    "title": "Effect of errors.",
+    "chapter": 18,
+    "chapter_name": "The Charge",
+    "crpc_equivalent": "215",
+    "notes": ""
+  },
+  {
+    "section": 239,
+    "title": "Court may alter charge.",
+    "chapter": 18,
+    "chapter_name": "The Charge",
+    "crpc_equivalent": "216",
+    "notes": ""
+  },
+  {
+    "section": 240,
+    "title": "Recall of witnesses when charge altered.",
+    "chapter": 18,
+    "chapter_name": "The Charge",
+    "crpc_equivalent": "217",
+    "notes": ""
+  },
+  {
+    "section": 241,
+    "title": "Separate charges for distinct offences.",
+    "chapter": 18,
+    "chapter_name": "The Charge",
+    "crpc_equivalent": "218",
+    "notes": ""
+  },
+  {
+    "section": 242,
+    "title": "Three offences of same kind within year may be charged together.",
+    "chapter": 18,
+    "chapter_name": "The Charge",
+    "crpc_equivalent": "219",
+    "notes": ""
+  },
+  {
+    "section": 243,
+    "title": "Trial for more than one offence.",
+    "chapter": 18,
+    "chapter_name": "The Charge",
+    "crpc_equivalent": "220",
+    "notes": ""
+  },
+  {
+    "section": 244,
+    "title": "Where it is doubtful what offence has been committed.",
+    "chapter": 18,
+    "chapter_name": "The Charge",
+    "crpc_equivalent": "221",
+    "notes": ""
+  },
+  {
+    "section": 245,
+    "title": "When offence proved included in offence charged.",
+    "chapter": 18,
+    "chapter_name": "The Charge",
+    "crpc_equivalent": "222",
+    "notes": ""
+  },
+  {
+    "section": 246,
+    "title": "What persons may be charged jointly.",
+    "chapter": 18,
+    "chapter_name": "The Charge",
+    "crpc_equivalent": "223",
+    "notes": ""
+  },
+  {
+    "section": 247,
+    "title": "Withdrawal of remaining charges on conviction on one of several charges.",
+    "chapter": 18,
+    "chapter_name": "The Charge",
+    "crpc_equivalent": "224",
+    "notes": ""
+  },
+  {
+    "section": 248,
+    "title": "Trial to be conducted by Public Prosecutor.",
+    "chapter": 19,
+    "chapter_name": "Trial before a Court of Session",
+    "crpc_equivalent": "225",
+    "notes": ""
+  },
+  {
+    "section": 249,
+    "title": "Opening case for prosecution.",
+    "chapter": 19,
+    "chapter_name": "Trial before a Court of Session",
+    "crpc_equivalent": "226",
+    "notes": ""
+  },
+  {
+    "section": 250,
+    "title": "Discharge.",
+    "chapter": 19,
+    "chapter_name": "Trial before a Court of Session",
+    "crpc_equivalent": "227",
+    "notes": ""
+  },
+  {
+    "section": 251,
+    "title": "Framing of charge.",
+    "chapter": 19,
+    "chapter_name": "Trial before a Court of Session",
+    "crpc_equivalent": "228",
+    "notes": ""
+  },
+  {
+    "section": 252,
+    "title": "Conviction on plea of guilty.",
+    "chapter": 19,
+    "chapter_name": "Trial before a Court of Session",
+    "crpc_equivalent": "229",
+    "notes": ""
+  },
+  {
+    "section": 253,
+    "title": "Date for prosecution evidence.",
+    "chapter": 19,
+    "chapter_name": "Trial before a Court of Session",
+    "crpc_equivalent": "230",
+    "notes": ""
+  },
+  {
+    "section": 254,
+    "title": "Evidence for prosecution.",
+    "chapter": 19,
+    "chapter_name": "Trial before a Court of Session",
+    "crpc_equivalent": "231",
+    "notes": ""
+  },
+  {
+    "section": 255,
+    "title": "Acquittal.",
+    "chapter": 19,
+    "chapter_name": "Trial before a Court of Session",
+    "crpc_equivalent": "232",
+    "notes": ""
+  },
+  {
+    "section": 256,
+    "title": "Entering upon defence.",
+    "chapter": 19,
+    "chapter_name": "Trial before a Court of Session",
+    "crpc_equivalent": "233",
+    "notes": ""
+  },
+  {
+    "section": 257,
+    "title": "Arguments.",
+    "chapter": 19,
+    "chapter_name": "Trial before a Court of Session",
+    "crpc_equivalent": "234",
+    "notes": ""
+  },
+  {
+    "section": 258,
+    "title": "Judgment of acquittal or conviction.",
+    "chapter": 19,
+    "chapter_name": "Trial before a Court of Session",
+    "crpc_equivalent": "235",
+    "notes": ""
+  },
+  {
+    "section": 259,
+    "title": "Previous conviction.",
+    "chapter": 19,
+    "chapter_name": "Trial before a Court of Session",
+    "crpc_equivalent": "236",
+    "notes": ""
+  },
+  {
+    "section": 260,
+    "title": "Procedure in cases instituted under sub-section (2) of section 222.",
+    "chapter": 19,
+    "chapter_name": "Trial before a Court of Session",
+    "crpc_equivalent": "237",
+    "notes": ""
+  },
+  {
+    "section": 261,
+    "title": "Procedure in warrant-cases.",
+    "chapter": 20,
+    "chapter_name": "Trial of Warrant-cases by Magistrates",
+    "crpc_equivalent": "238",
+    "notes": ""
+  },
+  {
+    "section": 262,
+    "title": "When accused shall be discharged.",
+    "chapter": 20,
+    "chapter_name": "Trial of Warrant-cases by Magistrates",
+    "crpc_equivalent": "239",
+    "notes": ""
+  },
+  {
+    "section": 263,
+    "title": "Framing of charge.",
+    "chapter": 20,
+    "chapter_name": "Trial of Warrant-cases by Magistrates",
+    "crpc_equivalent": "240",
+    "notes": ""
+  },
+  {
+    "section": 264,
+    "title": "Conviction on plea of guilty.",
+    "chapter": 20,
+    "chapter_name": "Trial of Warrant-cases by Magistrates",
+    "crpc_equivalent": "241",
+    "notes": ""
+  },
+  {
+    "section": 265,
+    "title": "Evidence for prosecution.",
+    "chapter": 20,
+    "chapter_name": "Trial of Warrant-cases by Magistrates",
+    "crpc_equivalent": "242",
+    "notes": ""
+  },
+  {
+    "section": 266,
+    "title": "Evidence for defence.",
+    "chapter": 20,
+    "chapter_name": "Trial of Warrant-cases by Magistrates",
+    "crpc_equivalent": "243",
+    "notes": ""
+  },
+  {
+    "section": 267,
+    "title": "Evidence for prosecution in cases instituted otherwise than on police report.",
+    "chapter": 20,
+    "chapter_name": "Trial of Warrant-cases by Magistrates",
+    "crpc_equivalent": "244",
+    "notes": ""
+  },
+  {
+    "section": 268,
+    "title": "Evidence for defence.",
+    "chapter": 20,
+    "chapter_name": "Trial of Warrant-cases by Magistrates",
+    "crpc_equivalent": "245",
+    "notes": ""
+  },
+  {
+    "section": 269,
+    "title": "Compensation for accusation without reasonable cause.",
+    "chapter": 20,
+    "chapter_name": "Trial of Warrant-cases by Magistrates",
+    "crpc_equivalent": "250",
+    "notes": ""
+  },
+  {
+    "section": 270,
+    "title": "Procedure when not convicted.",
+    "chapter": 20,
+    "chapter_name": "Trial of Warrant-cases by Magistrates",
+    "crpc_equivalent": "251",
+    "notes": ""
+  },
+  {
+    "section": 271,
+    "title": "Acquittal or conviction.",
+    "chapter": 20,
+    "chapter_name": "Trial of Warrant-cases by Magistrates",
+    "crpc_equivalent": "252",
+    "notes": ""
+  },
+  {
+    "section": 272,
+    "title": "Absence of complainant.",
+    "chapter": 20,
+    "chapter_name": "Trial of Warrant-cases by Magistrates",
+    "crpc_equivalent": "249",
+    "notes": ""
+  },
+  {
+    "section": 273,
+    "title": "Compensation for accusation without reasonable cause.",
+    "chapter": 20,
+    "chapter_name": "Trial of Warrant-cases by Magistrates",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 274,
+    "title": "Procedure in summons-cases.",
+    "chapter": 21,
+    "chapter_name": "Trial of Summons-cases by Magistrates",
+    "crpc_equivalent": "251",
+    "notes": ""
+  },
+  {
+    "section": 275,
+    "title": "Substance of accusation to be stated.",
+    "chapter": 21,
+    "chapter_name": "Trial of Summons-cases by Magistrates",
+    "crpc_equivalent": "251",
+    "notes": ""
+  },
+  {
+    "section": 276,
+    "title": "Conviction on plea of guilty.",
+    "chapter": 21,
+    "chapter_name": "Trial of Summons-cases by Magistrates",
+    "crpc_equivalent": "252",
+    "notes": ""
+  },
+  {
+    "section": 277,
+    "title": "Conviction on plea of guilty in absence of accused in petty cases.",
+    "chapter": 21,
+    "chapter_name": "Trial of Summons-cases by Magistrates",
+    "crpc_equivalent": "253",
+    "notes": ""
+  },
+  {
+    "section": 278,
+    "title": "Procedure when not convicted.",
+    "chapter": 21,
+    "chapter_name": "Trial of Summons-cases by Magistrates",
+    "crpc_equivalent": "254",
+    "notes": ""
+  },
+  {
+    "section": 279,
+    "title": "Acquittal or conviction.",
+    "chapter": 21,
+    "chapter_name": "Trial of Summons-cases by Magistrates",
+    "crpc_equivalent": "255",
+    "notes": ""
+  },
+  {
+    "section": 280,
+    "title": "Non-appearance or death of complainant.",
+    "chapter": 21,
+    "chapter_name": "Trial of Summons-cases by Magistrates",
+    "crpc_equivalent": "256",
+    "notes": ""
+  },
+  {
+    "section": 281,
+    "title": "Withdrawal of complaint.",
+    "chapter": 21,
+    "chapter_name": "Trial of Summons-cases by Magistrates",
+    "crpc_equivalent": "257",
+    "notes": ""
+  },
+  {
+    "section": 282,
+    "title": "Power to stop proceedings in certain cases.",
+    "chapter": 21,
+    "chapter_name": "Trial of Summons-cases by Magistrates",
+    "crpc_equivalent": "258",
+    "notes": ""
+  },
+  {
+    "section": 283,
+    "title": "Power to try summarily.",
+    "chapter": 22,
+    "chapter_name": "Summary Trials",
+    "crpc_equivalent": "260",
+    "notes": ""
+  },
+  {
+    "section": 284,
+    "title": "Summary trial by Magistrate of the second class.",
+    "chapter": 22,
+    "chapter_name": "Summary Trials",
+    "crpc_equivalent": "261",
+    "notes": ""
+  },
+  {
+    "section": 285,
+    "title": "Procedure for summary trials.",
+    "chapter": 22,
+    "chapter_name": "Summary Trials",
+    "crpc_equivalent": "262",
+    "notes": ""
+  },
+  {
+    "section": 286,
+    "title": "Record in summary trials.",
+    "chapter": 22,
+    "chapter_name": "Summary Trials",
+    "crpc_equivalent": "263",
+    "notes": ""
+  },
+  {
+    "section": 287,
+    "title": "Judgment in cases tried summarily.",
+    "chapter": 22,
+    "chapter_name": "Summary Trials",
+    "crpc_equivalent": "264",
+    "notes": ""
+  },
+  {
+    "section": 288,
+    "title": "Language of record and judgment.",
+    "chapter": 22,
+    "chapter_name": "Summary Trials",
+    "crpc_equivalent": "265",
+    "notes": ""
+  },
+  {
+    "section": 289,
+    "title": "Application for plea bargaining.",
+    "chapter": 23,
+    "chapter_name": "Plea Bargaining",
+    "crpc_equivalent": "265A",
+    "notes": ""
+  },
+  {
+    "section": 290,
+    "title": "Guidelines for mutually satisfactory disposition.",
+    "chapter": 23,
+    "chapter_name": "Plea Bargaining",
+    "crpc_equivalent": "265B",
+    "notes": ""
+  },
+  {
+    "section": 291,
+    "title": "Report of mutually satisfactory disposition to be submitted before Court.",
+    "chapter": 23,
+    "chapter_name": "Plea Bargaining",
+    "crpc_equivalent": "265C",
+    "notes": ""
+  },
+  {
+    "section": 292,
+    "title": "Disposal of the case.",
+    "chapter": 23,
+    "chapter_name": "Plea Bargaining",
+    "crpc_equivalent": "265D",
+    "notes": ""
+  },
+  {
+    "section": 293,
+    "title": "Judgment of the Court.",
+    "chapter": 23,
+    "chapter_name": "Plea Bargaining",
+    "crpc_equivalent": "265E",
+    "notes": ""
+  },
+  {
+    "section": 294,
+    "title": "Finality of the judgment.",
+    "chapter": 23,
+    "chapter_name": "Plea Bargaining",
+    "crpc_equivalent": "265F",
+    "notes": ""
+  },
+  {
+    "section": 295,
+    "title": "Power of the Court in plea bargaining.",
+    "chapter": 23,
+    "chapter_name": "Plea Bargaining",
+    "crpc_equivalent": "265G",
+    "notes": ""
+  },
+  {
+    "section": 296,
+    "title": "Period of detention undergone by the accused to be set off against the sentence of imprisonment.",
+    "chapter": 23,
+    "chapter_name": "Plea Bargaining",
+    "crpc_equivalent": "265H",
+    "notes": ""
+  },
+  {
+    "section": 297,
+    "title": "Savings.",
+    "chapter": 23,
+    "chapter_name": "Plea Bargaining",
+    "crpc_equivalent": "265I",
+    "notes": ""
+  },
+  {
+    "section": 298,
+    "title": "Statements of accused not to be used.",
+    "chapter": 23,
+    "chapter_name": "Plea Bargaining",
+    "crpc_equivalent": "265J",
+    "notes": ""
+  },
+  {
+    "section": 299,
+    "title": "Non-application of Chapter.",
+    "chapter": 23,
+    "chapter_name": "Plea Bargaining",
+    "crpc_equivalent": "265K",
+    "notes": ""
+  },
+  {
+    "section": 300,
+    "title": "Nothing in this Chapter to apply to juvenile.",
+    "chapter": 23,
+    "chapter_name": "Plea Bargaining",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 307,
+    "title": "Evidence to be taken in presence of accused.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "273",
+    "notes": ""
+  },
+  {
+    "section": 308,
+    "title": "Record of evidence in absence of accused.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "299",
+    "notes": ""
+  },
+  {
+    "section": 309,
+    "title": "Record of evidence when accused is absent.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 310,
+    "title": "Interpreter to be bound to interpret truthfully.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 311,
+    "title": "Record of examination of accused.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "281",
+    "notes": ""
+  },
+  {
+    "section": 312,
+    "title": "Interpreter to be used in recording statements and evidence.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 313,
+    "title": "Power to examine the accused.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "313",
+    "notes": ""
+  },
+  {
+    "section": 314,
+    "title": "Oral arguments and memorandum of arguments.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "314",
+    "notes": ""
+  },
+  {
+    "section": 315,
+    "title": "Accused person to be competent witness.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "315",
+    "notes": ""
+  },
+  {
+    "section": 316,
+    "title": "No influence to be used to induce disclosure.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "316",
+    "notes": ""
+  },
+  {
+    "section": 317,
+    "title": "Provision for inquiries and trial being held in the absence of accused in certain cases.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "317",
+    "notes": ""
+  },
+  {
+    "section": 318,
+    "title": "Procedure where accused does not understand proceedings.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "318",
+    "notes": ""
+  },
+  {
+    "section": 319,
+    "title": "Power to proceed against other persons appearing to be guilty of offence.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "319",
+    "notes": ""
+  },
+  {
+    "section": 320,
+    "title": "Power to summon material witness, or examine person present.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "311",
+    "notes": ""
+  },
+  {
+    "section": 321,
+    "title": "Power of Court to order payment of expenses of complainants and witnesses.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 322,
+    "title": "Expenses of complainants and witnesses to be paid by Government.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 323,
+    "title": "Power to take bond for appearance.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 324,
+    "title": "Power of Court to direct security to be taken.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 325,
+    "title": "Power of Court to require attendance of prisoner.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 326,
+    "title": "Power of Court to require attendance of prisoner.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 327,
+    "title": "Language of Courts.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 328,
+    "title": "Evidence to be taken in language of Court.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 329,
+    "title": "Option to give evidence in language understood by accused.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 330,
+    "title": "Record of evidence.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 331,
+    "title": "Record of examination of accused.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 332,
+    "title": "Record of evidence in absence of accused.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 333,
+    "title": "Record of evidence when accused is absent.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 334,
+    "title": "Language of record and judgment.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 335,
+    "title": "Procedure in regard to such evidence when completed.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 336,
+    "title": "Power of High Court to make rules.",
+    "chapter": 25,
+    "chapter_name": "Evidence in Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 337,
+    "title": "Person once convicted or acquitted not to be tried for same offence.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "300",
+    "notes": ""
+  },
+  {
+    "section": 338,
+    "title": "Appearance by pleader.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "301",
+    "notes": ""
+  },
+  {
+    "section": 339,
+    "title": "Permission to conduct prosecution.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "301",
+    "notes": ""
+  },
+  {
+    "section": 340,
+    "title": "Right of person against whom proceedings are instituted to be defended.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "303",
+    "notes": ""
+  },
+  {
+    "section": 341,
+    "title": "Legal aid to accused at State expense in certain cases.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "304",
+    "notes": ""
+  },
+  {
+    "section": 342,
+    "title": "Procedure when corporation or registered society is an accused.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "305",
+    "notes": ""
+  },
+  {
+    "section": 343,
+    "title": "Effect of errors.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 344,
+    "title": "Power to summon material witness or examine person present.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "311",
+    "notes": ""
+  },
+  {
+    "section": 345,
+    "title": "Power to adjourn proceedings.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "309",
+    "notes": ""
+  },
+  {
+    "section": 346,
+    "title": "Local inspection.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "310",
+    "notes": ""
+  },
+  {
+    "section": 347,
+    "title": "Power to summon material witness or examine person present.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "311",
+    "notes": ""
+  },
+  {
+    "section": 348,
+    "title": "Power of Court to order payment of expenses of complainants and witnesses.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "312",
+    "notes": ""
+  },
+  {
+    "section": 349,
+    "title": "Power of Court to direct security to be taken.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 350,
+    "title": "Power of Court to require attendance of prisoner.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 351,
+    "title": "Power to take bond for appearance.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 352,
+    "title": "Power to take bond for appearance.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 353,
+    "title": "Power to direct security to be taken.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 354,
+    "title": "Power to take bond for appearance.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 355,
+    "title": "Power of Court to require attendance of prisoner.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 356,
+    "title": "Power to take bond for appearance.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 357,
+    "title": "Power to take bond for appearance.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 358,
+    "title": "Power of Court to require attendance of prisoner.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 359,
+    "title": "Power to take bond for appearance.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 360,
+    "title": "Power to take bond for appearance.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 361,
+    "title": "Power of Court to require attendance of prisoner.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 362,
+    "title": "Power to take bond for appearance.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 363,
+    "title": "Power to take bond for appearance.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 364,
+    "title": "Power of Court to require attendance of prisoner.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 365,
+    "title": "Power to take bond for appearance.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 366,
+    "title": "Power to take bond for appearance.",
+    "chapter": 26,
+    "chapter_name": "General Provisions as to Inquiries and Trials",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 367,
+    "title": "Procedure in case of accused being lunatic.",
+    "chapter": 27,
+    "chapter_name": "Provisions as to Accused Persons of Unsound Mind",
+    "crpc_equivalent": "328",
+    "notes": ""
+  },
+  {
+    "section": 368,
+    "title": "Procedure in case of person of unsound mind tried before Court.",
+    "chapter": 27,
+    "chapter_name": "Provisions as to Accused Persons of Unsound Mind",
+    "crpc_equivalent": "329",
+    "notes": ""
+  },
+  {
+    "section": 369,
+    "title": "Release of lunatic pending investigation or trial.",
+    "chapter": 27,
+    "chapter_name": "Provisions as to Accused Persons of Unsound Mind",
+    "crpc_equivalent": "330",
+    "notes": ""
+  },
+  {
+    "section": 370,
+    "title": "Resumption of inquiry or trial.",
+    "chapter": 27,
+    "chapter_name": "Provisions as to Accused Persons of Unsound Mind",
+    "crpc_equivalent": "331",
+    "notes": ""
+  },
+  {
+    "section": 371,
+    "title": "Procedure on accused appearing before Magistrate or Court.",
+    "chapter": 27,
+    "chapter_name": "Provisions as to Accused Persons of Unsound Mind",
+    "crpc_equivalent": "332",
+    "notes": ""
+  },
+  {
+    "section": 372,
+    "title": "When accused appears to have been of sound mind.",
+    "chapter": 27,
+    "chapter_name": "Provisions as to Accused Persons of Unsound Mind",
+    "crpc_equivalent": "333",
+    "notes": ""
+  },
+  {
+    "section": 373,
+    "title": "Judgment of acquittal on ground of unsoundness of mind.",
+    "chapter": 27,
+    "chapter_name": "Provisions as to Accused Persons of Unsound Mind",
+    "crpc_equivalent": "334",
+    "notes": ""
+  },
+  {
+    "section": 374,
+    "title": "Person acquitted on such ground to be detained in safe custody.",
+    "chapter": 27,
+    "chapter_name": "Provisions as to Accused Persons of Unsound Mind",
+    "crpc_equivalent": "335",
+    "notes": ""
+  },
+  {
+    "section": 375,
+    "title": "Power of State Government to empower officer in charge to discharge.",
+    "chapter": 27,
+    "chapter_name": "Provisions as to Accused Persons of Unsound Mind",
+    "crpc_equivalent": "336",
+    "notes": ""
+  },
+  {
+    "section": 376,
+    "title": "Procedure where lunatic detained is declared fit to be released.",
+    "chapter": 27,
+    "chapter_name": "Provisions as to Accused Persons of Unsound Mind",
+    "crpc_equivalent": "337",
+    "notes": ""
+  },
+  {
+    "section": 377,
+    "title": "Delivery of lunatic to care of relative or friend.",
+    "chapter": 27,
+    "chapter_name": "Provisions as to Accused Persons of Unsound Mind",
+    "crpc_equivalent": "338",
+    "notes": ""
+  },
+  {
+    "section": 378,
+    "title": "Power to order payment of expenses of complainants and witnesses.",
+    "chapter": 27,
+    "chapter_name": "Provisions as to Accused Persons of Unsound Mind",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 392,
+    "title": "Mode of delivering judgment.",
+    "chapter": 29,
+    "chapter_name": "The Judgment",
+    "crpc_equivalent": "353",
+    "notes": ""
+  },
+  {
+    "section": 393,
+    "title": "Language and contents of judgment.",
+    "chapter": 29,
+    "chapter_name": "The Judgment",
+    "crpc_equivalent": "354",
+    "notes": ""
+  },
+  {
+    "section": 394,
+    "title": "Judgment when to be translated.",
+    "chapter": 29,
+    "chapter_name": "The Judgment",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 395,
+    "title": "Court of Session to send copy of finding and sentence to District Magistrate.",
+    "chapter": 29,
+    "chapter_name": "The Judgment",
+    "crpc_equivalent": "365",
+    "notes": ""
+  },
+  {
+    "section": 396,
+    "title": "Sentence of death to be submitted for confirmation.",
+    "chapter": 29,
+    "chapter_name": "The Judgment",
+    "crpc_equivalent": "366",
+    "notes": ""
+  },
+  {
+    "section": 397,
+    "title": "Power to direct further inquiry to be made or additional evidence to be taken.",
+    "chapter": 29,
+    "chapter_name": "The Judgment",
+    "crpc_equivalent": "367",
+    "notes": ""
+  },
+  {
+    "section": 398,
+    "title": "Power of High Court to confirm sentence or annul conviction.",
+    "chapter": 29,
+    "chapter_name": "The Judgment",
+    "crpc_equivalent": "368",
+    "notes": ""
+  },
+  {
+    "section": 399,
+    "title": "Confirmation or new sentence to be signed by two Judges.",
+    "chapter": 29,
+    "chapter_name": "The Judgment",
+    "crpc_equivalent": "369",
+    "notes": ""
+  },
+  {
+    "section": 400,
+    "title": "Procedure in case of difference of opinion.",
+    "chapter": 29,
+    "chapter_name": "The Judgment",
+    "crpc_equivalent": "370",
+    "notes": ""
+  },
+  {
+    "section": 401,
+    "title": "Procedure in cases submitted to High Court for confirmation.",
+    "chapter": 29,
+    "chapter_name": "The Judgment",
+    "crpc_equivalent": "371",
+    "notes": ""
+  },
+  {
+    "section": 402,
+    "title": "No sentence of death on pregnant woman.",
+    "chapter": 29,
+    "chapter_name": "The Judgment",
+    "crpc_equivalent": "416",
+    "notes": ""
+  },
+  {
+    "section": 403,
+    "title": "Postponement of capital sentence on pregnant woman.",
+    "chapter": 29,
+    "chapter_name": "The Judgment",
+    "crpc_equivalent": "416",
+    "notes": ""
+  },
+  {
+    "section": 404,
+    "title": "Power to commute sentence of death.",
+    "chapter": 29,
+    "chapter_name": "The Judgment",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 405,
+    "title": "Power to commute sentence of imprisonment for life.",
+    "chapter": 29,
+    "chapter_name": "The Judgment",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 406,
+    "title": "Power to commute sentence of imprisonment.",
+    "chapter": 29,
+    "chapter_name": "The Judgment",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 413,
+    "title": "No appeal to lie unless otherwise provided.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "372",
+    "notes": ""
+  },
+  {
+    "section": 414,
+    "title": "Appeal from orders requiring security or refusal to accept or rejecting surety for keeping peace or good behaviour.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "373",
+    "notes": ""
+  },
+  {
+    "section": 415,
+    "title": "Appeal from sentence of Magistrate of the second or third class.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "374",
+    "notes": ""
+  },
+  {
+    "section": 416,
+    "title": "Appeal from sentence of Magistrate of the first class.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 417,
+    "title": "Appeal from sentence of Court of Session.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "374",
+    "notes": ""
+  },
+  {
+    "section": 418,
+    "title": "Appeal from sentence of High Court.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "374",
+    "notes": ""
+  },
+  {
+    "section": 419,
+    "title": "No appeal in certain cases when accused pleads guilty.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "375",
+    "notes": ""
+  },
+  {
+    "section": 420,
+    "title": "No appeal in petty cases.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "376",
+    "notes": ""
+  },
+  {
+    "section": 421,
+    "title": "Appeal by the State Government against sentence.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "377",
+    "notes": ""
+  },
+  {
+    "section": 422,
+    "title": "Appeal in case of acquittal.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "378",
+    "notes": ""
+  },
+  {
+    "section": 423,
+    "title": "Appeal against conviction by High Court in certain cases.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "379",
+    "notes": ""
+  },
+  {
+    "section": 424,
+    "title": "Special right of appeal in certain cases.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "380",
+    "notes": ""
+  },
+  {
+    "section": 425,
+    "title": "Appeal to Court of Session how heard.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "381",
+    "notes": ""
+  },
+  {
+    "section": 426,
+    "title": "Petition of appeal.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "382",
+    "notes": ""
+  },
+  {
+    "section": 427,
+    "title": "Procedure when appellant in jail.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "383",
+    "notes": ""
+  },
+  {
+    "section": 428,
+    "title": "Summary dismissal of appeal.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "384",
+    "notes": ""
+  },
+  {
+    "section": 429,
+    "title": "Procedure for hearing appeals not dismissed summarily.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "385",
+    "notes": ""
+  },
+  {
+    "section": 430,
+    "title": "Powers of the Appellate Court.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "386",
+    "notes": ""
+  },
+  {
+    "section": 431,
+    "title": "Judgments of subordinate Appellate Court.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "387",
+    "notes": ""
+  },
+  {
+    "section": 432,
+    "title": "Order of High Court on appeal to be certified to lower Court.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "388",
+    "notes": ""
+  },
+  {
+    "section": 433,
+    "title": "Suspension of sentence pending the appeal; release of appellant on bail.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "389",
+    "notes": ""
+  },
+  {
+    "section": 434,
+    "title": "Arrest of accused in appeal from acquittal.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "390",
+    "notes": ""
+  },
+  {
+    "section": 435,
+    "title": "Appellate Court may take further evidence or direct it to be taken.",
+    "chapter": 31,
+    "chapter_name": "Appeals",
+    "crpc_equivalent": "391",
+    "notes": ""
+  },
+  {
+    "section": 436,
+    "title": "Reference to High Court.",
+    "chapter": 32,
+    "chapter_name": "Reference and Revision",
+    "crpc_equivalent": "395",
+    "notes": ""
+  },
+  {
+    "section": 437,
+    "title": "Disposal of case according to decision of High Court.",
+    "chapter": 32,
+    "chapter_name": "Reference and Revision",
+    "crpc_equivalent": "396",
+    "notes": ""
+  },
+  {
+    "section": 438,
+    "title": "Calling for records to exercise powers of revision.",
+    "chapter": 32,
+    "chapter_name": "Reference and Revision",
+    "crpc_equivalent": "397",
+    "notes": ""
+  },
+  {
+    "section": 439,
+    "title": "Power to order inquiry.",
+    "chapter": 32,
+    "chapter_name": "Reference and Revision",
+    "crpc_equivalent": "398",
+    "notes": ""
+  },
+  {
+    "section": 440,
+    "title": "Sessions Judge's powers of revision.",
+    "chapter": 32,
+    "chapter_name": "Reference and Revision",
+    "crpc_equivalent": "399",
+    "notes": ""
+  },
+  {
+    "section": 441,
+    "title": "Power of Additional Sessions Judge.",
+    "chapter": 32,
+    "chapter_name": "Reference and Revision",
+    "crpc_equivalent": "400",
+    "notes": ""
+  },
+  {
+    "section": 442,
+    "title": "High Court's powers of revision.",
+    "chapter": 32,
+    "chapter_name": "Reference and Revision",
+    "crpc_equivalent": "401",
+    "notes": ""
+  },
+  {
+    "section": 443,
+    "title": "Power of High Court to withdraw or transfer revision cases.",
+    "chapter": 32,
+    "chapter_name": "Reference and Revision",
+    "crpc_equivalent": "402",
+    "notes": ""
+  },
+  {
+    "section": 444,
+    "title": "Option of Court to hear parties.",
+    "chapter": 32,
+    "chapter_name": "Reference and Revision",
+    "crpc_equivalent": "403",
+    "notes": ""
+  },
+  {
+    "section": 445,
+    "title": "High Court's order to be certified to lower Court.",
+    "chapter": 32,
+    "chapter_name": "Reference and Revision",
+    "crpc_equivalent": "405",
+    "notes": ""
+  },
+  {
+    "section": 446,
+    "title": "Power of Supreme Court to transfer cases and appeals.",
+    "chapter": 33,
+    "chapter_name": "Transfer of Criminal Cases",
+    "crpc_equivalent": "406",
+    "notes": ""
+  },
+  {
+    "section": 447,
+    "title": "Power of High Court to transfer cases and appeals.",
+    "chapter": 33,
+    "chapter_name": "Transfer of Criminal Cases",
+    "crpc_equivalent": "407",
+    "notes": ""
+  },
+  {
+    "section": 448,
+    "title": "Power of Sessions Judge to transfer cases and appeals.",
+    "chapter": 33,
+    "chapter_name": "Transfer of Criminal Cases",
+    "crpc_equivalent": "408",
+    "notes": ""
+  },
+  {
+    "section": 449,
+    "title": "Withdrawal of cases and appeals by Sessions Judge.",
+    "chapter": 33,
+    "chapter_name": "Transfer of Criminal Cases",
+    "crpc_equivalent": "409",
+    "notes": ""
+  },
+  {
+    "section": 450,
+    "title": "Withdrawal of cases by Judicial Magistrates.",
+    "chapter": 33,
+    "chapter_name": "Transfer of Criminal Cases",
+    "crpc_equivalent": "410",
+    "notes": ""
+  },
+  {
+    "section": 451,
+    "title": "Making over or withdrawal of cases by Executive Magistrates.",
+    "chapter": 33,
+    "chapter_name": "Transfer of Criminal Cases",
+    "crpc_equivalent": "411",
+    "notes": ""
+  },
+  {
+    "section": 452,
+    "title": "Reasons to be recorded.",
+    "chapter": 33,
+    "chapter_name": "Transfer of Criminal Cases",
+    "crpc_equivalent": "412",
+    "notes": ""
+  },
+  {
+    "section": 453,
+    "title": "Execution of order passed under section 365.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "413",
+    "notes": ""
+  },
+  {
+    "section": 454,
+    "title": "Postponement of execution of sentence of death on pregnant woman.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "416",
+    "notes": ""
+  },
+  {
+    "section": 455,
+    "title": "Postponement of capital sentence on pregnant woman.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "416",
+    "notes": ""
+  },
+  {
+    "section": 456,
+    "title": "Power to commute sentence of death.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 457,
+    "title": "Execution of sentence of imprisonment.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "418",
+    "notes": ""
+  },
+  {
+    "section": 458,
+    "title": "Direction of warrant for execution.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "419",
+    "notes": ""
+  },
+  {
+    "section": 459,
+    "title": "Warrant with whom to be lodged.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "420",
+    "notes": ""
+  },
+  {
+    "section": 460,
+    "title": "Warrant for levy of fine.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "421",
+    "notes": ""
+  },
+  {
+    "section": 461,
+    "title": "Effect of such warrant.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "422",
+    "notes": ""
+  },
+  {
+    "section": 462,
+    "title": "Warrant for levy of fine issued by a Court in any territory to which this Sanhita does not extend.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "423",
+    "notes": ""
+  },
+  {
+    "section": 463,
+    "title": "Suspension of execution of sentence of imprisonment.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "424",
+    "notes": ""
+  },
+  {
+    "section": 464,
+    "title": "Who may issue warrant.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "425",
+    "notes": ""
+  },
+  {
+    "section": 465,
+    "title": "Sentence on escaped convict when to take effect.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "426",
+    "notes": ""
+  },
+  {
+    "section": 466,
+    "title": "Sentence on offender already sentenced for another offence.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "427",
+    "notes": ""
+  },
+  {
+    "section": 467,
+    "title": "Period of detention undergone by the accused to be set off against the sentence of imprisonment.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "428",
+    "notes": ""
+  },
+  {
+    "section": 468,
+    "title": "Saving.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "429",
+    "notes": ""
+  },
+  {
+    "section": 469,
+    "title": "Return of warrant on execution of sentence.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "430",
+    "notes": ""
+  },
+  {
+    "section": 470,
+    "title": "Money ordered to be paid recoverable as a fine.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "431",
+    "notes": ""
+  },
+  {
+    "section": 471,
+    "title": "Power to suspend or remit sentences.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "432",
+    "notes": ""
+  },
+  {
+    "section": 472,
+    "title": "Power to commute sentence.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "433",
+    "notes": ""
+  },
+  {
+    "section": 473,
+    "title": "Concurrent power of Central Government in case of death sentences.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "434",
+    "notes": ""
+  },
+  {
+    "section": 474,
+    "title": "State Government to act after concurrence with Central Government in certain cases.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "435",
+    "notes": ""
+  },
+  {
+    "section": 475,
+    "title": "Power of Central Government to suspend, remit or commute sentence.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 476,
+    "title": "Restriction on powers of remission or commutation in certain cases.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 477,
+    "title": "Power to commute sentence of imprisonment for life.",
+    "chapter": 34,
+    "chapter_name": "Execution, Suspension, Remission and Commutation of Sentences",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 478,
+    "title": "When bail to be taken.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "436",
+    "notes": ""
+  },
+  {
+    "section": 479,
+    "title": "When bail bond to be executed.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "437",
+    "notes": ""
+  },
+  {
+    "section": 480,
+    "title": "Bond of accused and sureties.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "441",
+    "notes": ""
+  },
+  {
+    "section": 481,
+    "title": "Condition for granting bail to person accused of offence under certain sections of Bharatiya Nyaya Sanhita, 2023.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "437",
+    "notes": ""
+  },
+  {
+    "section": 482,
+    "title": "Maximum period for which undertrial prisoner can be detained.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "436A",
+    "notes": "New timelines"
+  },
+  {
+    "section": 483,
+    "title": "When bail to be granted by High Court or Court of Session.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "439",
+    "notes": ""
+  },
+  {
+    "section": 484,
+    "title": "Direction for grant of bail to person apprehending arrest.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "438",
+    "notes": "Anticipatory bail"
+  },
+  {
+    "section": 485,
+    "title": "Amount of bond and reduction thereof.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "440",
+    "notes": ""
+  },
+  {
+    "section": 486,
+    "title": "Bond of accused and sureties.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "441",
+    "notes": ""
+  },
+  {
+    "section": 487,
+    "title": "Procedure when bond has been forfeited.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "446",
+    "notes": ""
+  },
+  {
+    "section": 488,
+    "title": "Cancellation of bond and bail bond.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "446A",
+    "notes": ""
+  },
+  {
+    "section": 489,
+    "title": "Procedure in case of insolvency or death of surety or when a bond is forfeited.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "447",
+    "notes": ""
+  },
+  {
+    "section": 490,
+    "title": "Bond required from minor.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "448",
+    "notes": ""
+  },
+  {
+    "section": 491,
+    "title": "Appeal from orders under section 446.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "449",
+    "notes": ""
+  },
+  {
+    "section": 492,
+    "title": "Power to direct levy of amount due on certain recognizances.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "450",
+    "notes": ""
+  },
+  {
+    "section": 493,
+    "title": "Punishment for breach of bond for good behaviour.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 494,
+    "title": "Punishment for breach of bond for appearance.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 495,
+    "title": "Procedure when bond taken under this Chapter is forfeited.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 496,
+    "title": "Power to require fresh security.",
+    "chapter": 35,
+    "chapter_name": "Provisions as to Bail and Bonds",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 497,
+    "title": "Order for custody and disposal of property pending trial in certain cases.",
+    "chapter": 36,
+    "chapter_name": "Disposal of Property",
+    "crpc_equivalent": "451",
+    "notes": ""
+  },
+  {
+    "section": 498,
+    "title": "Order for disposal of property at conclusion of trial.",
+    "chapter": 36,
+    "chapter_name": "Disposal of Property",
+    "crpc_equivalent": "452",
+    "notes": ""
+  },
+  {
+    "section": 499,
+    "title": "Payment to innocent purchaser of money found on accused.",
+    "chapter": 36,
+    "chapter_name": "Disposal of Property",
+    "crpc_equivalent": "453",
+    "notes": ""
+  },
+  {
+    "section": 500,
+    "title": "Appeal against orders under section 498 or section 499.",
+    "chapter": 36,
+    "chapter_name": "Disposal of Property",
+    "crpc_equivalent": "454",
+    "notes": ""
+  },
+  {
+    "section": 501,
+    "title": "Destruction of libellous and other matter.",
+    "chapter": 36,
+    "chapter_name": "Disposal of Property",
+    "crpc_equivalent": "455",
+    "notes": ""
+  },
+  {
+    "section": 502,
+    "title": "Power to restore possession of immovable property.",
+    "chapter": 36,
+    "chapter_name": "Disposal of Property",
+    "crpc_equivalent": "456",
+    "notes": ""
+  },
+  {
+    "section": 503,
+    "title": "Procedure by police upon seizure of property.",
+    "chapter": 36,
+    "chapter_name": "Disposal of Property",
+    "crpc_equivalent": "457",
+    "notes": ""
+  },
+  {
+    "section": 504,
+    "title": "Procedure where no claimant appears within six months.",
+    "chapter": 36,
+    "chapter_name": "Disposal of Property",
+    "crpc_equivalent": "458",
+    "notes": ""
+  },
+  {
+    "section": 505,
+    "title": "Power to sell perishable property.",
+    "chapter": 36,
+    "chapter_name": "Disposal of Property",
+    "crpc_equivalent": "459",
+    "notes": ""
+  },
+  {
+    "section": 506,
+    "title": "Irregularities which do not vitiate proceedings.",
+    "chapter": 37,
+    "chapter_name": "Irregular Proceedings",
+    "crpc_equivalent": "460",
+    "notes": ""
+  },
+  {
+    "section": 507,
+    "title": "Irregularities which vitiate proceedings.",
+    "chapter": 37,
+    "chapter_name": "Irregular Proceedings",
+    "crpc_equivalent": "461",
+    "notes": ""
+  },
+  {
+    "section": 508,
+    "title": "Proceedings in wrong place.",
+    "chapter": 37,
+    "chapter_name": "Irregular Proceedings",
+    "crpc_equivalent": "462",
+    "notes": ""
+  },
+  {
+    "section": 509,
+    "title": "Non-compliance with provisions of section 164 or section 281.",
+    "chapter": 37,
+    "chapter_name": "Irregular Proceedings",
+    "crpc_equivalent": "463",
+    "notes": ""
+  },
+  {
+    "section": 510,
+    "title": "Effect of omission to frame, or absence of, or error in, charge.",
+    "chapter": 37,
+    "chapter_name": "Irregular Proceedings",
+    "crpc_equivalent": "464",
+    "notes": ""
+  },
+  {
+    "section": 511,
+    "title": "Finding or sentence when reversible by reason of error, omission or irregularity.",
+    "chapter": 37,
+    "chapter_name": "Irregular Proceedings",
+    "crpc_equivalent": "465",
+    "notes": ""
+  },
+  {
+    "section": 512,
+    "title": "Defect or error not to make attachment unlawful.",
+    "chapter": 37,
+    "chapter_name": "Irregular Proceedings",
+    "crpc_equivalent": "466",
+    "notes": ""
+  },
+  {
+    "section": 513,
+    "title": "Definitions.",
+    "chapter": 38,
+    "chapter_name": "Limitation for Taking Cognizance of Certain Offences",
+    "crpc_equivalent": "467",
+    "notes": ""
+  },
+  {
+    "section": 514,
+    "title": "Bar to taking cognizance after lapse of the period of limitation.",
+    "chapter": 38,
+    "chapter_name": "Limitation for Taking Cognizance of Certain Offences",
+    "crpc_equivalent": "468",
+    "notes": ""
+  },
+  {
+    "section": 515,
+    "title": "Commencement of the period of limitation.",
+    "chapter": 38,
+    "chapter_name": "Limitation for Taking Cognizance of Certain Offences",
+    "crpc_equivalent": "469",
+    "notes": ""
+  },
+  {
+    "section": 516,
+    "title": "Exclusion of time in certain cases.",
+    "chapter": 38,
+    "chapter_name": "Limitation for Taking Cognizance of Certain Offences",
+    "crpc_equivalent": "470",
+    "notes": ""
+  },
+  {
+    "section": 517,
+    "title": "Exclusion of date on which Court is closed.",
+    "chapter": 38,
+    "chapter_name": "Limitation for Taking Cognizance of Certain Offences",
+    "crpc_equivalent": "471",
+    "notes": ""
+  },
+  {
+    "section": 518,
+    "title": "Continuing offence.",
+    "chapter": 38,
+    "chapter_name": "Limitation for Taking Cognizance of Certain Offences",
+    "crpc_equivalent": "472",
+    "notes": ""
+  },
+  {
+    "section": 519,
+    "title": "Extension of period of limitation in certain cases.",
+    "chapter": 38,
+    "chapter_name": "Limitation for Taking Cognizance of Certain Offences",
+    "crpc_equivalent": "473",
+    "notes": ""
+  },
+  {
+    "section": 520,
+    "title": "Trials before High Courts.",
+    "chapter": 39,
+    "chapter_name": "Miscellaneous",
+    "crpc_equivalent": "474",
+    "notes": ""
+  },
+  {
+    "section": 521,
+    "title": "Delivery to commanding officers of persons liable to be tried by Court-martial.",
+    "chapter": 39,
+    "chapter_name": "Miscellaneous",
+    "crpc_equivalent": "475",
+    "notes": ""
+  },
+  {
+    "section": 522,
+    "title": "Forms.",
+    "chapter": 39,
+    "chapter_name": "Miscellaneous",
+    "crpc_equivalent": "476",
+    "notes": ""
+  },
+  {
+    "section": 523,
+    "title": "Power of High Court to make rules.",
+    "chapter": 39,
+    "chapter_name": "Miscellaneous",
+    "crpc_equivalent": "477",
+    "notes": ""
+  },
+  {
+    "section": 524,
+    "title": "Power to alter functions allocated to Executive Magistrates in certain cases.",
+    "chapter": 39,
+    "chapter_name": "Miscellaneous",
+    "crpc_equivalent": "—",
+    "notes": ""
+  },
+  {
+    "section": 525,
+    "title": "Case in which Judge or Magistrate is personally interested.",
+    "chapter": 39,
+    "chapter_name": "Miscellaneous",
+    "crpc_equivalent": "479",
+    "notes": ""
+  },
+  {
+    "section": 526,
+    "title": "Practising pleader not to sit as Magistrate in certain Courts.",
+    "chapter": 39,
+    "chapter_name": "Miscellaneous",
+    "crpc_equivalent": "480",
+    "notes": ""
+  },
+  {
+    "section": 527,
+    "title": "Public servant concerned in sale not to purchase or bid for property.",
+    "chapter": 39,
+    "chapter_name": "Miscellaneous",
+    "crpc_equivalent": "481",
+    "notes": ""
+  },
+  {
+    "section": 528,
+    "title": "Saving of inherent powers of High Court.",
+    "chapter": 39,
+    "chapter_name": "Miscellaneous",
+    "crpc_equivalent": "482",
+    "notes": ""
+  },
+  {
+    "section": 529,
+    "title": "Duty of High Court to exercise continuous superintendence over Courts of Judicial Magistrates.",
+    "chapter": 39,
+    "chapter_name": "Miscellaneous",
+    "crpc_equivalent": "483",
+    "notes": ""
+  },
+  {
+    "section": 530,
+    "title": "Trial and proceedings to be held in electronic mode.",
+    "chapter": 39,
+    "chapter_name": "Miscellaneous",
+    "crpc_equivalent": "—",
+    "notes": "Major reform"
+  },
+  {
+    "section": 531,
+    "title": "Repeal and savings.",
+    "chapter": 39,
+    "chapter_name": "Miscellaneous",
+    "crpc_equivalent": "484",
+    "notes": ""
+  }
+]

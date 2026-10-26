@@ -1,0 +1,17 @@
+# LegalAI
+.env
+*.pyc
+__pycache__/
+*.db
+node_modules/
+dist/
+build/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+*.log
+uploads/*
+!uploads/.gitkeep
+vector_db/*
+!vector_db/.gitkeep

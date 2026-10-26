@@ -1,0 +1,877 @@
+[
+  {
+    "section": 1,
+    "title": "Short title, extent, commencement and application.",
+    "chapter": 1,
+    "chapter_name": "Preliminary",
+    "notes": ""
+  },
+  {
+    "section": 2,
+    "title": "Definitions.",
+    "chapter": 1,
+    "chapter_name": "Preliminary",
+    "notes": "Includes 'computer', 'electronic record', 'intermediary', 'cyber cafe', etc."
+  },
+  {
+    "section": 3,
+    "title": "Authentication of electronic records.",
+    "chapter": 2,
+    "chapter_name": "Digital Signature and Electronic Signature",
+    "notes": ""
+  },
+  {
+    "section": 3.5,
+    "title": "Electronic signature.",
+    "chapter": 2,
+    "chapter_name": "Digital Signature and Electronic Signature",
+    "notes": "Inserted by 2008 Amendment (technology neutral)"
+  },
+  {
+    "section": 4,
+    "title": "Legal recognition of electronic records.",
+    "chapter": 3,
+    "chapter_name": "Electronic Governance",
+    "notes": ""
+  },
+  {
+    "section": 5,
+    "title": "Legal recognition of electronic signatures.",
+    "chapter": 3,
+    "chapter_name": "Electronic Governance",
+    "notes": ""
+  },
+  {
+    "section": 6,
+    "title": "Use of electronic records and electronic signatures in Government and its agencies.",
+    "chapter": 3,
+    "chapter_name": "Electronic Governance",
+    "notes": ""
+  },
+  {
+    "section": 6.5,
+    "title": "Delivery of services by service provider.",
+    "chapter": 3,
+    "chapter_name": "Electronic Governance",
+    "notes": "Inserted later"
+  },
+  {
+    "section": 7,
+    "title": "Retention of electronic records.",
+    "chapter": 3,
+    "chapter_name": "Electronic Governance",
+    "notes": ""
+  },
+  {
+    "section": 7.5,
+    "title": "Audit of documents, etc., maintained in electronic form.",
+    "chapter": 3,
+    "chapter_name": "Electronic Governance",
+    "notes": ""
+  },
+  {
+    "section": 8,
+    "title": "Publication of rule, regulation, etc., in Electronic Gazette.",
+    "chapter": 3,
+    "chapter_name": "Electronic Governance",
+    "notes": ""
+  },
+  {
+    "section": 9,
+    "title": "Sections 6, 7 and 8 not to confer right to insist document should be accepted in electronic form.",
+    "chapter": 3,
+    "chapter_name": "Electronic Governance",
+    "notes": ""
+  },
+  {
+    "section": 10,
+    "title": "Power to make rules by Central Government in respect of electronic signature.",
+    "chapter": 3,
+    "chapter_name": "Electronic Governance",
+    "notes": ""
+  },
+  {
+    "section": 10.5,
+    "title": "Validity of contracts formed through electronic means.",
+    "chapter": 3,
+    "chapter_name": "Electronic Governance",
+    "notes": "Inserted by 2008 Amendment"
+  },
+  {
+    "section": 11,
+    "title": "Attribution of electronic records.",
+    "chapter": 4,
+    "chapter_name": "Attribution, Acknowledgement and Dispatch of Electronic Records",
+    "notes": ""
+  },
+  {
+    "section": 12,
+    "title": "Acknowledgement of receipt.",
+    "chapter": 4,
+    "chapter_name": "Attribution, Acknowledgement and Dispatch of Electronic Records",
+    "notes": ""
+  },
+  {
+    "section": 13,
+    "title": "Time and place of despatch and receipt of electronic record.",
+    "chapter": 4,
+    "chapter_name": "Attribution, Acknowledgement and Dispatch of Electronic Records",
+    "notes": ""
+  },
+  {
+    "section": 14,
+    "title": "Secure electronic record.",
+    "chapter": 5,
+    "chapter_name": "Secure Electronic Records and Secure Electronic Signatures",
+    "notes": ""
+  },
+  {
+    "section": 15,
+    "title": "Secure electronic signature.",
+    "chapter": 5,
+    "chapter_name": "Secure Electronic Records and Secure Electronic Signatures",
+    "notes": ""
+  },
+  {
+    "section": 16,
+    "title": "Security procedures and practices.",
+    "chapter": 5,
+    "chapter_name": "Secure Electronic Records and Secure Electronic Signatures",
+    "notes": ""
+  },
+  {
+    "section": 17,
+    "title": "Appointment of Controller and other officers.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 18,
+    "title": "Functions of Controller.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 19,
+    "title": "Recognition of foreign Certifying Authorities.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 20,
+    "title": "[Omitted].",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": "Controller to act as repository - Omitted"
+  },
+  {
+    "section": 21,
+    "title": "Licence to issue electronic signature Certificates.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 22,
+    "title": "Application for licence.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 23,
+    "title": "Renewal of licence.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 24,
+    "title": "Procedure for grant or rejection of licence.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 25,
+    "title": "Suspension of licence.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 26,
+    "title": "Notice of suspension or revocation of licence.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 27,
+    "title": "Power to delegate.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 28,
+    "title": "Power to investigate contraventions.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 29,
+    "title": "Access to computers and data.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 30,
+    "title": "Certifying Authority to follow certain procedures.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 31,
+    "title": "Certifying Authority to ensure compliance of the Act, etc.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 32,
+    "title": "Display of licence.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 33,
+    "title": "Surrender of licence.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 34,
+    "title": "Disclosure.",
+    "chapter": 6,
+    "chapter_name": "Regulation of Certifying Authorities",
+    "notes": ""
+  },
+  {
+    "section": 35,
+    "title": "Certifying authority to issue electronic signature Certificate.",
+    "chapter": 7,
+    "chapter_name": "Electronic Signature Certificates",
+    "notes": ""
+  },
+  {
+    "section": 36,
+    "title": "Representations upon issuance of Digital signature Certificate.",
+    "chapter": 7,
+    "chapter_name": "Electronic Signature Certificates",
+    "notes": ""
+  },
+  {
+    "section": 37,
+    "title": "Suspension of Digital Signature Certificate.",
+    "chapter": 7,
+    "chapter_name": "Electronic Signature Certificates",
+    "notes": ""
+  },
+  {
+    "section": 38,
+    "title": "Revocation of Digital Signature Certificate.",
+    "chapter": 7,
+    "chapter_name": "Electronic Signature Certificates",
+    "notes": ""
+  },
+  {
+    "section": 39,
+    "title": "Notice of suspension or revocation.",
+    "chapter": 7,
+    "chapter_name": "Electronic Signature Certificates",
+    "notes": ""
+  },
+  {
+    "section": 40,
+    "title": "Generating key pair.",
+    "chapter": 8,
+    "chapter_name": "Duties of Subscribers",
+    "notes": ""
+  },
+  {
+    "section": 40.5,
+    "title": "Duties of subscriber of Electronic Signature Certificate.",
+    "chapter": 8,
+    "chapter_name": "Duties of Subscribers",
+    "notes": ""
+  },
+  {
+    "section": 41,
+    "title": "Acceptance of Digital Signature Certificate.",
+    "chapter": 8,
+    "chapter_name": "Duties of Subscribers",
+    "notes": ""
+  },
+  {
+    "section": 42,
+    "title": "Control of private key.",
+    "chapter": 8,
+    "chapter_name": "Duties of Subscribers",
+    "notes": ""
+  },
+  {
+    "section": 43,
+    "title": "Penalty and compensation for damage to computer, computer system, etc.",
+    "chapter": 9,
+    "chapter_name": "Penalties, Compensation and Adjudication",
+    "notes": "Hacking, data damage etc."
+  },
+  {
+    "section": 43.5,
+    "title": "Compensation for failure to protect data.",
+    "chapter": 9,
+    "chapter_name": "Penalties, Compensation and Adjudication",
+    "notes": "Data protection provision (2008)"
+  },
+  {
+    "section": 44,
+    "title": "Penalty for failure to furnish information, return, etc.",
+    "chapter": 9,
+    "chapter_name": "Penalties, Compensation and Adjudication",
+    "notes": ""
+  },
+  {
+    "section": 45,
+    "title": "Residuary penalty.",
+    "chapter": 9,
+    "chapter_name": "Penalties, Compensation and Adjudication",
+    "notes": ""
+  },
+  {
+    "section": 46,
+    "title": "Power to adjudicate.",
+    "chapter": 9,
+    "chapter_name": "Penalties, Compensation and Adjudication",
+    "notes": ""
+  },
+  {
+    "section": 47,
+    "title": "Factors to be taken into account by the adjudicating officer.",
+    "chapter": 9,
+    "chapter_name": "Penalties, Compensation and Adjudication",
+    "notes": ""
+  },
+  {
+    "section": 48,
+    "title": "Appellate Tribunal.",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": "Replaces Cyber Regulations Appellate Tribunal"
+  },
+  {
+    "section": 49,
+    "title": "[Omitted].",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 50,
+    "title": "[Omitted].",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 51,
+    "title": "[Omitted].",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 52,
+    "title": "[Omitted].",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 52.5,
+    "title": "[Omitted].",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 52.6,
+    "title": "[Omitted].",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 52.7,
+    "title": "[Omitted].",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 52.8,
+    "title": "Decision by majority.",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 53,
+    "title": "[Omitted].",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 54,
+    "title": "[Omitted].",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 55,
+    "title": "Orders constituting Appellate Tribunal to be final and not to invalidate its proceedings.",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 56,
+    "title": "[Omitted].",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 57,
+    "title": "Appeal to Appellate Tribunal.",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 58,
+    "title": "Procedure and powers of the Appellate Tribunal.",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 59,
+    "title": "Right to legal representation.",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 60,
+    "title": "Limitation.",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 61,
+    "title": "Civil court not to have jurisdiction.",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 62,
+    "title": "Appeal to High Court.",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 63,
+    "title": "Compounding of contraventions.",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 64,
+    "title": "Recovery of penalty or compensation.",
+    "chapter": 10,
+    "chapter_name": "The Cyber Appellate Tribunal",
+    "notes": ""
+  },
+  {
+    "section": 65,
+    "title": "Tampering with computer source documents.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment up to 3 years or fine up to Rs.2 lakh or both"
+  },
+  {
+    "section": 66,
+    "title": "Computer related offences.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Hacking etc. - Imprisonment up to 3 years or fine up to Rs.5 lakh or both"
+  },
+  {
+    "section": 66.1,
+    "title": "Omitted.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Struck down by Supreme Court in Shreya Singhal case (2015)"
+  },
+  {
+    "section": 66.2,
+    "title": "Punishment for dishonestly receiving stolen computer resource or communication device.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment up to 3 years or fine up to Rs.1 lakh or both"
+  },
+  {
+    "section": 66.3,
+    "title": "Punishment for identity theft.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment up to 3 years or fine up to Rs.1 lakh or both"
+  },
+  {
+    "section": 66.4,
+    "title": "Punishment for cheating by personation by using computer resource.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment up to 3 years or fine up to Rs.1 lakh or both"
+  },
+  {
+    "section": 66.5,
+    "title": "Punishment for violation of privacy.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment up to 3 years or fine up to Rs.2 lakh or both"
+  },
+  {
+    "section": 66.6,
+    "title": "Punishment for cyber terrorism.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment for life"
+  },
+  {
+    "section": 67,
+    "title": "Punishment for publishing or transmitting obscene material in electronic form.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment up to 5 years + fine up to Rs.10 lakh (first conviction)"
+  },
+  {
+    "section": 67.1,
+    "title": "Punishment for publishing or transmitting of material containing sexually explicit act, etc., in electronic form.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment up to 7 years + fine up to Rs.10 lakh"
+  },
+  {
+    "section": 67.2,
+    "title": "Punishment for publishing or transmitting of material depicting children in sexually explicit act, etc., in electronic form.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment up to 7 years + fine up to Rs.10 lakh"
+  },
+  {
+    "section": 67.3,
+    "title": "Preservation and retention of information by intermediaries.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Fine up to Rs.25 lakh"
+  },
+  {
+    "section": 68,
+    "title": "Power of Controller to give directions.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Fine up to Rs.25 lakh"
+  },
+  {
+    "section": 69,
+    "title": "Power to issue directions for interception or monitoring or decryption of any information through any computer resource.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment up to 7 years + fine"
+  },
+  {
+    "section": 69.1,
+    "title": "Power to issue directions for blocking for public access of any information through any computer resource.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment up to 7 years + fine"
+  },
+  {
+    "section": 69.2,
+    "title": "Power to authorise to monitor and collect traffic data or information through any computer resource for cyber security.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment up to 1 year or fine up to Rs.1 crore"
+  },
+  {
+    "section": 70,
+    "title": "Protected system.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment up to 10 years + fine"
+  },
+  {
+    "section": 70.1,
+    "title": "National nodal agency.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": ""
+  },
+  {
+    "section": 70.2,
+    "title": "Indian Computer Emergency Response Team to serve as national agency for incident response.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "CERT-In"
+  },
+  {
+    "section": 71,
+    "title": "Penalty for misrepresentation.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment up to 2 years or fine up to Rs.1 lakh or both"
+  },
+  {
+    "section": 72,
+    "title": "Penalty for Breach of confidentiality and privacy.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Fine up to Rs.5 lakh"
+  },
+  {
+    "section": 72.1,
+    "title": "Punishment for disclosure of information in breach of lawful contract.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Fine up to Rs.25 lakh"
+  },
+  {
+    "section": 73,
+    "title": "Penalty for publishing electronic signature Certificate false in certain particulars.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment up to 2 years or fine up to Rs.1 lakh or both"
+  },
+  {
+    "section": 74,
+    "title": "Publication for fraudulent purpose.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Imprisonment up to 2 years or fine up to Rs.1 lakh or both"
+  },
+  {
+    "section": 75,
+    "title": "Act to apply for offence or contravention committed outside India.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": "Extra-territorial jurisdiction"
+  },
+  {
+    "section": 76,
+    "title": "Confiscation.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": ""
+  },
+  {
+    "section": 77,
+    "title": "Compensation, penalties or confiscation not to interfere with other punishment.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": ""
+  },
+  {
+    "section": 77.1,
+    "title": "Compounding of offences.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": ""
+  },
+  {
+    "section": 77.2,
+    "title": "Offences with three years imprisonment to be bailable.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": ""
+  },
+  {
+    "section": 78,
+    "title": "Power to investigate offences.",
+    "chapter": 11,
+    "chapter_name": "Offences",
+    "notes": ""
+  },
+  {
+    "section": 79,
+    "title": "Exemption from liability of intermediary in certain cases.",
+    "chapter": 12,
+    "chapter_name": "Intermediaries Not to be Liable in Certain Cases",
+    "notes": "Safe harbour provision (due diligence required)"
+  },
+  {
+    "section": 79.5,
+    "title": "Central Government to notify Examiner of Electronic Evidence.",
+    "chapter": 12,
+    "chapter_name": "Intermediaries Not to be Liable in Certain Cases",
+    "notes": ""
+  },
+  {
+    "section": 80,
+    "title": "Power of police officer and other officers to enter, search, etc.",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 81,
+    "title": "Act to have overriding effect.",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 81.1,
+    "title": "Application of the Act to electronic cheque and truncated cheque.",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 82,
+    "title": "Controller, Deputy Controller and Assistant Controller to be public servants.",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 83,
+    "title": "Power to give directions.",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 84,
+    "title": "Protection of action taken in good faith.",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 84.1,
+    "title": "Modes or methods for encryption.",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 84.2,
+    "title": "Punishment for abetment of offences.",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 84.3,
+    "title": "Punishment for attempt to commit offences.",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 85,
+    "title": "Offences by companies.",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 86,
+    "title": "Removal of difficulties.",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 87,
+    "title": "Power of Central Government to make rules.",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 88,
+    "title": "Constitution of Advisory Committee.",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 89,
+    "title": "Power of Controller to make regulations.",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 90,
+    "title": "Power of State Government to make rules.",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 91,
+    "title": "Amendment of Act 45 of 1860 (Indian Penal Code).",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": "Added cyber provisions to IPC"
+  },
+  {
+    "section": 92,
+    "title": "Amendment of Act 1 of 1872 (Indian Evidence Act).",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 93,
+    "title": "Amendment of Act 18 of 1891 (Bankers' Books Evidence Act).",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  },
+  {
+    "section": 94,
+    "title": "Amendment of Act 2 of 1934 (Reserve Bank of India Act).",
+    "chapter": 13,
+    "chapter_name": "Miscellaneous",
+    "notes": ""
+  }
+]
