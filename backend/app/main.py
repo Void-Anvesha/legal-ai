@@ -6,7 +6,7 @@ from fastapi.staticfiles import StaticFiles
 from loguru import logger
 
 from .core.config import settings
-from .api import upload, summary, sections, chat, cases, intake, hitl, voice, conversation
+from .api import upload, summary, sections, chat, cases, intake, hitl, voice, conversation, vapi
 
 
 @asynccontextmanager
@@ -50,6 +50,7 @@ app.include_router(conversation.router, prefix=settings.API_PREFIX)
 app.include_router(hitl.router, prefix=settings.API_PREFIX)
 app.include_router(hitl.officer_router, prefix=settings.API_PREFIX)
 app.include_router(voice.router, prefix=settings.API_PREFIX)
+app.include_router(vapi.router, prefix=settings.API_PREFIX)
 
 
 @app.get("/")

@@ -1,17 +1,22 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
-  AlertTriangle, CheckCircle2, FileText, Loader2, Mic, MicOff, Send,
+  AlertTriangle, CheckCircle2, FileText, Loader2, Mic, MicOff, Phone, PhoneOff, Send,
   ShieldAlert, Upload, UserCheck
 } from 'lucide-react'
+import Vapi from '@vapi-ai/web'
 import {
   completeIntakeSession,
   createIntakeSession,
+  getVapiConfig,
   sendIntakeMessage,
+  sendVapiTranscript,
   uploadIntakeAudio,
   type CaseFile,
   type ConversationMessage,
   type IntakeSession,
+  type AddIntakeMessageResponse,
+  type VapiConfig,
 } from '../services/api'
 
 type SpeechRecognitionCtor = new () => {
@@ -24,6 +29,62 @@ type SpeechRecognitionCtor = new () => {
   onend: (() => void) | null
 }
 
+type VapiTranscriptMessage = {
+  type?: string
+  role?: string
+  transcript?: string
+  transcriptType?: string
+}
+
+type VapiClient = {
+  start: (assistantId: string, overrides?: Record<string, unknown>) => Promise<unknown>
+  stop: () => void
+  say?: (message: string, endCallAfterSpoken?: boolean) => void
+  send?: (message: VapiClientMessage) => void
+  on: (event: string, callback: (...args: unknown[]) => void) => void
+}
+
+type VapiClientMessage =
+  | {
+      type: 'add-message'
+      message: {
+        role: 'system'
+        content: string
+      }
+      triggerResponseEnabled: false
+    }
+  | {
+      type: 'control'
+      control: 'mute-assistant' | 'unmute-assistant'
+    }
+
+const VAPI_LANGUAGE_PROMPTS = {
+  'hi-IN': {
+    firstMessage:
+      'नमस्ते। मैं बोलना एआई हूँ। मैं आपकी शिकायत पुलिस समीक्षा के लिए रिकॉर्ड करने में मदद करूँगा। कृपया अपने शब्दों में बताइए कि क्या हुआ।',
+    instruction:
+      'The selected language is Hindi. Vapi must not generate its own conversational replies. The BolnaAI backend controls every spoken response. Only transcribe the user and stay silent unless the client explicitly calls say(). When say() is called, speak only the provided Hindi text using Devanagari pronunciation and a natural Indian Hindi accent. Never repeat the same sentence in English.',
+  },
+  'en-IN': {
+    firstMessage:
+      'Hello. I am BolnaAI. I can help record your complaint for police review. Please tell me what happened in your own words.',
+    instruction:
+      'The selected language is English. Vapi must not generate its own conversational replies. The BolnaAI backend controls every spoken response. Only transcribe the user and stay silent unless the client explicitly calls say().',
+  },
+} as const
+
+const HINDI_FOLLOW_UPS: Record<string, string> = {
+  'Please describe what happened in a little more detail.': 'कृपया थोड़ा और विस्तार से बताइए कि क्या हुआ।',
+  'When did the incident happen?': 'यह घटना कब हुई?',
+  'At what time did the incident happen?': 'यह घटना किस समय हुई?',
+  'Where exactly did the incident happen?': 'यह घटना ठीक किस जगह हुई?',
+  'Do you know who was involved or can you describe the suspect?': 'क्या आप जानते हैं कि इसमें कौन शामिल था, या आप संदिग्ध व्यक्ति का वर्णन कर सकते हैं?',
+  'Do you have any evidence such as photos, videos, screenshots, documents, or witnesses?':
+    'क्या आपके पास कोई सबूत है, जैसे फोटो, वीडियो, स्क्रीनशॉट, दस्तावेज़ या गवाह?',
+  'This may need immediate attention. Are you currently safe, and do you need urgent police or medical help?':
+    'इसमें तुरंत ध्यान देने की ज़रूरत हो सकती है। क्या आप अभी सुरक्षित हैं, और क्या आपको तुरंत पुलिस या मेडिकल मदद चाहिए?',
+}
+
 export default function Intake() {
   const [language, setLanguage] = useState('en-IN')
   const [session, setSession] = useState<IntakeSession | null>(null)
@@ -32,12 +93,39 @@ export default function Intake() {
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
   const [recording, setRecording] = useState(false)
+  const [vapiConfig, setVapiConfig] = useState<VapiConfig | null>(null)
+  const [vapiConnecting, setVapiConnecting] = useState(false)
+  const [vapiActive, setVapiActive] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const sessionRef = useRef<IntakeSession | null>(null)
+  const vapiRef = useRef<VapiClient | null>(null)
+  const seenVapiTranscripts = useRef<Set<string>>(new Set())
 
   const canComplete = useMemo(() => {
     if (!caseFile) return false
     return caseFile.facts.description.length > 60 && Boolean(caseFile.facts.location)
   }, [caseFile])
+
+  useEffect(() => {
+    sessionRef.current = session
+  }, [session])
+
+  useEffect(() => {
+    getVapiConfig()
+      .then((config) => setVapiConfig(withFrontendVapiFallback(config)))
+      .catch(() => setVapiConfig(withFrontendVapiFallback({ enabled: false, public_key: null, assistant_id: null })))
+  }, [])
+
+  const applyIntakeResponse = (response: AddIntakeMessageResponse) => {
+    setSession(response.session)
+    setCaseFile(response.case_file)
+    setMessages((current) => [
+      ...current,
+      response.message,
+      ...(response.agent_message ? [response.agent_message] : []),
+    ])
+    return response.agent_message
+  }
 
   const startSession = async () => {
     setLoading(true)
@@ -60,13 +148,7 @@ export default function Intake() {
     setError(null)
     try {
       const response = await sendIntakeMessage(session.session_id, input.trim(), source)
-      setSession(response.session)
-      setCaseFile(response.case_file)
-      setMessages((current) => [
-        ...current,
-        response.message,
-        ...(response.agent_message ? [response.agent_message] : []),
-      ])
+      applyIntakeResponse(response)
       setInput('')
     } catch {
       setError('Could not process the statement.')
@@ -119,18 +201,143 @@ export default function Intake() {
     setError(null)
     try {
       const response = await uploadIntakeAudio(session.session_id, file, language)
-      setSession(response.session)
-      setCaseFile(response.case_file)
-      setMessages((current) => [
-        ...current,
-        response.message,
-        ...(response.agent_message ? [response.agent_message] : []),
-      ])
+      applyIntakeResponse(response)
     } catch {
       setError('Could not upload or process the audio.')
     } finally {
       setLoading(false)
     }
+  }
+
+  const ensureVapiClient = () => {
+    if (vapiRef.current || !vapiConfig?.public_key) return vapiRef.current
+
+    const client = new Vapi(vapiConfig.public_key) as VapiClient
+    client.on('call-start', () => {
+      setVapiActive(true)
+      setVapiConnecting(false)
+      setError(null)
+    })
+    client.on('call-end', () => {
+      setVapiActive(false)
+      setVapiConnecting(false)
+    })
+    client.on('error', (event) => {
+      setVapiActive(false)
+      setVapiConnecting(false)
+      setError(event instanceof Error ? event.message : 'Vapi call failed. Please check microphone permissions and Vapi setup.')
+    })
+    client.on('message', (event) => {
+      void handleVapiMessage(event as VapiTranscriptMessage)
+    })
+    vapiRef.current = client
+    return client
+  }
+
+  const handleVapiMessage = async (message: VapiTranscriptMessage) => {
+    const activeSession = sessionRef.current
+    const transcript = message.transcript?.trim()
+    const transcriptType = message.transcriptType?.toLowerCase()
+
+    if (!activeSession || message.type !== 'transcript' || message.role !== 'user' || !transcript || transcriptType === 'partial') {
+      return
+    }
+
+    const key = `${activeSession.session_id}:${transcript}`
+    if (seenVapiTranscripts.current.has(key)) return
+    seenVapiTranscripts.current.add(key)
+
+    try {
+      const response = await sendVapiTranscript(activeSession.session_id, transcript, 'user')
+      if (response.processed && response.intake) {
+        const agentMessage = applyIntakeResponse(response.intake)
+        if (agentMessage?.content && vapiRef.current?.say) {
+          vapiRef.current.say(toSpokenLanguage(agentMessage.content, language), false)
+        }
+      }
+    } catch {
+      setError('Vapi transcript was captured, but BolnaAI could not process it.')
+    }
+  }
+
+  const startVapiCall = async () => {
+    if (!session) {
+      setError('Start an intake session before opening a Vapi call.')
+      return
+    }
+    if (!vapiConfig?.enabled || !vapiConfig.public_key || !vapiConfig.assistant_id) {
+      setError('Vapi is not configured. Add VITE_VAPI_PUBLIC_KEY/VITE_VAPI_ASSISTANT_ID or backend VAPI_PUBLIC_KEY/VAPI_ASSISTANT_ID.')
+      return
+    }
+
+    const client = ensureVapiClient()
+    if (!client) return
+
+    setVapiConnecting(true)
+    setError(null)
+    try {
+      const languagePrompt = getVapiLanguagePrompt(language)
+      await client.start(vapiConfig.assistant_id, {
+        firstMessage: '',
+        firstMessageMode: 'assistant-waits-for-user',
+        firstMessageInterruptionsEnabled: false,
+        startSpeakingPlan: {
+          waitSeconds: language === 'hi-IN' ? 2.2 : 1.3,
+          smartEndpointingEnabled: false,
+          transcriptionEndpointingPlan: {
+            onPunctuationSeconds: language === 'hi-IN' ? 1.2 : 0.6,
+            onNoPunctuationSeconds: language === 'hi-IN' ? 2.8 : 1.8,
+            onNumberSeconds: 2.8,
+          },
+          customEndpointingRules: [
+            {
+              type: 'customer',
+              regex: '.+',
+              timeoutSeconds: language === 'hi-IN' ? 2.8 : 1.8,
+            },
+          ],
+        },
+        stopSpeakingPlan: {
+          numWords: 3,
+          voiceSeconds: 0.4,
+          backoffSeconds: 2,
+        },
+        variableValues: {
+          sessionId: session.session_id,
+          language,
+          languageInstruction: languagePrompt.instruction,
+        },
+        metadata: {
+          sessionId: session.session_id,
+          language,
+        },
+        recordingEnabled: false,
+      })
+      client.send?.({
+        type: 'add-message',
+        message: {
+          role: 'system',
+          content: languagePrompt.instruction,
+        },
+        triggerResponseEnabled: false,
+      })
+      client.send?.({
+        type: 'control',
+        control: 'mute-assistant',
+      })
+      if (client.say) {
+        client.say(languagePrompt.firstMessage, false)
+      }
+    } catch {
+      setVapiConnecting(false)
+      setError('Could not start the Vapi call. Check your Vapi keys, assistant ID, and microphone permissions.')
+    }
+  }
+
+  const stopVapiCall = () => {
+    vapiRef.current?.stop()
+    setVapiActive(false)
+    setVapiConnecting(false)
   }
 
   return (
@@ -219,6 +426,17 @@ export default function Intake() {
                   {recording ? <MicOff className="h-4 w-4" /> : <Mic className="h-4 w-4" />}
                   {recording ? 'Listening' : 'Voice Input'}
                 </button>
+                {vapiActive || vapiConnecting ? (
+                  <button className="btn-secondary inline-flex items-center gap-2" onClick={stopVapiCall}>
+                    {vapiConnecting ? <Loader2 className="h-4 w-4 animate-spin" /> : <PhoneOff className="h-4 w-4" />}
+                    End Vapi Call
+                  </button>
+                ) : (
+                  <button className="btn-secondary inline-flex items-center gap-2" onClick={startVapiCall} disabled={!vapiConfig?.enabled}>
+                    <Phone className="h-4 w-4" />
+                    Vapi Live Call
+                  </button>
+                )}
                 <label className="btn-secondary inline-flex cursor-pointer items-center gap-2">
                   <Upload className="h-4 w-4" />
                   Upload Audio
@@ -295,6 +513,25 @@ export default function Intake() {
       )}
     </div>
   )
+}
+
+function withFrontendVapiFallback(config: VapiConfig): VapiConfig {
+  const publicKey = config.public_key || import.meta.env.VITE_VAPI_PUBLIC_KEY || null
+  const assistantId = config.assistant_id || import.meta.env.VITE_VAPI_ASSISTANT_ID || null
+  return {
+    enabled: config.enabled || Boolean(publicKey && assistantId),
+    public_key: publicKey,
+    assistant_id: assistantId,
+  }
+}
+
+function getVapiLanguagePrompt(language: string) {
+  return language === 'hi-IN' ? VAPI_LANGUAGE_PROMPTS['hi-IN'] : VAPI_LANGUAGE_PROMPTS['en-IN']
+}
+
+function toSpokenLanguage(text: string, language: string) {
+  if (language !== 'hi-IN') return text
+  return HINDI_FOLLOW_UPS[text] || text
 }
 
 function Fact({ label, value }: { label: string; value?: string | null }) {

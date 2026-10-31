@@ -248,6 +248,12 @@ export interface TranscriptResponse {
   audio_path: string | null
 }
 
+export interface VapiConfig {
+  enabled: boolean
+  public_key: string | null
+  assistant_id: string | null
+}
+
 // ─── API Functions ──────────────────────────────────────────
 
 export const uploadDocument = async (file: File): Promise<DocumentInfo> => {
@@ -398,6 +404,24 @@ export const speakPrompt = async (
   language: string = 'en-IN'
 ): Promise<{ text: string; language: string; audio_url: string | null; provider: string }> => {
   const response = await api.post('/voice/speak', { transcript, language })
+  return response.data
+}
+
+export const getVapiConfig = async (): Promise<VapiConfig> => {
+  const response = await api.get('/vapi/config')
+  return response.data
+}
+
+export const sendVapiTranscript = async (
+  sessionId: string,
+  transcript: string,
+  role: 'user' | 'victim' | 'assistant' = 'user'
+): Promise<{ processed: boolean; intake?: AddIntakeMessageResponse; reason?: string }> => {
+  const response = await api.post('/vapi/transcript', {
+    session_id: sessionId,
+    transcript,
+    role,
+  })
   return response.data
 }
 

@@ -23,6 +23,7 @@ sentence-transformers>=3.0.1
 transformers>=4.42.4
 torch>=2.5.0
 openai>=1.37.0
+google-genai>=1.0.0
 
 # Vector Database
 chromadb>=0.5.5

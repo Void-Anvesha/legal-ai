@@ -45,10 +45,16 @@ class IntakeOrchestrator:
         self.decisions: Dict[str, List[HitlDecision]] = self.recommendation_repository.decisions
 
     def create_session(self, request: CreateIntakeSessionRequest) -> IntakeSessionResponse:
+        opening_prompt = voice_intake_agent.opening_prompt
+        if request.language == "hi-IN":
+            opening_prompt = (
+                "कृपया अपने शब्दों में बताइए कि क्या हुआ। मैं पहले सुनूँगा, "
+                "फिर ज़रूरी जानकारी पूरी करने के लिए कुछ सवाल पूछ सकता हूँ।"
+            )
         session = IntakeSession(
             language=request.language,
             consent_given=request.consent_given,
-            current_question=voice_intake_agent.opening_prompt,
+            current_question=opening_prompt,
         )
         case_file = CaseFile(session_id=session.session_id)
         case_file.audit_log.append(
@@ -97,8 +103,16 @@ class IntakeOrchestrator:
         self.messages[session_id].append(message)
 
         if role == MessageRole.VICTIM:
-            case_file.victim = fact_extraction_agent.update_victim(case_file.victim, content)
-            case_file.facts = fact_extraction_agent.update_facts(case_file.facts, content)
+            if self._looks_like_hindi(content):
+                session.language = "hi-IN"
+            followup_key = followup_question_agent.missing_key_for_question(session.current_question)
+            case_file.victim, case_file.facts = fact_extraction_agent.update_case_details(
+                case_file.victim,
+                case_file.facts,
+                content,
+                session.language,
+                followup_key,
+            )
             if safety_agent.detect_emergency(content):
                 session.emergency_flag = True
                 session.status = IntakeStatus.ESCALATED
@@ -114,9 +128,10 @@ class IntakeOrchestrator:
 
         case_file = statement_drafting_agent.update_case_draft(case_file)
         next_question = followup_question_agent.next_question(case_file.facts, session.emergency_flag)
+        localized_question = followup_question_agent.localize_question(next_question, session.language)
         is_complete_enough = fact_extraction_agent.is_complete_enough(case_file.facts)
 
-        session.current_question = next_question
+        session.current_question = localized_question
         session.updated_at = datetime.utcnow()
         case_file.updated_at = datetime.utcnow()
         case_file.audit_log.append(
@@ -130,11 +145,11 @@ class IntakeOrchestrator:
         self.cases[case_file.case_id] = case_file
 
         agent_message = None
-        if next_question:
+        if localized_question:
             agent_message = ConversationMessage(
                 session_id=session_id,
                 role=MessageRole.AGENT,
-                content=next_question,
+                content=localized_question,
                 source="system",
             )
             self.messages[session_id].append(agent_message)
@@ -144,7 +159,7 @@ class IntakeOrchestrator:
             message=message,
             agent_message=agent_message,
             case_file=case_file,
-            next_question=next_question,
+            next_question=localized_question,
             is_complete_enough=is_complete_enough,
         )
 
@@ -152,6 +167,7 @@ class IntakeOrchestrator:
         session = self._get_session(session_id)
         case_file = self._get_case_for_session(session_id)
         question = followup_question_agent.next_question(case_file.facts, session.emergency_flag)
+        question = followup_question_agent.localize_question(question, session.language)
         session.current_question = question
         session.updated_at = datetime.utcnow()
         return question
@@ -191,6 +207,11 @@ class IntakeOrchestrator:
         if not case_id or case_id not in self.cases:
             raise KeyError("Case file not found")
         return self.cases[case_id]
+
+    def _looks_like_hindi(self, text: str) -> bool:
+        """Detect Devanagari/Hindi speech and keep the session in Hindi."""
+        devanagari_count = sum(1 for char in text if "\u0900" <= char <= "\u097f")
+        return devanagari_count >= 2
 
 
 intake_orchestrator = IntakeOrchestrator()

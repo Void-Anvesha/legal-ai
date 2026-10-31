@@ -22,10 +22,16 @@ class Settings(BaseSettings):
     CHROMA_COLLECTION_NAME: str = "legal_documents"
 
     EMBEDDING_MODEL: str = "all-MiniLM-L6-v2"
-    LLM_PROVIDER: str = "openai"
+    LLM_PROVIDER: str = "gemini"
     OPENAI_API_KEY: str = ""
     OPENAI_MODEL: str = "gpt-4o-mini"
+    GEMINI_API_KEY: str = ""
+    GEMINI_MODEL: str = "gemini-2.5-flash"
     HUGGINGFACE_API_KEY: str = ""
+    VAPI_API_KEY: str = ""
+    VAPI_PUBLIC_KEY: str = ""
+    VAPI_ASSISTANT_ID: str = ""
+    VAPI_WEBHOOK_SECRET: str = ""
 
     TESSERACT_CMD: str = "tesseract"
     OCR_LANGUAGE: str = "eng"
