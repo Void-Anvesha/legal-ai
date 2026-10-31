@@ -223,9 +223,10 @@ export default function Intake() {
       setVapiConnecting(false)
     })
     client.on('error', (event) => {
+      console.error('Vapi error', event)
       setVapiActive(false)
       setVapiConnecting(false)
-      setError(event instanceof Error ? event.message : 'Vapi call failed. Please check microphone permissions and Vapi setup.')
+      setError(formatVapiError(event))
     })
     client.on('message', (event) => {
       void handleVapiMessage(event as VapiTranscriptMessage)
@@ -278,7 +279,6 @@ export default function Intake() {
     try {
       const languagePrompt = getVapiLanguagePrompt(language)
       await client.start(vapiConfig.assistant_id, {
-        firstMessage: '',
         firstMessageMode: 'assistant-waits-for-user',
         firstMessageInterruptionsEnabled: false,
         startSpeakingPlan: {
@@ -328,9 +328,10 @@ export default function Intake() {
       if (client.say) {
         client.say(languagePrompt.firstMessage, false)
       }
-    } catch {
+    } catch (event) {
+      console.error('Vapi start failed', event)
       setVapiConnecting(false)
-      setError('Could not start the Vapi call. Check your Vapi keys, assistant ID, and microphone permissions.')
+      setError(formatVapiError(event))
     }
   }
 
@@ -532,6 +533,31 @@ function getVapiLanguagePrompt(language: string) {
 function toSpokenLanguage(text: string, language: string) {
   if (language !== 'hi-IN') return text
   return HINDI_FOLLOW_UPS[text] || text
+}
+
+function formatVapiError(event: unknown) {
+  const fallback = 'Vapi call failed. Please check microphone permissions, public key, assistant ID, and assistant setup.'
+
+  if (event instanceof Error) return event.message || fallback
+  if (typeof event === 'string') return event || fallback
+  if (!event || typeof event !== 'object') return fallback
+
+  const data = event as Record<string, unknown>
+  const directMessage = data.message || data.error || data.reason || data.detail
+  if (typeof directMessage === 'string' && directMessage.trim()) return directMessage
+
+  if (directMessage && typeof directMessage === 'object') {
+    const nested = directMessage as Record<string, unknown>
+    const nestedMessage = nested.message || nested.error || nested.reason || nested.detail
+    if (typeof nestedMessage === 'string' && nestedMessage.trim()) return nestedMessage
+  }
+
+  try {
+    const serialized = JSON.stringify(data)
+    return serialized && serialized !== '{}' ? serialized : fallback
+  } catch {
+    return fallback
+  }
 }
 
 function Fact({ label, value }: { label: string; value?: string | null }) {

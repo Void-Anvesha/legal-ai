@@ -57,6 +57,7 @@ class IntakeOrchestrator:
             current_question=opening_prompt,
         )
         case_file = CaseFile(session_id=session.session_id)
+        case_file.facts.missing_information = fact_extraction_agent.missing_information(case_file.facts)
         case_file.audit_log.append(
             audit_logger.session_event(
                 session.session_id,
