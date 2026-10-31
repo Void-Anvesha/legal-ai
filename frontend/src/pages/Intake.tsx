@@ -25,8 +25,12 @@ type SpeechRecognitionCtor = new () => {
   continuous: boolean
   start: () => void
   stop: () => void
-  onresult: ((event: { results: ArrayLike<{ 0: { transcript: string } }> }) => void) | null
+  onresult: ((event: {
+    resultIndex?: number
+    results: ArrayLike<{ isFinal?: boolean; 0: { transcript: string } }>
+  }) => void) | null
   onend: (() => void) | null
+  onerror: ((event: { error?: string; message?: string }) => void) | null
 }
 
 type VapiTranscriptMessage = {
@@ -37,7 +41,14 @@ type VapiTranscriptMessage = {
 }
 
 type VapiClient = {
-  start: (assistantId: string, overrides?: Record<string, unknown>) => Promise<unknown>
+  start: (
+    assistantId: string,
+    overrides?: Record<string, unknown>,
+    squad?: unknown,
+    workflow?: unknown,
+    workflowOverrides?: unknown,
+    options?: Record<string, unknown>
+  ) => Promise<unknown>
   stop: () => void
   say?: (message: string, endCallAfterSpoken?: boolean) => void
   send?: (message: VapiClientMessage) => void
@@ -55,7 +66,7 @@ type VapiClientMessage =
     }
   | {
       type: 'control'
-      control: 'mute-assistant' | 'unmute-assistant'
+      control: 'unmute-assistant'
     }
 
 const VAPI_LANGUAGE_PROMPTS = {
@@ -70,6 +81,21 @@ const VAPI_LANGUAGE_PROMPTS = {
       'Hello. I am BolnaAI. I can help record your complaint for police review. Please tell me what happened in your own words.',
     instruction:
       'The selected language is English. Vapi must not generate its own conversational replies. The BolnaAI backend controls every spoken response. Only transcribe the user and stay silent unless the client explicitly calls say().',
+  },
+} as const
+
+const VAPI_LANGUAGE_LOCKS = {
+  'hi-IN': {
+    firstMessage:
+      'नमस्ते। मैं बोलना एआई हूं। मैं आपकी शिकायत पुलिस समीक्षा के लिए रिकॉर्ड करने में मदद करूंगा। कृपया अपने शब्दों में बताइए कि क्या हुआ।',
+    instruction:
+      'LANGUAGE LOCK: Hindi only. Speak only in Hindi using Devanagari pronunciation and a natural Indian Hindi accent. Never speak English unless the provided text itself contains an English name, date, or place. Do not translate Hindi responses into English. Do not repeat the same sentence in two languages. The BolnaAI backend controls the follow-up questions, so after the first greeting, keep responses minimal and do not ask your own extra questions.',
+  },
+  'en-IN': {
+    firstMessage:
+      'Hello. I am BolnaAI. I can help record your complaint for police review. Please tell me what happened in your own words.',
+    instruction:
+      'LANGUAGE LOCK: English only. Speak only in English. Never speak Hindi, never use Devanagari, and never repeat a sentence in Hindi. If the user says Hindi words while this call is configured as English, continue replying in English only. The BolnaAI backend controls the follow-up questions, so after the first greeting, keep responses minimal and do not ask your own extra questions.',
   },
 } as const
 
@@ -96,9 +122,14 @@ export default function Intake() {
   const [vapiConfig, setVapiConfig] = useState<VapiConfig | null>(null)
   const [vapiConnecting, setVapiConnecting] = useState(false)
   const [vapiActive, setVapiActive] = useState(false)
+  const [browserVoiceActive, setBrowserVoiceActive] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const sessionRef = useRef<IntakeSession | null>(null)
   const vapiRef = useRef<VapiClient | null>(null)
+  const browserRecognitionRef = useRef<InstanceType<SpeechRecognitionCtor> | null>(null)
+  const browserVoiceActiveRef = useRef(false)
+  const browserSpeakingRef = useRef(false)
+  const browserProcessingRef = useRef(false)
   const seenVapiTranscripts = useRef<Set<string>>(new Set())
 
   const canComplete = useMemo(() => {
@@ -114,6 +145,15 @@ export default function Intake() {
     getVapiConfig()
       .then((config) => setVapiConfig(withFrontendVapiFallback(config)))
       .catch(() => setVapiConfig(withFrontendVapiFallback({ enabled: false, public_key: null, assistant_id: null })))
+  }, [])
+
+  useEffect(() => {
+    return () => {
+      browserVoiceActiveRef.current = false
+      browserRecognitionRef.current?.stop()
+      vapiRef.current?.stop()
+      window.speechSynthesis?.cancel()
+    }
   }, [])
 
   const applyIntakeResponse = (response: AddIntakeMessageResponse) => {
@@ -191,8 +231,107 @@ export default function Intake() {
       setInput((current) => [current, transcript].filter(Boolean).join(' '))
     }
     recognition.onend = () => setRecording(false)
+    recognition.onerror = (event) => {
+      setRecording(false)
+      setError(event.message || event.error || 'Voice input failed. Please check microphone permissions.')
+    }
     setRecording(true)
     recognition.start()
+  }
+
+  const startBrowserVoiceAgent = () => {
+    if (!session) {
+      setError('Start an intake session before opening a browser voice call.')
+      return
+    }
+    if (!getSpeechRecognition()) {
+      setError('Browser live voice is not supported in this browser. Chrome or Edge usually works best.')
+      return
+    }
+
+    stopVapiCall()
+    setError(null)
+    browserVoiceActiveRef.current = true
+    setBrowserVoiceActive(true)
+
+    const firstPrompt = session.current_question || getVapiLanguagePrompt(session.language).firstMessage
+    browserSpeakingRef.current = true
+    speakWithBrowser(firstPrompt, session.language, () => {
+      browserSpeakingRef.current = false
+      startBrowserRecognition()
+    })
+  }
+
+  const stopBrowserVoiceAgent = () => {
+    browserVoiceActiveRef.current = false
+    browserSpeakingRef.current = false
+    browserProcessingRef.current = false
+    setBrowserVoiceActive(false)
+    browserRecognitionRef.current?.stop()
+    browserRecognitionRef.current = null
+    window.speechSynthesis?.cancel()
+  }
+
+  const startBrowserRecognition = () => {
+    const activeSession = sessionRef.current
+    const SpeechRecognition = getSpeechRecognition()
+    if (!browserVoiceActiveRef.current || !activeSession || !SpeechRecognition) return
+
+    browserRecognitionRef.current?.stop()
+    const recognition = new SpeechRecognition()
+    recognition.lang = activeSession.language || language
+    recognition.interimResults = false
+    recognition.continuous = true
+    recognition.onresult = (event) => {
+      const startIndex = event.resultIndex ?? 0
+      for (let index = startIndex; index < event.results.length; index += 1) {
+        const result = event.results[index]
+        if (result.isFinal === false) continue
+        const transcript = result[0]?.transcript?.trim()
+        if (transcript) {
+          void handleBrowserVoiceTranscript(transcript)
+        }
+      }
+    }
+    recognition.onerror = (event) => {
+      if (event.error && !['no-speech', 'aborted'].includes(event.error)) {
+        setError(event.message || event.error || 'Browser voice recognition failed.')
+      }
+    }
+    recognition.onend = () => {
+      if (browserVoiceActiveRef.current && !browserSpeakingRef.current && !browserProcessingRef.current) {
+        window.setTimeout(startBrowserRecognition, 250)
+      }
+    }
+    browserRecognitionRef.current = recognition
+    recognition.start()
+  }
+
+  const handleBrowserVoiceTranscript = async (transcript: string) => {
+    const activeSession = sessionRef.current
+    if (!activeSession || browserProcessingRef.current) return
+
+    browserProcessingRef.current = true
+    browserRecognitionRef.current?.stop()
+    try {
+      const response = await sendIntakeMessage(activeSession.session_id, transcript, 'voice')
+      const agentMessage = applyIntakeResponse(response)
+      if (agentMessage?.content) {
+        browserSpeakingRef.current = true
+        speakWithBrowser(toSpokenLanguage(agentMessage.content, response.session.language), response.session.language, () => {
+          browserSpeakingRef.current = false
+          browserProcessingRef.current = false
+          startBrowserRecognition()
+        })
+      } else {
+        browserProcessingRef.current = false
+        startBrowserRecognition()
+      }
+    } catch {
+      browserProcessingRef.current = false
+      setError('Browser voice was captured, but BolnaAI could not process it.')
+      startBrowserRecognition()
+    }
   }
 
   const uploadAudio = async (file: File | null) => {
@@ -253,7 +392,7 @@ export default function Intake() {
       if (response.processed && response.intake) {
         const agentMessage = applyIntakeResponse(response.intake)
         if (agentMessage?.content && vapiRef.current?.say) {
-          vapiRef.current.say(toSpokenLanguage(agentMessage.content, language), false)
+          vapiRef.current.say(toSpokenLanguage(agentMessage.content, response.intake.session.language), false)
         }
       }
     } catch {
@@ -277,42 +416,63 @@ export default function Intake() {
     setVapiConnecting(true)
     setError(null)
     try {
-      const languagePrompt = getVapiLanguagePrompt(language)
-      await client.start(vapiConfig.assistant_id, {
-        firstMessageMode: 'assistant-waits-for-user',
+      const callLanguage = session.language || language
+      const languagePrompt = getVapiLanguagePrompt(callLanguage)
+      const call = await client.start(vapiConfig.assistant_id, {
+        firstMessage: languagePrompt.firstMessage,
+        firstMessageMode: 'assistant-speaks-first',
         firstMessageInterruptionsEnabled: false,
+        model: {
+          provider: 'vapi',
+          messages: [
+            {
+              role: 'system',
+              content: buildVapiLanguageSystemPrompt(callLanguage),
+            },
+          ],
+          temperature: 0,
+        },
         startSpeakingPlan: {
-          waitSeconds: language === 'hi-IN' ? 2.2 : 1.3,
+          waitSeconds: callLanguage === 'hi-IN' ? 1.0 : 0.7,
           smartEndpointingEnabled: false,
           transcriptionEndpointingPlan: {
-            onPunctuationSeconds: language === 'hi-IN' ? 1.2 : 0.6,
-            onNoPunctuationSeconds: language === 'hi-IN' ? 2.8 : 1.8,
-            onNumberSeconds: 2.8,
+            onPunctuationSeconds: callLanguage === 'hi-IN' ? 0.7 : 0.4,
+            onNoPunctuationSeconds: callLanguage === 'hi-IN' ? 1.5 : 1.1,
+            onNumberSeconds: 1.4,
           },
           customEndpointingRules: [
             {
               type: 'customer',
               regex: '.+',
-              timeoutSeconds: language === 'hi-IN' ? 2.8 : 1.8,
+              timeoutSeconds: callLanguage === 'hi-IN' ? 1.6 : 1.2,
             },
           ],
         },
         stopSpeakingPlan: {
           numWords: 3,
-          voiceSeconds: 0.4,
-          backoffSeconds: 2,
+          voiceSeconds: 0.25,
+          backoffSeconds: 0.8,
         },
         variableValues: {
           sessionId: session.session_id,
-          language,
+          language: callLanguage,
           languageInstruction: languagePrompt.instruction,
         },
         metadata: {
           sessionId: session.session_id,
-          language,
+          language: callLanguage,
         },
         recordingEnabled: false,
+      }, undefined, undefined, undefined, {
+        roomDeleteOnUserLeaveEnabled: false,
+        videoRecordingStartMode: 'server',
       })
+
+      if (!call) {
+        setVapiConnecting(false)
+        return
+      }
+
       client.send?.({
         type: 'add-message',
         message: {
@@ -321,13 +481,6 @@ export default function Intake() {
         },
         triggerResponseEnabled: false,
       })
-      client.send?.({
-        type: 'control',
-        control: 'mute-assistant',
-      })
-      if (client.say) {
-        client.say(languagePrompt.firstMessage, false)
-      }
     } catch (event) {
       console.error('Vapi start failed', event)
       setVapiConnecting(false)
@@ -423,10 +576,21 @@ export default function Intake() {
                   {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <Send className="h-4 w-4" />}
                   Submit Answer
                 </button>
-                <button className="btn-secondary inline-flex items-center gap-2" onClick={startVoice} disabled={recording}>
+                <button className="btn-secondary inline-flex items-center gap-2" onClick={startVoice} disabled={recording || browserVoiceActive}>
                   {recording ? <MicOff className="h-4 w-4" /> : <Mic className="h-4 w-4" />}
                   {recording ? 'Listening' : 'Voice Input'}
                 </button>
+                {browserVoiceActive ? (
+                  <button className="btn-secondary inline-flex items-center gap-2" onClick={stopBrowserVoiceAgent}>
+                    <MicOff className="h-4 w-4" />
+                    End Browser Call
+                  </button>
+                ) : (
+                  <button className="btn-secondary inline-flex items-center gap-2" onClick={startBrowserVoiceAgent} disabled={vapiActive || vapiConnecting}>
+                    <Mic className="h-4 w-4" />
+                    Browser Live Call
+                  </button>
+                )}
                 {vapiActive || vapiConnecting ? (
                   <button className="btn-secondary inline-flex items-center gap-2" onClick={stopVapiCall}>
                     {vapiConnecting ? <Loader2 className="h-4 w-4 animate-spin" /> : <PhoneOff className="h-4 w-4" />}
@@ -527,7 +691,26 @@ function withFrontendVapiFallback(config: VapiConfig): VapiConfig {
 }
 
 function getVapiLanguagePrompt(language: string) {
-  return language === 'hi-IN' ? VAPI_LANGUAGE_PROMPTS['hi-IN'] : VAPI_LANGUAGE_PROMPTS['en-IN']
+  void VAPI_LANGUAGE_PROMPTS
+  return language === 'hi-IN' ? VAPI_LANGUAGE_LOCKS['hi-IN'] : VAPI_LANGUAGE_LOCKS['en-IN']
+}
+
+function buildVapiLanguageSystemPrompt(language: string) {
+  const prompt = getVapiLanguagePrompt(language)
+  const languageRule =
+    language === 'hi-IN'
+      ? 'The selected language for this call is Hindi. Every spoken response must be Hindi only. Do not speak English except for exact names, dates, places, or legal terms that the user already said.'
+      : 'The selected language for this call is English. Every spoken response must be English only. Do not speak Hindi, do not use Devanagari, and do not translate any response into Hindi.'
+
+  return [
+    'You are the voice layer for BolnaAI victim intake.',
+    languageRule,
+    prompt.instruction,
+    'Do not switch languages based on what the user says.',
+    'Do not repeat the same response in another language.',
+    'Do not ask follow-up questions independently. The application backend provides the next follow-up question.',
+    'If you are unsure what to say, stay silent or give a very short acknowledgement in the selected language only.',
+  ].join('\n')
 }
 
 function toSpokenLanguage(text: string, language: string) {
@@ -535,29 +718,58 @@ function toSpokenLanguage(text: string, language: string) {
   return HINDI_FOLLOW_UPS[text] || text
 }
 
+function getSpeechRecognition() {
+  return (
+    (window as unknown as { SpeechRecognition?: SpeechRecognitionCtor; webkitSpeechRecognition?: SpeechRecognitionCtor }).SpeechRecognition ||
+    (window as unknown as { SpeechRecognition?: SpeechRecognitionCtor; webkitSpeechRecognition?: SpeechRecognitionCtor }).webkitSpeechRecognition ||
+    null
+  )
+}
+
+function speakWithBrowser(text: string, language: string, onDone?: () => void) {
+  if (!('speechSynthesis' in window) || !('SpeechSynthesisUtterance' in window)) {
+    onDone?.()
+    return
+  }
+
+  window.speechSynthesis.cancel()
+  const utterance = new SpeechSynthesisUtterance(text)
+  utterance.lang = language
+  const matchingVoice = window.speechSynthesis
+    .getVoices()
+    .find((voice) => voice.lang.toLowerCase().startsWith(language.toLowerCase().split('-')[0]))
+  if (matchingVoice) utterance.voice = matchingVoice
+  utterance.rate = language === 'hi-IN' ? 0.9 : 0.95
+  utterance.onend = () => onDone?.()
+  utterance.onerror = () => onDone?.()
+  window.speechSynthesis.speak(utterance)
+}
+
 function formatVapiError(event: unknown) {
   const fallback = 'Vapi call failed. Please check microphone permissions, public key, assistant ID, and assistant setup.'
+  const message = findVapiErrorMessage(event)
 
-  if (event instanceof Error) return event.message || fallback
-  if (typeof event === 'string') return event || fallback
-  if (!event || typeof event !== 'object') return fallback
+  return message || fallback
+}
 
-  const data = event as Record<string, unknown>
-  const directMessage = data.message || data.error || data.reason || data.detail
-  if (typeof directMessage === 'string' && directMessage.trim()) return directMessage
+function findVapiErrorMessage(value: unknown, depth = 0): string | null {
+  if (!value || depth > 4) return null
+  if (value instanceof Error) return value.message || null
+  if (typeof value === 'string') return value.trim() || null
+  if (typeof value !== 'object') return null
 
-  if (directMessage && typeof directMessage === 'object') {
-    const nested = directMessage as Record<string, unknown>
-    const nestedMessage = nested.message || nested.error || nested.reason || nested.detail
-    if (typeof nestedMessage === 'string' && nestedMessage.trim()) return nestedMessage
+  const data = value as Record<string, unknown>
+  for (const key of ['errorMsg', 'msg', 'message', 'reason', 'detail', 'description']) {
+    const candidate = data[key]
+    if (typeof candidate === 'string' && candidate.trim()) return candidate
   }
 
-  try {
-    const serialized = JSON.stringify(data)
-    return serialized && serialized !== '{}' ? serialized : fallback
-  } catch {
-    return fallback
+  for (const key of ['error', 'cause', 'data']) {
+    const nested = findVapiErrorMessage(data[key], depth + 1)
+    if (nested) return nested
   }
+
+  return null
 }
 
 function Fact({ label, value }: { label: string; value?: string | null }) {

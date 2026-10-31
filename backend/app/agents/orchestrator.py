@@ -104,8 +104,6 @@ class IntakeOrchestrator:
         self.messages[session_id].append(message)
 
         if role == MessageRole.VICTIM:
-            if self._looks_like_hindi(content):
-                session.language = "hi-IN"
             followup_key = followup_question_agent.missing_key_for_question(session.current_question)
             case_file.victim, case_file.facts = fact_extraction_agent.update_case_details(
                 case_file.victim,

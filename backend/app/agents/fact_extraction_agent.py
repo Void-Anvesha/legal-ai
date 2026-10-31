@@ -177,6 +177,28 @@ class FactExtractionAgent:
         if self._looks_like_date(text):
             return False
         lowered = text.lower()
+        non_location_markers = [
+            "don't know",
+            "do not know",
+            "didn't know",
+            "did not know",
+            "that person",
+            "that man",
+            "that woman",
+            "he was",
+            "she was",
+            "they were",
+            "accused",
+            "suspect",
+            "i was",
+            "i am",
+            "मुझे नहीं",
+            "नहीं पता",
+            "वह आदमी",
+            "वह औरत",
+        ]
+        if any(marker in lowered for marker in non_location_markers):
+            return False
         location_markers = [
             "near",
             "at",
@@ -202,7 +224,38 @@ class FactExtractionAgent:
             "स्कूल",
             "कॉलेज",
         ]
-        return any(marker in lowered for marker in location_markers) or len(text.strip().split()) >= 2
+        if any(marker in lowered for marker in location_markers):
+            return True
+
+        indian_places = {
+            "bhopal",
+            "delhi",
+            "new delhi",
+            "mumbai",
+            "kolkata",
+            "chennai",
+            "bengaluru",
+            "bangalore",
+            "hyderabad",
+            "pune",
+            "jaipur",
+            "lucknow",
+            "indore",
+            "patna",
+            "kanpur",
+            "nagpur",
+            "gwalior",
+            "agra",
+            "varanasi",
+        }
+        if lowered.strip(" .,") in indian_places:
+            return True
+
+        words = text.strip(" .,").split()
+        if 1 <= len(words) <= 4 and not re.search(r"\b(?:i|he|she|they|we|was|were|am|is|are|know|happened|stabbed|hit|stole)\b", lowered):
+            return any(word[:1].isupper() for word in words)
+
+        return False
 
     def _unknown_label(self, text: str, fallback: str) -> str:
         lowered = text.lower()
@@ -223,7 +276,7 @@ class FactExtractionAgent:
             "पता नहीं",
             "कोई नहीं",
         }
-        return fallback if lowered in unknown_markers else text
+        return fallback if lowered in unknown_markers or any(marker in lowered for marker in unknown_markers) else text
 
     def update_victim(self, existing: VictimProfile, text: str) -> VictimProfile:
         """Extract complainant details only when the victim states them directly."""
